@@ -30,8 +30,8 @@ export function Navbar() {
       >
         <div className="pointer-events-auto flex min-h-14 items-center gap-2 rounded-2xl border border-dark-wine-600/55 bg-dark-garnet-100/95 p-1.5 text-soft-blush-900 shadow-lift backdrop-blur-xl">
           <a href="#hero" className="flex min-w-0 shrink-0 items-center gap-2.5 rounded-xl px-2 py-1" aria-label="عيون الرواد - الرئيسية">
-            <span aria-hidden="true" className="grid h-10 w-10 place-items-center overflow-hidden rounded-xl bg-soft-blush-900 font-display text-xl font-black text-primary shadow-glow">
-              ع
+            <span className="grid h-11 w-11 place-items-center overflow-hidden rounded-full bg-soft-blush-900 shadow-glow">
+              <img src="/oyoun-alrowad-logo.png" alt="" width={44} height={44} decoding="async" fetchPriority="high" className="h-full w-full object-cover" />
             </span>
             <span className="font-display truncate text-base font-black tracking-tight sm:text-lg">عيون الرواد</span>
           </a>

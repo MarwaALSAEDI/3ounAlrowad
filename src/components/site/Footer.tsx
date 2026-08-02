@@ -16,7 +16,9 @@ export function Footer() {
         <div className="grid gap-12 lg:grid-cols-[1.4fr_0.8fr_0.8fr] lg:items-start">
           <motion.div variants={itemVariants}>
             <a href="#hero" className="inline-flex items-center gap-3" aria-label="عيون الرواد - الرئيسية">
-              <span aria-hidden="true" className="grid h-12 w-12 place-items-center overflow-hidden rounded-2xl bg-soft-blush-900 font-display text-2xl font-black text-primary shadow-glow">ع</span>
+              <span className="grid h-14 w-14 place-items-center overflow-hidden rounded-full bg-soft-blush-900 shadow-glow">
+                <img src="/oyoun-alrowad-logo.png" alt="" loading="lazy" decoding="async" width={56} height={56} className="h-full w-full object-cover" />
+              </span>
               <span className="font-display text-xl font-black">عيون الرواد</span>
             </a>
             <p className="mt-5 max-w-md text-sm leading-7 text-muted-foreground">شركة متخصصة في الأواني والصحون ومستلزمات المائدة، والوكيل الحصري لشركة ليبرونك.</p>
