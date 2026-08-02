@@ -134,8 +134,26 @@ export function ExclusiveAgency() {
             </h2>
 
             <div className="mt-7 flex items-center gap-4" dir="ltr" aria-label="ليبرونك">
-              <span className="h-px w-10 bg-brick-ember-700/70" aria-hidden="true" />
-              <span className="font-display text-xl font-black tracking-[0.22em] text-soft-blush-900 sm:text-2xl">LIBRONIC</span>
+              <motion.div
+                whileHover={reducedMotion ? undefined : { y: -4, rotate: -1.5, scale: 1.03 }}
+                className="relative grid h-24 w-24 shrink-0 place-items-center overflow-hidden rounded-[1.6rem] border border-brick-ember-700/30 bg-dark-garnet-200/75 shadow-glow sm:h-28 sm:w-28"
+              >
+                <img
+                  src="/libronic-logo.png"
+                  alt="شعار ليبرونك"
+                  loading="lazy"
+                  decoding="async"
+                  width={112}
+                  height={112}
+                  className="h-full w-full scale-[1.05] object-cover [mask-image:radial-gradient(circle_at_center,black_52%,transparent_86%)]"
+                />
+                <span aria-hidden="true" className="pointer-events-none absolute inset-0 rounded-[inherit] ring-1 ring-inset ring-soft-blush-900/10" />
+              </motion.div>
+              <div>
+                <span className="block h-px w-10 bg-brick-ember-700/70" aria-hidden="true" />
+                <p className="font-display mt-3 text-xl font-black tracking-[0.22em] text-soft-blush-900 sm:text-2xl">LIBRONIC</p>
+                <p className="mt-1 text-xs font-bold tracking-normal text-dark-wine-900" dir="rtl">العلامة التي نمثلها حصرياً</p>
+              </div>
             </div>
 
             <p className="mt-7 max-w-xl text-base leading-8 text-dark-wine-900 sm:text-lg">
