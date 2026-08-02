@@ -15,8 +15,8 @@ import { Faq } from "@/components/site/Faq";
 import { Newsletter } from "@/components/site/Newsletter";
 import { Footer } from "@/components/site/Footer";
 
-const TITLE = "بيت الراحة | أجهزة منزلية أصلية لحياة أسهل";
-const DESC = "تسوّق الأجهزة المنزلية وأدوات المطبخ والأواني الأصلية من بيت الراحة. أسعار تنافسية، ضمان رسمي، وشحن سريع إلى باب منزلك.";
+const TITLE = "عيون الرواد | أجهزة منزلية أصلية لحياة أسهل";
+const DESC = "تسوّق الأجهزة المنزلية وأدوات المطبخ والأواني الأصلية من عيون الرواد. أسعار تنافسية، ضمان رسمي، وشحن سريع إلى باب منزلك.";
 
 export const Route = createFileRoute("/")({
   head: () => ({

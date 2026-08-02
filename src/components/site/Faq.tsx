@@ -18,7 +18,7 @@ export function Faq() {
           <span className="eyebrow"><CircleHelp className="h-4 w-4" /> الأسئلة الشائعة</span>
           <h2 className="font-display mt-4 text-[clamp(2rem,4.3vw,3.5rem)] font-black leading-tight tracking-tight">كل ما تحتاج معرفته قبل الطلب</h2>
           <p className="mt-5 max-w-md leading-8 text-muted-foreground">لم تجد إجابتك؟ فريقنا جاهز لمساعدتك والإجابة عن أي استفسار.</p>
-          <a href="mailto:info@baitalraha.com" className="mt-8 inline-flex items-center gap-2 rounded-2xl border border-primary/15 bg-blue-soft/55 px-5 py-3 text-sm font-bold text-primary transition-colors hover:bg-blue-soft"><MessageCircle className="h-4 w-4" /> تواصل مع الدعم</a>
+          <a href="mailto:info@oyoonalrowad.com" className="mt-8 inline-flex items-center gap-2 rounded-2xl border border-primary/15 bg-blue-soft/55 px-5 py-3 text-sm font-bold text-primary transition-colors hover:bg-blue-soft"><MessageCircle className="h-4 w-4" /> تواصل مع الدعم</a>
         </Reveal>
 
         <Reveal delay={0.1}>

@@ -27,11 +27,11 @@ export function Navbar() {
       transition={{ duration: 0.75, ease: [0.22, 0.61, 0.36, 1] }}
     >
       <nav aria-label="التنقل الرئيسي" className="mx-auto flex max-w-7xl items-center gap-5 px-5 sm:px-8">
-        <a href="#hero" className="flex min-w-0 shrink-0 items-center gap-3" aria-label="بيت الراحة - الرئيسية">
+        <a href="#hero" className="flex min-w-0 shrink-0 items-center gap-3" aria-label="عيون الرواد - الرئيسية">
           <span className="grid h-11 w-11 place-items-center overflow-hidden rounded-2xl bg-primary shadow-glow">
             <img src={logo.url} alt="" width={44} height={44} className="h-full w-full object-contain" />
           </span>
-          <span className="font-display truncate text-lg font-extrabold tracking-tight sm:text-xl">بيت الراحة</span>
+          <span className="font-display truncate text-lg font-extrabold tracking-tight sm:text-xl">عيون الرواد</span>
         </a>
 
         <ul className="mx-auto hidden items-center gap-7 text-sm font-semibold lg:flex">

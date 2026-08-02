@@ -10,7 +10,7 @@ const stats = [
 
 export function Statistics() {
   return (
-    <section aria-label="أرقام بيت الراحة" className="px-5 pb-12 sm:px-8 sm:pb-16">
+    <section aria-label="أرقام عيون الرواد" className="px-5 pb-12 sm:px-8 sm:pb-16">
       <div className="dark relative mx-auto max-w-7xl overflow-hidden rounded-[2rem] bg-background px-6 py-12 text-foreground shadow-lift sm:px-12 sm:py-16">
         <div className="pointer-events-none absolute inset-0 dot-grid opacity-30" />
         <div className="pointer-events-none absolute -right-24 -top-28 h-72 w-72 rounded-full bg-primary/30 blur-[100px]" />

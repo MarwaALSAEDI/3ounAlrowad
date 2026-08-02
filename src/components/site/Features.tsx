@@ -15,7 +15,7 @@ export function Features() {
     <section id="why-us" className="relative py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-5 sm:px-8">
         <Reveal className="mx-auto max-w-2xl text-center">
-          <span className="eyebrow justify-center">لماذا بيت الراحة؟</span>
+          <span className="eyebrow justify-center">لماذا عيون الرواد؟</span>
           <h2 className="font-display mt-4 text-[clamp(2rem,4.5vw,3.5rem)] font-black tracking-tight">تجربة شراء يمكنك الوثوق بها</h2>
           <p className="mt-4 leading-7 text-muted-foreground">من أول نقرة وحتى وصول طلبك، نهتم بكل تفصيل.</p>
         </Reveal>
