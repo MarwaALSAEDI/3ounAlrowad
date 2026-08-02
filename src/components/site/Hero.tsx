@@ -45,7 +45,7 @@ export function Hero() {
               تسوق الآن
               <ArrowLeft className="h-5 w-5 transition-transform group-hover:-translate-x-1" />
             </motion.a>
-            <a href="#categories" className="inline-flex min-h-14 items-center justify-center rounded-2xl border border-border bg-card/80 px-8 text-base font-bold shadow-soft backdrop-blur transition-colors hover:border-primary/30 hover:bg-blue-soft/40 hover:text-primary">
+            <a href="#categories" className="inline-flex min-h-14 items-center justify-center rounded-2xl border border-border bg-card/80 px-8 text-base font-bold shadow-soft backdrop-blur transition-colors hover:border-primary/30 hover:bg-brand-soft/40 hover:text-primary">
               استكشف الأقسام
             </a>
           </motion.div>
@@ -58,22 +58,22 @@ export function Hero() {
 
         <motion.div initial={{ opacity: 0, x: -55, scale: 0.96 }} animate={{ opacity: 1, x: 0, scale: 1 }} transition={{ duration: 1, delay: 0.2, ease: EASE }} className="relative order-1 mx-auto w-full max-w-2xl lg:order-2">
           <div className="absolute -inset-5 -z-10 rounded-[2.75rem] bg-gradient-to-br from-primary/16 via-transparent to-accent/16 blur-2xl" />
-          <div className="relative overflow-hidden rounded-[2rem] border border-white/70 bg-white p-2 shadow-lift sm:rounded-[2.5rem] sm:p-3">
+          <div className="relative overflow-hidden rounded-[2rem] border border-soft-blush-900/70 bg-soft-blush-900 p-2 shadow-lift sm:rounded-[2.5rem] sm:p-3">
             <div className="relative aspect-[4/3] overflow-hidden rounded-[1.65rem] sm:rounded-[2rem]">
               <motion.img src={heroKitchen} alt="مطبخ عصري مجهز بأجهزة منزلية حديثة" width={1920} height={1280} fetchPriority="high" style={{ y: imageY, scale: imageScale }} className="h-full w-full object-cover" />
               <div className="absolute inset-0 bg-gradient-to-t from-secondary/35 via-transparent to-transparent" />
-              <div className="absolute bottom-4 right-4 rounded-2xl border border-white/30 bg-white/88 px-4 py-3 shadow-soft backdrop-blur-md sm:bottom-6 sm:right-6">
-                <div className="flex items-center gap-1 text-amber-400">{Array.from({ length: 5 }).map((_, index) => <Star key={index} className="h-3.5 w-3.5 fill-current" />)}</div>
+              <div className="absolute bottom-4 right-4 rounded-2xl border border-soft-blush-900/30 bg-soft-blush-900/88 px-4 py-3 shadow-soft backdrop-blur-md sm:bottom-6 sm:right-6">
+                <div className="flex items-center gap-1 text-brick-ember-500">{Array.from({ length: 5 }).map((_, index) => <Star key={index} className="h-3.5 w-3.5 fill-current" />)}</div>
                 <p className="mt-1 text-xs font-bold text-secondary">تقييم ٤.٩ من عملائنا</p>
               </div>
             </div>
           </div>
 
-          <motion.div animate={{ y: [0, -10, 0] }} transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }} className="absolute -bottom-8 -left-1 z-10 hidden w-44 items-center gap-3 rounded-2xl border border-white/70 bg-white/90 p-3 shadow-lift backdrop-blur sm:flex">
+          <motion.div animate={{ y: [0, -10, 0] }} transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }} className="absolute -bottom-8 -left-1 z-10 hidden w-44 items-center gap-3 rounded-2xl border border-soft-blush-900/70 bg-soft-blush-900/90 p-3 shadow-lift backdrop-blur sm:flex">
             <img src={airfryer} alt="" aria-hidden="true" width={60} height={60} className="h-14 w-14 rounded-xl bg-muted object-contain p-1" />
             <div><p className="text-xs text-muted-foreground">الأكثر مبيعاً</p><p className="mt-1 text-sm font-extrabold text-secondary">قلاية هوائية</p></div>
           </motion.div>
-          <motion.div animate={{ y: [0, 11, 0] }} transition={{ duration: 5.6, delay: 0.5, repeat: Infinity, ease: "easeInOut" }} className="absolute -right-3 -top-7 z-10 hidden w-40 items-center gap-2 rounded-2xl border border-white/70 bg-white/90 p-3 shadow-lift backdrop-blur sm:flex">
+          <motion.div animate={{ y: [0, 11, 0] }} transition={{ duration: 5.6, delay: 0.5, repeat: Infinity, ease: "easeInOut" }} className="absolute -right-3 -top-7 z-10 hidden w-40 items-center gap-2 rounded-2xl border border-soft-blush-900/70 bg-soft-blush-900/90 p-3 shadow-lift backdrop-blur sm:flex">
             <span className="grid h-11 w-11 shrink-0 place-items-center rounded-xl bg-success-soft"><img src={kettle} alt="" aria-hidden="true" width={44} height={44} className="h-10 w-10 object-contain" /></span>
             <p className="text-xs font-bold leading-5 text-secondary">ضمان رسمي<br /><span className="text-accent">لمدة سنتين</span></p>
           </motion.div>

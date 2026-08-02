@@ -25,7 +25,7 @@ export function Categories() {
           {categories.map(({ label, desc, Icon }, index) => (
             <motion.a key={label} href="#best" variants={itemVariants} whileHover={{ y: -8 }} className="group relative overflow-hidden rounded-3xl border border-border bg-card p-5 shadow-soft transition-all duration-500 hover:border-primary/25 hover:shadow-lift sm:p-6">
               <span className="absolute -left-8 -top-8 h-20 w-20 rounded-full bg-primary/0 blur-xl transition-colors group-hover:bg-primary/12" />
-              <span className={`relative grid h-12 w-12 place-items-center rounded-2xl ${index % 3 === 1 ? "bg-success-soft text-accent" : "bg-blue-soft text-primary"}`}>
+              <span className={`relative grid h-12 w-12 place-items-center rounded-2xl ${index % 3 === 1 ? "bg-success-soft text-accent" : "bg-brand-soft text-primary"}`}>
                 <Icon className="h-6 w-6 transition-transform duration-500 group-hover:scale-110 group-hover:-rotate-6" strokeWidth={1.8} />
               </span>
               <h3 className="font-display relative mt-7 text-base font-extrabold leading-snug sm:text-lg">{label}</h3>

@@ -41,7 +41,7 @@ export function NewArrivals() {
               whileInView={{ opacity: 1, y: 0, scale: 1, filter: "blur(0px)" }}
               viewport={{ once: true, amount: 0.2 }}
               transition={{ duration: 0.95, delay: (i % 3) * 0.1, ease: [0.22, 0.61, 0.36, 1] }}
-              className={`group relative overflow-hidden rounded-[2rem] bg-sand shadow-soft ${item.span}`}
+              className={`group relative overflow-hidden rounded-[2rem] bg-soft-blush shadow-soft ${item.span}`}
             >
               <img
                 src={item.src}
@@ -51,7 +51,7 @@ export function NewArrivals() {
                 height={item.h}
                 className="h-full w-full object-cover transition-all duration-[900ms] ease-out group-hover:scale-110 group-hover:brightness-110"
               />
-              <figcaption className="absolute inset-x-0 bottom-0 translate-y-3 bg-gradient-to-t from-primary/80 to-transparent p-5 text-sm font-semibold text-primary-foreground opacity-0 transition-all duration-500 group-hover:translate-y-0 group-hover:opacity-100">
+              <figcaption className="absolute inset-x-0 bottom-0 translate-y-3 bg-gradient-to-t from-primary/95 to-transparent p-5 text-sm font-semibold text-primary-foreground opacity-0 transition-all duration-500 group-hover:translate-y-0 group-hover:opacity-100">
                 {item.alt}
               </figcaption>
             </motion.figure>

@@ -23,11 +23,11 @@ export function Features() {
         <Stagger gap={0.08} className="mt-14 grid gap-4 sm:grid-cols-2 lg:grid-cols-5">
           {features.map(({ Icon, title, desc }, index) => (
             <motion.article key={title} variants={itemVariants} whileHover={{ y: -8 }} className={`group rounded-3xl border p-6 shadow-soft transition-all duration-500 hover:shadow-lift ${index === 2 ? "border-primary/20 bg-primary text-primary-foreground" : "border-border bg-card"}`}>
-              <span className={`grid h-12 w-12 place-items-center rounded-2xl ${index === 2 ? "bg-white/15" : index % 2 ? "bg-success-soft text-accent" : "bg-blue-soft text-primary"}`}>
+              <span className={`grid h-12 w-12 place-items-center rounded-2xl ${index === 2 ? "bg-soft-blush-900/15" : index % 2 ? "bg-success-soft text-accent" : "bg-brand-soft text-primary"}`}>
                 <Icon className="h-6 w-6 transition-transform duration-500 group-hover:scale-110 group-hover:rotate-6" strokeWidth={1.8} />
               </span>
               <h3 className="font-display mt-6 text-lg font-extrabold">{title}</h3>
-              <p className={`mt-2 text-sm leading-6 ${index === 2 ? "text-white/75" : "text-muted-foreground"}`}>{desc}</p>
+              <p className={`mt-2 text-sm leading-6 ${index === 2 ? "text-soft-blush-900/75" : "text-muted-foreground"}`}>{desc}</p>
             </motion.article>
           ))}
         </Stagger>

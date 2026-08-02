@@ -14,7 +14,7 @@ export function Brands() {
             {[0, 1].map((group) => (
               <div key={group} aria-hidden={group === 1} className="flex shrink-0 items-center gap-12 px-6 sm:gap-20 sm:px-10">
                 {brands.map((brand) => (
-                  <span key={brand} className="select-none whitespace-nowrap font-sans text-lg font-black tracking-[-0.04em] text-secondary/45 grayscale transition-colors hover:text-primary sm:text-xl">
+                  <span key={brand} className="select-none whitespace-nowrap font-sans text-lg font-black tracking-[-0.04em] text-secondary/60 grayscale transition-colors hover:text-primary sm:text-xl">
                     {brand}
                   </span>
                 ))}
