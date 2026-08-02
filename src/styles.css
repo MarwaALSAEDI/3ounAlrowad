@@ -2,6 +2,46 @@
 @source "../src";
 @import "tw-animate-css";
 
+@font-face {
+  font-family: "RTL Elegance";
+  src: url("/fonts/rtl-elegance-regular.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "RTL Elegance";
+  src: url("/fonts/rtl-elegance-medium.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "RTL Elegance";
+  src: url("/fonts/rtl-elegance-bold.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "RTL Elegance";
+  src: url("/fonts/rtl-elegance-black.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "RTL Saudi";
+  src: url("/fonts/rtl-saudi-bold.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
@@ -35,8 +75,8 @@
   --color-border: var(--border);
   --color-input: var(--input);
   --color-ring: var(--ring);
-  --font-sans: "Tajawal", ui-sans-serif, system-ui, sans-serif;
-  --font-display: "Cairo", "Tajawal", ui-sans-serif, system-ui, sans-serif;
+  --font-sans: "RTL Elegance", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "RTL Saudi", "RTL Elegance", ui-sans-serif, system-ui, sans-serif;
   --color-dark-garnet: #5c0000;
   --color-dark-garnet-100: #120000;
   --color-dark-garnet-200: #250000;
