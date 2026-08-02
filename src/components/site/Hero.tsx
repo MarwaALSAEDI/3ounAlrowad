@@ -148,7 +148,7 @@ export function Hero() {
 
             <h1
               id="hero-title"
-              className="font-display mt-6 text-[clamp(2.4rem,5.6vw,5rem)] font-black leading-[1.02] tracking-[-0.035em] text-secondary"
+              className="font-display mt-6 text-[clamp(2.05rem,4.7vw,4.25rem)] font-bold leading-[1.12] tracking-[-0.02em] text-secondary"
             >
               <motion.span className="block" {...reveal(0.27, 42)}>
                 عيون الرواد

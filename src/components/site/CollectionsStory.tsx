@@ -89,7 +89,7 @@ function StoryHeader() {
           </span>
           <h2
             id="collections-title"
-            className="font-display mt-3 text-[clamp(1.45rem,3vw,2.8rem)] font-black leading-[1.2] tracking-tight text-soft-blush-900"
+            className="font-display mt-3 text-[clamp(1.3rem,2.55vw,2.35rem)] font-bold leading-[1.26] tracking-tight text-soft-blush-900"
           >
             ثلاثة عوالم، رؤية واحدة للبيت
           </h2>
@@ -134,7 +134,7 @@ function SceneArtwork({
           <scene.Icon className="h-4 w-4" aria-hidden={true} />
           {scene.eyebrow}
         </p>
-        <h3 className="font-display mt-2 max-w-lg text-[clamp(1.5rem,3.4vw,3.05rem)] font-black leading-[1.2] tracking-tight text-soft-blush-900 lg:mt-4">
+        <h3 className="font-display mt-2 max-w-lg text-[clamp(1.35rem,2.8vw,2.5rem)] font-bold leading-[1.26] tracking-tight text-soft-blush-900 lg:mt-4">
           {scene.title}
         </h3>
         <p className="mt-3 max-w-lg text-sm leading-6 text-dark-wine-900 sm:mt-5 sm:text-base sm:leading-8">
@@ -249,7 +249,7 @@ function StaticCollectionsStory() {
                 <scene.Icon className="h-4 w-4" aria-hidden={true} />
                 {scene.eyebrow}
               </p>
-              <h3 className="font-display mt-4 text-2xl font-black leading-tight sm:text-3xl">
+              <h3 className="font-display mt-4 text-xl font-bold leading-snug sm:text-2xl">
                 {scene.title}
               </h3>
               <p className="mt-4 leading-8 text-dark-wine-900">{scene.description}</p>

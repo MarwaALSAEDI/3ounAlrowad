@@ -17,7 +17,7 @@ export function Newsletter() {
           <div className="max-w-2xl">
             <span className="grid h-14 w-14 place-items-center rounded-2xl bg-primary text-primary-foreground shadow-glow"><Mail className="h-6 w-6" /></span>
             <span className="eyebrow mt-7"><Sparkles className="h-4 w-4" /> لنبدأ حواراً</span>
-            <h2 className="font-display mt-4 text-[clamp(1.8rem,3.8vw,3.35rem)] font-black leading-[1.18] tracking-tight">للتوزيع، التوريد،<br />أو معرفة المزيد عن ليبرونك.</h2>
+            <h2 className="font-display mt-4 text-[clamp(1.55rem,3.15vw,2.8rem)] font-bold leading-[1.24] tracking-tight">للتوزيع، التوريد،<br />أو معرفة المزيد عن ليبرونك.</h2>
             <p className="mt-5 max-w-xl leading-8 text-muted-foreground">اترك بريدك، وسيتواصل معك فريق عيون الرواد لمناقشة ما تحتاجه.</p>
           </div>
 
