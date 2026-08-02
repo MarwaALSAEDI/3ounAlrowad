@@ -126,7 +126,7 @@ export function ExclusiveAgency() {
               شراكة حصرية
             </motion.span>
 
-            <h2 id="exclusive-agency-title" className="font-display mt-6 max-w-2xl text-[clamp(2.35rem,5vw,4.9rem)] font-black leading-[1.08] tracking-[-0.035em]">
+            <h2 id="exclusive-agency-title" className="font-display mt-6 max-w-2xl text-[clamp(1.95rem,4.1vw,4rem)] font-black leading-[1.13] tracking-[-0.025em]">
               عيون الرواد
               <span className="mt-2 block bg-gradient-to-l from-soft-blush-900 via-dark-wine-900 to-brick-ember-800 bg-clip-text text-transparent">
                 — الوكيل الحصري لشركة ليبرونك

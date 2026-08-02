@@ -18,7 +18,7 @@ export function Features() {
       <div className="mx-auto max-w-7xl px-5 sm:px-8">
         <Reveal className="max-w-3xl">
           <span className="eyebrow">عن عيون الرواد</span>
-          <h2 className="font-display mt-4 text-[clamp(2.25rem,5vw,4.5rem)] font-black leading-[1.12] tracking-tight">
+          <h2 className="font-display mt-4 text-[clamp(1.8rem,3.9vw,3.5rem)] font-black leading-[1.18] tracking-tight">
             نعرف المائدة.<br /><span className="text-gilded">ونعرف ما يجعلها استثنائية.</span>
           </h2>
           <p className="mt-6 max-w-2xl text-base leading-8 text-muted-foreground sm:text-lg">عيون الرواد شركة متخصصة في الأواني والصحون ومستلزمات المائدة، تجمع بين الاختيار المدروس والحضور الذي يليق بالمنزل والضيافة.</p>

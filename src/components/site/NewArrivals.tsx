@@ -25,7 +25,7 @@ export function NewArrivals() {
       <div className="mx-auto max-w-7xl px-5 sm:px-8">
         <Reveal className="max-w-2xl">
           <span className="eyebrow">من تفاصيلنا</span>
-          <h2 className="font-display mt-4 text-[clamp(2rem,4.5vw,3.5rem)] font-extrabold tracking-tight">
+          <h2 className="font-display mt-4 text-[clamp(1.7rem,3.6vw,2.85rem)] font-extrabold tracking-tight">
             حضور يليق بكل مائدة
           </h2>
         </Reveal>
