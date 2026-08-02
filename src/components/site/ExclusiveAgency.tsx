@@ -5,7 +5,7 @@ import {
   useTransform,
   type MotionValue,
 } from "motion/react";
-import { ArrowLeft, CircleCheck, Sparkles } from "lucide-react";
+import { ArrowLeft, Sparkles } from "lucide-react";
 import { useRef } from "react";
 
 import airfryer from "@/assets/p-airfryer.png";
@@ -159,19 +159,6 @@ export function ExclusiveAgency() {
             <p className="mt-7 max-w-xl text-base leading-8 text-dark-wine-900 sm:text-lg">
               ليبرونك شركة متخصصة في بيع الأجهزة المنزلية الكهربائية وأدوات المطبخ العصرية، وتقدّم تشكيلة متكاملة تجمع بين الأداء الموثوق والجودة والتصميم الأنيق، لتجعل تفاصيل الحياة اليومية أسهل وأكثر راحة.
             </p>
-
-            <div className="mt-7 grid max-w-lg grid-cols-2 gap-3" aria-label="مجالات عيون الرواد وليبرونك">
-              <div className="rounded-2xl border border-soft-blush-900/12 bg-soft-blush-900/[0.065] p-4 backdrop-blur-xl">
-                <CircleCheck className="h-5 w-5 text-bright-fern-700" aria-hidden="true" />
-                <p className="mt-3 text-sm font-extrabold text-soft-blush-900">عيون الرواد</p>
-                <p className="mt-1 text-xs text-dark-wine-900">أوانٍ وصحون</p>
-              </div>
-              <div className="rounded-2xl border border-soft-blush-900/12 bg-soft-blush-900/[0.065] p-4 backdrop-blur-xl">
-                <CircleCheck className="h-5 w-5 text-bright-fern-700" aria-hidden="true" />
-                <p className="mt-3 text-sm font-extrabold text-soft-blush-900" dir="ltr">LIBRONIC</p>
-                <p className="mt-1 text-xs text-dark-wine-900">أجهزة منزلية كهربائية</p>
-              </div>
-            </div>
 
             <motion.a
               href="#contact"
