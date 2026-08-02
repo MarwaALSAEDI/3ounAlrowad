@@ -3,20 +3,15 @@ import { motion, useScroll, useSpring } from "motion/react";
 import { useLenis } from "@/hooks/use-lenis";
 import { Navbar } from "@/components/site/Navbar";
 import { Hero } from "@/components/site/Hero";
-import { Brands } from "@/components/site/Brands";
-import { Categories } from "@/components/site/Categories";
-import { BestSellers } from "@/components/site/BestSellers";
+import { ExclusiveAgency } from "@/components/site/ExclusiveAgency";
+import { CollectionsStory } from "@/components/site/CollectionsStory";
 import { Features } from "@/components/site/Features";
-import { Statistics } from "@/components/site/Statistics";
 import { NewArrivals } from "@/components/site/NewArrivals";
-import { Testimonials } from "@/components/site/Testimonials";
-import { SpecialOffer } from "@/components/site/SpecialOffer";
-import { Faq } from "@/components/site/Faq";
 import { Newsletter } from "@/components/site/Newsletter";
 import { Footer } from "@/components/site/Footer";
 
-const TITLE = "عيون الرواد | أجهزة منزلية أصلية لحياة أسهل";
-const DESC = "تسوّق الأجهزة المنزلية وأدوات المطبخ والأواني الأصلية من عيون الرواد. أسعار تنافسية، ضمان رسمي، وشحن سريع إلى باب منزلك.";
+const TITLE = "عيون الرواد | أوانٍ وصحون بتفاصيل تليق بكل مائدة";
+const DESC = "عيون الرواد شركة متخصصة في الأواني والصحون ومستلزمات المائدة، والوكيل الحصري لشركة ليبرونك.";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -26,7 +21,6 @@ export const Route = createFileRoute("/")({
       { property: "og:title", content: TITLE },
       { property: "og:description", content: DESC },
       { property: "og:type", content: "website" },
-      { property: "og:locale", content: "ar_SA" },
       { property: "og:image", content: "/og.png" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:image", content: "/og.png" },
@@ -49,15 +43,10 @@ function Index() {
       <Navbar />
       <main id="main-content">
         <Hero />
-        <Brands />
-        <Categories />
-        <BestSellers />
+        <ExclusiveAgency />
         <Features />
-        <Statistics />
+        <CollectionsStory />
         <NewArrivals />
-        <Testimonials />
-        <SpecialOffer />
-        <Faq />
         <Newsletter />
       </main>
       <Footer />

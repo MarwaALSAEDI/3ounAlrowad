@@ -4,13 +4,13 @@ import g1 from "@/assets/g-1.jpg";
 import g2 from "@/assets/g-2.jpg";
 import g3 from "@/assets/g-3.jpg";
 import g4 from "@/assets/g-4.jpg";
-import { dinnerSetUrl } from "@/data/catalog";
+import cookware from "@/assets/p-cookware.png";
 import { Reveal } from "./Reveal";
 
 const items = [
   { src: g1, alt: "طقم صحون سيراميك أنيق", span: "sm:row-span-2", w: 900, h: 1200 },
   { src: g2, alt: "أدوات مطبخ خشبية", span: "", w: 900, h: 700 },
-  { src: dinnerSetUrl, alt: "طقم صحون ملوّن بنقوش تقليدية", span: "", w: 1280, h: 1280 },
+  { src: cookware, alt: "طقم أواني متكامل للمطبخ", span: "", w: 1024, h: 1024 },
   { src: g4, alt: "أدوات مائدة فاخرة", span: "", w: 900, h: 800 },
   { src: g3, alt: "مزهريات سيراميك", span: "sm:row-span-2", w: 900, h: 1100 },
 ];
@@ -21,12 +21,12 @@ export function NewArrivals() {
   const drift = useTransform(scrollYProgress, [0, 1], [30, -30]);
 
   return (
-    <section id="new" ref={ref} dir="rtl" className="py-28 sm:py-36">
+    <section id="gallery" ref={ref} dir="rtl" className="py-28 sm:py-36">
       <div className="mx-auto max-w-7xl px-5 sm:px-8">
         <Reveal className="max-w-2xl">
-          <span className="eyebrow">وصل حديثاً</span>
+          <span className="eyebrow">من تفاصيلنا</span>
           <h2 className="font-display mt-4 text-[clamp(2rem,4.5vw,3.5rem)] font-extrabold tracking-tight">
-            قطع جديدة تُضيف دفئاً لبيتك
+            حضور يليق بكل مائدة
           </h2>
         </Reveal>
 
