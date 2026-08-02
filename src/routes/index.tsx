@@ -15,10 +15,6 @@ const DESC = "عيون الرواد شركة متخصصة في الأواني و
 
 export const Route = createFileRoute("/")({
   head: () => ({
-    links: [
-      { rel: "icon", type: "image/png", href: "/oyoun-alrowad-logo.png" },
-      { rel: "apple-touch-icon", href: "/oyoun-alrowad-logo.png" },
-    ],
     meta: [
       { title: TITLE },
       { name: "description", content: DESC },
