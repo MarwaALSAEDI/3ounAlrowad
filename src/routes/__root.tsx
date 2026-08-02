@@ -78,10 +78,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { name: "theme-color", content: "#5c0000" },
-      { title: "عيون الرواد | أجهزة منزلية أصلية لحياة أسهل" },
+      { title: "عيون الرواد | أجهزة منزلية، أوانٍ وسيراميك" },
       {
         name: "description",
-        content: "أجهزة منزلية وأدوات مطبخ أصلية بجودة تدوم، مع ضمان رسمي وشحن سريع من عيون الرواد.",
+        content: "عيون الرواد للتجارة العامة والوكالات التجارية: أجهزة منزلية كهربائية، أدوات مطبخ، أوانٍ وصحون سيراميكية، والوكيل الحصري لشركة ليبرونك.",
       },
       { name: "author", content: "عيون الرواد" },
       { property: "og:type", content: "website" },

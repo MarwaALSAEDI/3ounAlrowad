@@ -6,12 +6,15 @@ import { Hero } from "@/components/site/Hero";
 import { ExclusiveAgency } from "@/components/site/ExclusiveAgency";
 import { CollectionsStory } from "@/components/site/CollectionsStory";
 import { Features } from "@/components/site/Features";
+import { HomeAppliances } from "@/components/site/HomeAppliances";
+import { KitchenWorld } from "@/components/site/KitchenWorld";
 import { NewArrivals } from "@/components/site/NewArrivals";
+import { CompanyProfile } from "@/components/site/CompanyProfile";
 import { Newsletter } from "@/components/site/Newsletter";
 import { Footer } from "@/components/site/Footer";
 
-const TITLE = "عيون الرواد | أوانٍ وصحون بتفاصيل تليق بكل مائدة";
-const DESC = "عيون الرواد شركة متخصصة في الأواني والصحون ومستلزمات المائدة، والوكيل الحصري لشركة ليبرونك.";
+const TITLE = "عيون الرواد | أجهزة منزلية، أوانٍ وسيراميك";
+const DESC = "عيون الرواد للتجارة العامة والوكالات التجارية: أجهزة منزلية كهربائية، أدوات مطبخ، أوانٍ وصحون سيراميكية، والوكيل الحصري لشركة ليبرونك.";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -45,8 +48,11 @@ function Index() {
         <Hero />
         <ExclusiveAgency />
         <Features />
+        <HomeAppliances />
         <CollectionsStory />
+        <KitchenWorld />
         <NewArrivals />
+        <CompanyProfile />
         <Newsletter />
       </main>
       <Footer />
