@@ -12,17 +12,28 @@ const TITLE = "منتجات ليبرونك | عيون الرواد";
 const DESC =
   "اكتشف مجموعة مختارة من أجهزة ليبرونك المنزلية والكهربائية لدى عيون الرواد، الوكيل الحصري لليبرونك.";
 
-type Category = "الكل" | "الطهي" | "التهوية" | "التبريد" | "التدفئة";
+type Category = "الكل" | "الطهي" | "التهوية" | "التبريد" | "التدفئة" | "التنظيف" | "الشاشات";
 
 type Product = {
   category: Exclude<Category, "الكل">;
   detail: string;
+  format?: "square" | "portrait" | "landscape";
+  height?: number;
   image: string;
   model: string;
   name: string;
+  width?: number;
 };
 
-const filters: Category[] = ["الكل", "الطهي", "التهوية", "التبريد", "التدفئة"];
+const filters: Category[] = [
+  "الكل",
+  "الطهي",
+  "التهوية",
+  "التبريد",
+  "التدفئة",
+  "التنظيف",
+  "الشاشات",
+];
 
 const products: Product[] = [
   {
@@ -80,6 +91,156 @@ const products: Product[] = [
     category: "التدفئة",
     detail: "حرارة متوازنة · عجلات لسهولة الحركة",
     image: "/libronic-products/oil-heater-13.jpg",
+  },
+  {
+    name: "سطح طبخ زجاجي هجين",
+    model: "غاز + كهرباء",
+    category: "الطهي",
+    detail: "سطح أسود فاخر يجمع شعلات الغاز مع منطقة تسخين كهربائية.",
+    image: "/libronic-products/cooktop-hybrid-black.webp",
+    format: "square",
+    width: 1200,
+    height: 1200,
+  },
+  {
+    name: "سطح طبخ زجاجي 6 شعلات",
+    model: "6 شعلات",
+    category: "الطهي",
+    detail: "سطح زجاجي سهل التنظيف مع شعلات قوية ونظام أمان عملي.",
+    image: "/libronic-products/cooktop-glass-black.webp",
+    format: "square",
+    width: 1200,
+    height: 1200,
+  },
+  {
+    name: "فرن كهربائي سعة 100 لتر",
+    model: "100 L",
+    category: "الطهي",
+    detail: "سعة كبيرة وتحكم متعدد الوظائف لخبز وشوي مختلف الوصفات.",
+    image: "/libronic-products/countertop-oven-100l.webp",
+    format: "square",
+    width: 1200,
+    height: 1200,
+  },
+  {
+    name: "سطح طبخ ستانلس 5 شعلات",
+    model: "5 شعلات",
+    category: "الطهي",
+    detail: "تصميم ستانلس متين يوفّر حرارة قوية وتحكمًا مريحًا.",
+    image: "/libronic-products/cooktop-stainless-5burner.webp",
+    format: "square",
+    width: 1200,
+    height: 1200,
+  },
+  {
+    name: "قلاية هوائية ذكية",
+    model: "Smart Air Fryer",
+    category: "الطهي",
+    detail: "طهي بالهواء الساخن مع شاشة رقمية لوجبات أخف وأسهل.",
+    image: "/libronic-products/air-fryer-oven.webp",
+    format: "square",
+    width: 1200,
+    height: 1200,
+  },
+  {
+    name: "شفاط مطبخ مخفي",
+    model: "Built-in",
+    category: "التهوية",
+    detail: "تصميم مدمج وشفط فعّال لهواء أنقى ومطبخ أكثر أناقة.",
+    image: "/libronic-products/built-in-hood.webp",
+    format: "square",
+    width: 1200,
+    height: 1200,
+  },
+  {
+    name: "فرن كهربائي مدمج",
+    model: "Built-in Oven",
+    category: "الطهي",
+    detail: "تحكم دقيق ووظائف متعددة لنتائج متجانسة بكل وجبة.",
+    image: "/libronic-products/built-in-oven.webp",
+    format: "square",
+    width: 1200,
+    height: 1200,
+  },
+  {
+    name: "جلاية صحون",
+    model: "Dishwasher",
+    category: "التنظيف",
+    detail: "تنظيف عملي بسعة منزلية يوفّر الوقت والجهد يوميًا.",
+    image: "/libronic-products/dishwasher-stainless.webp",
+    format: "portrait",
+    width: 675,
+    height: 1200,
+  },
+  {
+    name: "سطح طبخ زجاجي أبيض 5 شعلات",
+    model: "5 شعلات",
+    category: "الطهي",
+    detail: "سطح زجاجي أنيق بخمس شعلات وتحكم مستقل لكل شعلة.",
+    image: "/libronic-products/cooktop-ivory-5burner.webp",
+    format: "portrait",
+    width: 848,
+    height: 1200,
+  },
+  {
+    name: "سطح طبخ هجين ستانلس",
+    model: "Hybrid Hob",
+    category: "الطهي",
+    detail: "أربع شعلات غاز وعين كهربائية مع إشعال ذاتي وتحكم دقيق.",
+    image: "/libronic-products/cooktop-combi-stainless.webp",
+    format: "portrait",
+    width: 960,
+    height: 1200,
+  },
+  {
+    name: "تلفزيون ذكي QLED قياس 60 بوصة",
+    model: "60” QLED",
+    category: "الشاشات",
+    detail: "صورة QLED وتطبيقات ترفيه ذكية لتجربة مشاهدة متكاملة.",
+    image: "/libronic-products/smart-tv-60-qled.webp",
+    format: "portrait",
+    width: 896,
+    height: 1194,
+  },
+  {
+    name: "شاشة QLED AI الذكية",
+    model: "QLED AI",
+    category: "الشاشات",
+    detail: "ألوان دقيقة وصوت نقي مع HDR وHDMI وتطبيقات البث.",
+    image: "/libronic-products/smart-tv-qled-nature.webp",
+    format: "portrait",
+    width: 960,
+    height: 1200,
+  },
+  {
+    name: "شاشة QLED AI بتجربة سينمائية",
+    model: "QLED AI",
+    category: "الشاشات",
+    detail: "ألوان نابضة وحدّة عالية مع صوت غني ومزايا مشاهدة ذكية.",
+    image: "/libronic-products/smart-tv-qled-space.webp",
+    format: "landscape",
+    width: 1200,
+    height: 675,
+  },
+  {
+    name: "مجموعة شاشات QLED AI",
+    model: "43–60”",
+    category: "الشاشات",
+    detail: "أحجام 43 و50 و55 و60 بوصة لتناسب مختلف المساحات.",
+    image: "/libronic-products/smart-tv-qled-sizes.webp",
+    format: "landscape",
+    width: 1200,
+    height: 800,
+  },
+  {
+    name: "براد ماء ليبرونك",
+    model: "Hot / Cold",
+    category: "التبريد",
+    detail: "مياه نقية مع تبريد فائق وتسخين سريع للاستخدام اليومي.",
+    image: "/libronic-products/water-dispenser-gold.webp",
+    format: "portrait",
+    width: 848,
+    height: 1200,
   },
 ];
 
@@ -272,8 +433,7 @@ function ProductsPage() {
                   اكتشف أجهزة ليبرونك حسب احتياجك
                 </h2>
                 <p className="mt-4 max-w-2xl text-sm leading-7 text-dark-wine-500 sm:text-base">
-                  مجموعة بصرية من المنتجات المتوفرة على موقع ليبرونك الرسمي، مع أهم المواصفات
-                  للتعرّف عليها بسرعة.
+                  مجموعة بصرية متكاملة من منتجات ليبرونك، مع أهم المواصفات للتعرّف عليها بسرعة.
                 </p>
               </div>
               <p aria-live="polite" className="text-sm font-bold text-dark-wine-500">
@@ -308,7 +468,7 @@ function ProductsPage() {
 
             <motion.div
               layout
-              className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"
+              className="mt-10 grid grid-flow-row-dense items-start gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"
             >
               <AnimatePresence mode="popLayout">
                 {visibleProducts.map((product, index) => (
@@ -319,17 +479,29 @@ function ProductsPage() {
                     animate={{ opacity: 1, y: 0, scale: 1 }}
                     exit={reducedMotion ? undefined : { opacity: 0, y: 12, scale: 0.97 }}
                     transition={{ duration: 0.42, delay: reducedMotion ? 0 : index * 0.035 }}
-                    className="group overflow-hidden rounded-[1.9rem] border border-dark-wine-800/65 bg-card shadow-soft transition-[border-color,box-shadow] duration-500 hover:border-dark-garnet-500/40 hover:shadow-lift"
+                    className={`group overflow-hidden rounded-[1.9rem] border border-dark-wine-800/65 bg-card shadow-soft transition-[border-color,box-shadow] duration-500 hover:border-dark-garnet-500/40 hover:shadow-lift ${
+                      product.format === "landscape" ? "sm:col-span-2" : ""
+                    }`}
                   >
-                    <div className="relative mx-3 mt-3 aspect-square overflow-hidden rounded-[1.45rem] bg-gradient-to-br from-soft-blush-700 via-soft-blush-900 to-honeydew-700">
+                    <div
+                      className={`relative mx-3 mt-3 overflow-hidden rounded-[1.45rem] ${
+                        product.format === "portrait"
+                          ? "aspect-[3/4] bg-dark-garnet-100"
+                          : product.format === "landscape"
+                            ? "aspect-video bg-dark-garnet-100"
+                            : "aspect-square bg-gradient-to-br from-soft-blush-700 via-soft-blush-900 to-honeydew-700"
+                      }`}
+                    >
                       <img
                         src={product.image}
                         alt={`${product.name} من ليبرونك`}
-                        width={800}
-                        height={800}
-                        loading={index === 0 ? "eager" : "lazy"}
+                        width={product.width ?? 800}
+                        height={product.height ?? 800}
+                        loading="lazy"
                         decoding="async"
-                        className="h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-[1.035]"
+                        className={`h-full w-full transition-transform duration-700 ease-out group-hover:scale-[1.035] ${
+                          product.format ? "object-contain" : "object-cover"
+                        }`}
                       />
                       <span className="absolute right-3 top-3 rounded-full border border-soft-blush-900/70 bg-soft-blush-900/90 px-3 py-1.5 text-[11px] font-extrabold text-dark-garnet-500 shadow-soft backdrop-blur-md">
                         {product.category}
