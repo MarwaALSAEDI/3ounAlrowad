@@ -161,12 +161,12 @@ export function ExclusiveAgency() {
             </p>
 
             <motion.a
-              href="#contact"
+              href="/products"
               whileHover={reducedMotion ? undefined : { x: -5, scale: 1.02 }}
               whileTap={reducedMotion ? undefined : { scale: 0.98 }}
               className="group mt-8 inline-flex min-h-14 items-center justify-center gap-3 rounded-2xl bg-bright-fern-700 px-7 font-bold text-olive-leaf-100 shadow-[0_20px_54px_-22px_rgba(95,255,47,0.8)] transition-colors hover:bg-bright-fern-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-bright-fern-700"
             >
-              تواصل معنا
+              عرض منتجاتنا
               <ArrowLeft className="h-5 w-5 transition-transform group-hover:-translate-x-1" aria-hidden="true" />
             </motion.a>
           </motion.div>
