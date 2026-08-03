@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { AnimatePresence, motion, useReducedMotion, useScroll, useSpring } from "motion/react";
-import { ArrowLeft, ArrowUpLeft, ExternalLink, ShieldCheck, Sparkles } from "lucide-react";
+import { ArrowLeft, ArrowUpLeft, ShieldCheck, Sparkles } from "lucide-react";
 import { useState } from "react";
 
 import { Footer } from "@/components/site/Footer";
@@ -17,7 +17,6 @@ type Category = "الكل" | "الطهي" | "التهوية" | "التبريد" 
 type Product = {
   category: Exclude<Category, "الكل">;
   detail: string;
-  href: string;
   image: string;
   model: string;
   name: string;
@@ -32,7 +31,6 @@ const products: Product[] = [
     category: "الطهي",
     detail: "60 سم · ستانلس ستيل · إشعال ذاتي",
     image: "/libronic-products/cooker-600g01.jpg",
-    href: "https://www.libronic-iq.com/product_details.php?id=206",
   },
   {
     name: "طباخ 5 مشاعل 9001",
@@ -40,7 +38,6 @@ const products: Product[] = [
     category: "الطهي",
     detail: "خمسة مشاعل · تصميم عصري",
     image: "/libronic-products/cooker-9001.jpg",
-    href: "https://www.libronic-iq.com/product_details.php?id=73",
   },
   {
     name: "مرشحة 90B",
@@ -48,7 +45,6 @@ const products: Product[] = [
     category: "التهوية",
     detail: "90 سم · 180 واط · إضاءة LED",
     image: "/libronic-products/hood-90b.jpg",
-    href: "https://www.libronic-iq.com/product_details.php?id=20",
   },
   {
     name: "مرشحة كاسيت 600",
@@ -56,7 +52,6 @@ const products: Product[] = [
     category: "التهوية",
     detail: "60 سم · شفط 1000 م³/ساعة · LED",
     image: "/libronic-products/hood-cassette-600.jpg",
-    href: "https://www.libronic-iq.com/product_details.php?id=39",
   },
   {
     name: "مبردة كونفيرا 60MA",
@@ -64,7 +59,6 @@ const products: Product[] = [
     category: "التبريد",
     detail: "خزان 55 لتر · 180 واط · حركة سهلة",
     image: "/libronic-products/air-cooler-60ma.jpg",
-    href: "https://www.libronic-iq.com/product_details.php?id=208",
   },
   {
     name: "مبردة دكت 60",
@@ -72,7 +66,6 @@ const products: Product[] = [
     category: "التبريد",
     detail: "تدفق هواء قوي · خزان ماء كبير",
     image: "/libronic-products/duct-cooler-60.jpg",
-    href: "https://www.libronic-iq.com/product_details.php?id=209",
   },
   {
     name: "مروحة سقفية 626",
@@ -80,7 +73,6 @@ const products: Product[] = [
     category: "التهوية",
     detail: "تصميم سقفي أنيق · توزيع هواء متوازن",
     image: "/libronic-products/ceiling-fan-626.jpg",
-    href: "https://www.libronic-iq.com/product_details.php?id=212",
   },
   {
     name: "صوبة زيتية 13 ريشة",
@@ -88,7 +80,6 @@ const products: Product[] = [
     category: "التدفئة",
     detail: "حرارة متوازنة · عجلات لسهولة الحركة",
     image: "/libronic-products/oil-heater-13.jpg",
-    href: "https://www.libronic-iq.com/product_details.php?id=172",
   },
 ];
 
@@ -360,16 +351,6 @@ function ProductsPage() {
                       <p className="mt-3 min-h-12 text-sm leading-6 text-dark-wine-500">
                         {product.detail}
                       </p>
-                      <a
-                        href={product.href}
-                        target="_blank"
-                        rel="noreferrer"
-                        className="mt-5 inline-flex min-h-11 items-center gap-2 text-sm font-black text-dark-garnet-500 transition-colors hover:text-brick-ember-500"
-                        aria-label={`تفاصيل ${product.name} على موقع ليبرونك الرسمي (يفتح في نافذة جديدة)`}
-                      >
-                        التفاصيل الرسمية
-                        <ExternalLink className="h-4 w-4" aria-hidden="true" />
-                      </a>
                     </div>
                   </motion.article>
                 ))}
@@ -377,16 +358,7 @@ function ProductsPage() {
             </motion.div>
 
             <p className="mt-8 text-center text-xs leading-6 text-dark-wine-500">
-              الصور والمواصفات مستمدة من{" "}
-              <a
-                href="https://www.libronic-iq.com/"
-                target="_blank"
-                rel="noreferrer"
-                className="font-extrabold text-dark-garnet-500 underline decoration-dark-wine-800 underline-offset-4"
-              >
-                موقع ليبرونك الرسمي
-              </a>
-              .
+              الصور والمواصفات مأخوذة من كتالوج منتجات ليبرونك.
             </p>
           </div>
         </section>
