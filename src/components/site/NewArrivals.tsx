@@ -1,18 +1,26 @@
 import { motion, useScroll, useTransform } from "motion/react";
 import { useRef } from "react";
-import g1 from "@/assets/g-1.jpg";
-import g2 from "@/assets/g-2.jpg";
-import g3 from "@/assets/g-3.jpg";
-import g4 from "@/assets/g-4.jpg";
-import { dinnerSetUrl } from "@/data/catalog";
+import cupsGreen from "@/assets/tableware-cups-green.png";
+import cupsBeige from "@/assets/tableware-cups-beige.png";
+import cupsBlack from "@/assets/tableware-cups-black.png";
+import ornateSet from "@/assets/tableware-ornate-set.png";
+import ornateOriginal from "@/assets/tableware-ornate-original.jpeg";
+import mandalaSet from "@/assets/tableware-mandala-set.png";
+import yellowSet from "@/assets/tableware-yellow-set.png";
+import orangeSet from "@/assets/tableware-orange-set.png";
+import blackSet from "@/assets/tableware-black-set.png";
 import { Reveal } from "./Reveal";
 
 const items = [
-  { src: g1, alt: "طقم صحون سيراميك أنيق", span: "sm:row-span-2", w: 900, h: 1200 },
-  { src: g2, alt: "أدوات مطبخ خشبية", span: "", w: 900, h: 700 },
-  { src: dinnerSetUrl, alt: "طقم صحون ملوّن بنقوش تقليدية", span: "", w: 1280, h: 1280 },
-  { src: g4, alt: "أدوات مائدة فاخرة", span: "", w: 900, h: 800 },
-  { src: g3, alt: "مزهريات سيراميك", span: "sm:row-span-2", w: 900, h: 1100 },
+  { src: cupsGreen, alt: "طقم فناجين رخامي أخضر مع صحون قلب", w: 1122, h: 1402 },
+  { src: cupsBeige, alt: "طقم فناجين رخامي بيج مع صحون قلب", w: 1122, h: 1402 },
+  { src: cupsBlack, alt: "طقم فناجين وصحون بنقشة رخامية", w: 1122, h: 1402 },
+  { src: ornateSet, alt: "طقم سفرة مزخرف بألوان تراثية", w: 1122, h: 1402 },
+  { src: ornateOriginal, alt: "طقم صحون وزبدية مزخرف", w: 1280, h: 1280 },
+  { src: mandalaSet, alt: "طقم سفرة أسود بنقوش ماندالا", w: 1122, h: 1402 },
+  { src: yellowSet, alt: "طقم سفرة أصفر وأزرق مزخرف", w: 1122, h: 1402 },
+  { src: orangeSet, alt: "طقم سفرة برتقالي مزخرف بالورود", w: 1122, h: 1402 },
+  { src: blackSet, alt: "طقم سفرة أسود بنقوش تراثية", w: 1122, h: 1402 },
 ];
 
 export function NewArrivals() {
@@ -32,7 +40,7 @@ export function NewArrivals() {
 
         <motion.div
           style={{ y: drift }}
-          className="mt-14 grid auto-rows-[220px] grid-flow-dense grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3"
+          className="mt-14 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3"
         >
           {items.map((item, i) => (
             <motion.figure
@@ -41,7 +49,7 @@ export function NewArrivals() {
               whileInView={{ opacity: 1, y: 0, scale: 1, filter: "blur(0px)" }}
               viewport={{ once: true, amount: 0.2 }}
               transition={{ duration: 0.95, delay: (i % 3) * 0.1, ease: [0.22, 0.61, 0.36, 1] }}
-              className={`group relative overflow-hidden rounded-[2rem] bg-soft-blush shadow-soft ${item.span}`}
+              className="group relative aspect-[4/5] overflow-hidden rounded-[2rem] bg-soft-blush shadow-soft"
             >
               <img
                 src={item.src}
