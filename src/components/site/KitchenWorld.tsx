@@ -10,9 +10,6 @@ import {
   UtensilsCrossed,
 } from "lucide-react";
 
-import galleryDishes from "@/assets/g-1.jpg";
-import galleryTools from "@/assets/g-2.jpg";
-import cookware from "@/assets/p-cookware.png";
 import mixer from "@/assets/p-mixer.png";
 import { Reveal, Stagger, itemVariants } from "./Reveal";
 
@@ -35,8 +32,8 @@ const worlds = [
     title: "تفاصيل صغيرة، فرق كبير",
     description:
       "أدوات يومية مدروسة تجعل التحضير والتقديم أكثر سهولة، وتبقى دائماً في متناول اليد.",
-    image: galleryTools,
-    imageAlt: "أدوات مطبخ يدوية وألواح تقديم خشبية",
+    image: "/oyoun-collection/marble-cups-caramel.webp",
+    imageAlt: "طقم فناجين وصحون ضيافة رخامية",
     imageClassName: "object-cover",
     imageBackground: "bg-soft-blush-700",
     tags: ["تقطيع", "تحضير", "تقديم"],
@@ -47,7 +44,7 @@ const worlds = [
     title: "تشكيلة لكل وصفة ومائدة",
     description:
       "مقالي وأواني طهي، قطع تقديم، وأطباق حساء وسيراميك تجمع الاستخدام اليومي مع حضور أنيق على المائدة.",
-    image: galleryDishes,
+    image: "/oyoun-collection/heritage-dinnerware.webp",
     imageAlt: "تشكيلة صحون وأوعية سيراميك للمائدة",
     imageClassName: "object-cover",
     imageBackground: "bg-soft-blush-700",
@@ -115,18 +112,6 @@ export function KitchenWorld() {
                   height={700}
                   className={`h-full w-full transition-transform duration-700 ease-out group-hover:scale-[1.04] ${world.imageClassName}`}
                 />
-                {world.eyebrow === "الأواني والسيراميك" ? (
-                  <img
-                    src={cookware}
-                    alt=""
-                    aria-hidden="true"
-                    loading="lazy"
-                    decoding="async"
-                    width={320}
-                    height={320}
-                    className="drop-shadow-brand absolute -bottom-5 -left-4 w-[42%] object-contain"
-                  />
-                ) : null}
                 <span className="absolute right-4 top-4 grid h-11 w-11 place-items-center rounded-2xl border border-soft-blush-900/55 bg-soft-blush-900/88 text-primary shadow-soft backdrop-blur-md">
                   <world.Icon className="h-5 w-5" strokeWidth={1.9} aria-hidden="true" />
                 </span>
@@ -171,7 +156,11 @@ export function KitchenWorld() {
               </span>
             </div>
 
-            <div role="list" aria-label="اختياراتنا من العلامات العالمية" className="grid gap-2 sm:grid-cols-2 lg:grid-cols-4">
+            <div
+              role="list"
+              aria-label="اختياراتنا من العلامات العالمية"
+              className="grid gap-2 sm:grid-cols-2 lg:grid-cols-4"
+            >
               <motion.div
                 role="listitem"
                 whileHover={{ y: -3 }}
@@ -191,15 +180,27 @@ export function KitchenWorld() {
                 </span>
               </motion.div>
 
-              <motion.div role="listitem" whileHover={{ y: -3 }} className="flex min-h-20 items-center justify-center gap-3 rounded-2xl border border-border bg-card px-4 text-sm font-bold text-secondary">
+              <motion.div
+                role="listitem"
+                whileHover={{ y: -3 }}
+                className="flex min-h-20 items-center justify-center gap-3 rounded-2xl border border-border bg-card px-4 text-sm font-bold text-secondary"
+              >
                 <Globe2 className="h-5 w-5 text-primary" aria-hidden="true" />
                 تقنيات عالمية
               </motion.div>
-              <motion.div role="listitem" whileHover={{ y: -3 }} className="flex min-h-20 items-center justify-center gap-3 rounded-2xl border border-border bg-card px-4 text-sm font-bold text-secondary">
+              <motion.div
+                role="listitem"
+                whileHover={{ y: -3 }}
+                className="flex min-h-20 items-center justify-center gap-3 rounded-2xl border border-border bg-card px-4 text-sm font-bold text-secondary"
+              >
                 <Sparkles className="h-5 w-5 text-primary" aria-hidden="true" />
                 تصاميم مبتكرة
               </motion.div>
-              <motion.div role="listitem" whileHover={{ y: -3 }} className="flex min-h-20 items-center justify-center gap-3 rounded-2xl border border-border bg-card px-4 text-sm font-bold text-secondary">
+              <motion.div
+                role="listitem"
+                whileHover={{ y: -3 }}
+                className="flex min-h-20 items-center justify-center gap-3 rounded-2xl border border-border bg-card px-4 text-sm font-bold text-secondary"
+              >
                 <ShieldCheck className="h-5 w-5 text-primary" aria-hidden="true" />
                 جودة وأداء
               </motion.div>
