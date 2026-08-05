@@ -1,49 +1,73 @@
 import { motion, useReducedMotion } from "motion/react";
 import { ArrowLeft, BadgeCheck, Sparkles, UtensilsCrossed } from "lucide-react";
-import galleryDishes from "@/assets/g-1.jpg";
-import galleryUtensils from "@/assets/g-2.jpg";
-import galleryVases from "@/assets/g-3.jpg";
-import galleryGlassware from "@/assets/g-4.jpg";
-import cookware from "@/assets/p-cookware.png";
 
 const EASE = [0.22, 0.61, 0.36, 1] as const;
 
 const productVisuals = [
   {
-    src: galleryDishes,
-    label: "أطقم صحون أنيقة",
-    alt: "مجموعة صحون وأوعية خزفية مرتبة بأناقة",
-    fit: "cover",
+    src: "/hero-products/libronic-air-fryer.webp",
+    label: "قلاية هوائية ذكية",
+    alt: "قلاية ليبرونك الهوائية بتصميم ستانلس ستيل",
   },
   {
-    src: galleryUtensils,
-    label: "أدوات المطبخ",
-    alt: "أدوات مطبخ وألواح تقديم خشبية",
-    fit: "cover",
+    src: "/hero-products/libronic-cooker.webp",
+    label: "طباخ ليبرونك",
+    alt: "طباخ ليبرونك قائم مع فرن وأربع شعلات",
   },
   {
-    src: galleryDishes,
-    label: "سفرة متكاملة",
-    alt: "طقم سفرة وصحون متكامل",
-    fit: "cover",
+    src: "/hero-products/libronic-air-cooler.webp",
+    label: "مبردة هواء",
+    alt: "مبردة هواء ليبرونك بيضاء بعجلات",
   },
   {
-    src: galleryGlassware,
-    label: "زجاجيات الضيافة",
-    alt: "كؤوس وزجاجيات فاخرة لطاولة الضيافة",
-    fit: "cover",
+    src: "/hero-products/libronic-blender.webp",
+    label: "خلاط كهربائي",
+    alt: "خلاط ليبرونك كهربائي بقاعدة ستانلس ستيل",
   },
   {
-    src: cookware,
-    label: "أواني الطهي",
-    alt: "طقم أواني طهي أسود متين",
-    fit: "contain",
+    src: "/hero-products/libronic-cooktop.webp",
+    label: "سطح طبخ هجين",
+    alt: "سطح طبخ ليبرونك هجين بخمس مناطق طهي",
   },
   {
-    src: galleryVases,
-    label: "تفاصيل المنزل",
-    alt: "مجموعة فازات خزفية بتصميم هادئ",
-    fit: "cover",
+    src: "/oyoun-collection/heritage-dinnerware-wide.webp",
+    label: "أطقم سفرة فنية",
+    alt: "طقم صحون وأوعية مزخرف بنقوش تراثية",
+  },
+  {
+    src: "/oyoun-collection/marble-cups-green.webp",
+    label: "ضيافة رخامية",
+    alt: "طقم فناجين رخامية خضراء مع صحون على شكل قلب",
+  },
+  {
+    src: "/oyoun-collection/mandala-dinnerware.webp",
+    label: "نقوش ملوّنة",
+    alt: "طقم سفرة ملوّن بزخارف ماندالا",
+  },
+  {
+    src: "/oyoun-collection/marble-cups-caramel.webp",
+    label: "فناجين الضيافة",
+    alt: "طقم فناجين رخامية بلون الكراميل مع صحون قلب",
+  },
+  {
+    src: "/oyoun-collection/blue-yellow-dinnerware.webp",
+    label: "ألوان المائدة",
+    alt: "طقم صحون أزرق وأصفر مزخرف",
+  },
+  {
+    src: "/oyoun-collection/marble-espresso-set.webp",
+    label: "قهوة وأناقة",
+    alt: "طقم فناجين إسبريسو رخامية مع صحون",
+  },
+  {
+    src: "/oyoun-collection/orange-dinnerware.webp",
+    label: "سفرة نابضة",
+    alt: "طقم صحون مزخرف بألوان برتقالية وزرقاء",
+  },
+  {
+    src: "/oyoun-collection/heritage-dinnerware.webp",
+    label: "زخارف تراثية",
+    alt: "طقم صحون وأوعية داكن بنقوش تراثية",
   },
 ] as const;
 
@@ -86,9 +110,7 @@ function ProductRail({ reverse = false, duration }: ProductRailProps) {
                   loading={setIndex === 0 && productIndex < 2 ? "eager" : "lazy"}
                   fetchPriority={setIndex === 0 && productIndex < 2 ? "high" : "auto"}
                   decoding="async"
-                  className={`h-full w-full transition-transform duration-700 group-hover:scale-[1.04] ${
-                    product.fit === "contain" ? "object-contain p-3" : "object-cover"
-                  }`}
+                  className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-[1.04]"
                 />
                 <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-dark-garnet-100/70 via-transparent to-transparent" />
                 <figcaption className="absolute inset-x-3 bottom-2.5 text-right text-[11px] font-extrabold text-soft-blush-900 drop-shadow-[0_2px_3px_rgba(18,0,0,0.7)] sm:inset-x-4 sm:bottom-3 sm:text-sm">
@@ -132,7 +154,7 @@ export function Hero() {
           animate={{ opacity: 1, y: 0, scale: 1 }}
           transition={{ duration: 1.05, delay: 0.08, ease: EASE }}
         >
-          <ProductRail duration={34} />
+          <ProductRail duration={52} />
         </motion.div>
 
         <div className="relative z-20 mx-auto flex max-w-7xl justify-center px-5 pb-48 pt-[11rem] text-center sm:px-8 sm:pb-52 sm:pt-[11.5rem] lg:pt-[10rem]">
@@ -162,8 +184,8 @@ export function Hero() {
               {...reveal(0.52, 24)}
               className="mt-7 max-w-2xl text-base leading-8 text-muted-foreground sm:text-lg sm:leading-9"
             >
-              شركة متخصصة في الأواني والصحون ومستلزمات المائدة، ننتقي تشكيلات تجمع الجودة
-              والمتانة والتصميم الذي يصنع فرقاً في كل بيت.
+              شركة متخصصة في الأواني والصحون ومستلزمات المائدة، ننتقي تشكيلات تجمع الجودة والمتانة
+              والتصميم الذي يصنع فرقاً في كل بيت.
             </motion.p>
 
             <motion.div
@@ -216,7 +238,7 @@ export function Hero() {
           animate={{ opacity: 1, y: 0, scale: 1 }}
           transition={{ duration: 1.05, delay: 0.22, ease: EASE }}
         >
-          <ProductRail reverse duration={39} />
+          <ProductRail reverse duration={58} />
         </motion.div>
       </div>
     </section>

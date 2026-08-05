@@ -8,10 +8,6 @@ import {
 } from "motion/react";
 import { useRef, useState, type ComponentType } from "react";
 import { CookingPot, HandPlatter, Sparkles, Utensils } from "lucide-react";
-import g1 from "@/assets/g-1.jpg";
-import g2 from "@/assets/g-2.jpg";
-import g4 from "@/assets/g-4.jpg";
-import cookware from "@/assets/p-cookware.png";
 
 type Scene = {
   number: string;
@@ -39,11 +35,10 @@ const scenes: Scene[] = [
       "نختار أواني الطهي لتجمع بين الأداء المتوازن، الخامات الموثوقة، والحضور الجميل الذي يبقى جزءاً من مطبخك لسنوات.",
     note: "جودة ملموسة في كل استخدام",
     Icon: CookingPot,
-    backdrop: g2,
-    backdropAlt: "تفاصيل أدوات وأواني داخل مطبخ دافئ",
-    detail: cookware,
-    detailAlt: "طقم أواني طهي متكامل",
-    detailContain: true,
+    backdrop: "/oyoun-collection/marble-espresso-set.webp",
+    backdropAlt: "تشكيلة فناجين وصحون رخامية للمطبخ والضيافة",
+    detail: "/oyoun-collection/marble-cups-green.webp",
+    detailAlt: "طقم فناجين رخامية خضراء",
     motionRange: [0, 0.18, 0.36],
   },
   {
@@ -55,9 +50,9 @@ const scenes: Scene[] = [
       "من الأطباق اليومية إلى أطقم المناسبات، نقدّم تنسيقات تجمع الألوان والنقوش والملمس في مائدة تعبّر عن ذوق البيت.",
     note: "تنسيق متكامل لكل مناسبة",
     Icon: Utensils,
-    backdrop: g1,
-    backdropAlt: "مائدة مرتبة بطقم صحون سيراميك أنيق",
-    detail: g4,
+    backdrop: "/oyoun-collection/heritage-dinnerware-wide.webp",
+    backdropAlt: "طقم صحون سيراميك مزخرف بأسلوب تراثي",
+    detail: "/oyoun-collection/orange-dinnerware.webp",
     detailAlt: "طقم صحون ملوّن بنقوش فنية",
     motionRange: [0.27, 0.49, 0.7],
   },
@@ -70,10 +65,10 @@ const scenes: Scene[] = [
       "تفاصيل مدروسة للتقديم والضيافة، من القطع العملية إلى اللمسات المميزة التي تجعل كل لقاء أكثر دفئاً وترتيباً.",
     note: "تفاصيل صغيرة، أثر لا يُنسى",
     Icon: HandPlatter,
-    backdrop: g4,
-    backdropAlt: "أدوات مائدة وتقديم مرتبة بأسلوب فاخر",
-    detail: g2,
-    detailAlt: "تفاصيل أدوات تقديم من خامات طبيعية",
+    backdrop: "/oyoun-collection/mandala-dinnerware.webp",
+    backdropAlt: "أطقم تقديم ملوّنة مرتبة بأسلوب فاخر",
+    detail: "/oyoun-collection/marble-cups-caramel.webp",
+    detailAlt: "طقم فناجين وصحون ضيافة رخامية",
     motionRange: [0.62, 0.8, 1],
   },
 ];

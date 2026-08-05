@@ -1,18 +1,64 @@
 import { motion, useScroll, useTransform } from "motion/react";
 import { useRef } from "react";
-import g1 from "@/assets/g-1.jpg";
-import g2 from "@/assets/g-2.jpg";
-import g3 from "@/assets/g-3.jpg";
-import g4 from "@/assets/g-4.jpg";
-import cookware from "@/assets/p-cookware.png";
 import { Reveal } from "./Reveal";
 
 const items = [
-  { src: g1, alt: "طقم صحون سيراميك أنيق", span: "sm:row-span-2", w: 900, h: 1200 },
-  { src: g2, alt: "أدوات مطبخ خشبية", span: "", w: 900, h: 700 },
-  { src: cookware, alt: "طقم أواني متكامل للمطبخ", span: "", w: 1024, h: 1024 },
-  { src: g4, alt: "أدوات مائدة فاخرة", span: "", w: 900, h: 800 },
-  { src: g3, alt: "مزهريات سيراميك", span: "sm:row-span-2", w: 900, h: 1100 },
+  {
+    src: "/oyoun-collection/marble-cups-green.webp",
+    alt: "طقم فناجين رخامية خضراء",
+    span: "sm:row-span-2",
+    w: 1122,
+    h: 1536,
+  },
+  {
+    src: "/oyoun-collection/heritage-dinnerware.webp",
+    alt: "طقم سفرة بنقوش تراثية",
+    span: "",
+    w: 1122,
+    h: 1536,
+  },
+  {
+    src: "/oyoun-collection/marble-cups-caramel.webp",
+    alt: "طقم فناجين رخامية بلون الكراميل",
+    span: "",
+    w: 1122,
+    h: 1536,
+  },
+  {
+    src: "/oyoun-collection/mandala-dinnerware.webp",
+    alt: "طقم سفرة ملوّن بزخارف ماندالا",
+    span: "sm:row-span-2",
+    w: 1122,
+    h: 1536,
+  },
+  {
+    src: "/oyoun-collection/marble-espresso-set.webp",
+    alt: "طقم فناجين إسبريسو رخامية",
+    span: "sm:row-span-2",
+    w: 1122,
+    h: 1536,
+  },
+  {
+    src: "/oyoun-collection/blue-yellow-dinnerware.webp",
+    alt: "طقم صحون أزرق وأصفر مزخرف",
+    span: "",
+    w: 1122,
+    h: 1536,
+  },
+  {
+    src: "/oyoun-collection/orange-dinnerware.webp",
+    alt: "طقم صحون برتقالي مزخرف",
+    span: "",
+    w: 1122,
+    h: 1536,
+  },
+  {
+    src: "/oyoun-collection/heritage-dinnerware-wide.webp",
+    alt: "طقم صحون تراثي داكن",
+    span: "sm:row-span-2",
+    w: 1122,
+    h: 1536,
+  },
 ];
 
 export function NewArrivals() {

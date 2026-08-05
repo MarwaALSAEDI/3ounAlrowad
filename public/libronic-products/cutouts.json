@@ -1,0 +1,606 @@
+{
+  "source": "existing-project-images",
+  "products": [
+    {
+      "id": "air-cooler-60ma",
+      "name": "air cooler 60ma",
+      "original": "/libronic-products/air-cooler-60ma.jpg",
+      "cutout": "/libronic-products/cutouts-transparent/air-cooler-60ma.png",
+      "cutoutMethod": "birefnet-general-lite-clean",
+      "cutoutMetrics": {
+        "width": 800,
+        "height": 875,
+        "transparentPixels": 562894,
+        "partialPixels": 136243,
+        "opaquePixels": 863,
+        "coverage": 0.1959
+      }
+    },
+    {
+      "id": "air-fryer-oven",
+      "name": "air fryer oven",
+      "original": "/libronic-products/air-fryer-oven.webp",
+      "cutout": "/libronic-products/cutouts-transparent/air-fryer-oven.png",
+      "cutoutMethod": "birefnet-general-lite-clean",
+      "cutoutMetrics": {
+        "width": 1200,
+        "height": 1200,
+        "transparentPixels": 1174627,
+        "partialPixels": 241234,
+        "opaquePixels": 24139,
+        "coverage": 0.1843
+      }
+    },
+    {
+      "id": "built-in-hood",
+      "name": "built in hood",
+      "original": "/libronic-products/built-in-hood.webp",
+      "cutout": "/libronic-products/cutouts-transparent/built-in-hood.png",
+      "cutoutMethod": "birefnet-general-lite-clean",
+      "cutoutMetrics": {
+        "width": 1200,
+        "height": 1200,
+        "transparentPixels": 1430060,
+        "partialPixels": 9804,
+        "opaquePixels": 136,
+        "coverage": 0.0069
+      }
+    },
+    {
+      "id": "built-in-oven",
+      "name": "built in oven",
+      "original": "/libronic-products/built-in-oven.webp",
+      "cutout": "/libronic-products/cutouts-transparent/built-in-oven.png",
+      "cutoutMethod": "birefnet-general-lite-clean",
+      "cutoutMetrics": {
+        "width": 1200,
+        "height": 1200,
+        "transparentPixels": 972673,
+        "partialPixels": 466300,
+        "opaquePixels": 1027,
+        "coverage": 0.3245
+      }
+    },
+    {
+      "id": "ceiling-fan-626",
+      "name": "ceiling fan 626",
+      "original": "/libronic-products/ceiling-fan-626.jpg",
+      "cutout": "/libronic-products/cutouts-transparent/ceiling-fan-626.png",
+      "cutoutMethod": "birefnet-general-lite-clean",
+      "cutoutMetrics": {
+        "width": 800,
+        "height": 800,
+        "transparentPixels": 584589,
+        "partialPixels": 53640,
+        "opaquePixels": 1771,
+        "coverage": 0.0866
+      }
+    },
+    {
+      "id": "cooker-600g01",
+      "name": "cooker 600g01",
+      "original": "/libronic-products/cooker-600g01.jpg",
+      "cutout": "/libronic-products/cutouts-transparent/cooker-600g01.png",
+      "cutoutMethod": "birefnet-general-lite-clean",
+      "cutoutMetrics": {
+        "width": 800,
+        "height": 893,
+        "transparentPixels": 417778,
+        "partialPixels": 293700,
+        "opaquePixels": 2922,
+        "coverage": 0.4152
+      }
+    },
+    {
+      "id": "cooker-9001",
+      "name": "cooker 9001",
+      "original": "/libronic-products/cooker-9001.jpg",
+      "cutout": "/libronic-products/cutouts-transparent/cooker-9001.png",
+      "cutoutMethod": "birefnet-general-lite-clean",
+      "cutoutMetrics": {
+        "width": 800,
+        "height": 800,
+        "transparentPixels": 475967,
+        "partialPixels": 159958,
+        "opaquePixels": 4075,
+        "coverage": 0.2563
+      }
+    },
+    {
+      "id": "cooktop-combi-stainless",
+      "name": "cooktop combi stainless",
+      "original": "/libronic-products/cooktop-combi-stainless.webp",
+      "cutout": "/libronic-products/cutouts-transparent/cooktop-combi-stainless.png",
+      "cutoutMethod": "birefnet-general-lite-clean",
+      "cutoutMetrics": {
+        "width": 960,
+        "height": 1200,
+        "transparentPixels": 951852,
+        "partialPixels": 185576,
+        "opaquePixels": 14572,
+        "coverage": 0.1737
+      }
+    },
+    {
+      "id": "cooktop-glass-black",
+      "name": "cooktop glass black",
+      "original": "/libronic-products/cooktop-glass-black.webp",
+      "cutout": "/libronic-products/cutouts-transparent/cooktop-glass-black.png",
+      "cutoutMethod": "birefnet-general-lite-clean",
+      "cutoutMetrics": {
+        "width": 1200,
+        "height": 1200,
+        "transparentPixels": 1072402,
+        "partialPixels": 342299,
+        "opaquePixels": 25299,
+        "coverage": 0.2553
+      }
+    },
+    {
+      "id": "cooktop-hybrid-black",
+      "name": "cooktop hybrid black",
+      "original": "/libronic-products/cooktop-hybrid-black.webp",
+      "cutout": "/libronic-products/cutouts-transparent/cooktop-hybrid-black.png",
+      "cutoutMethod": "birefnet-general-lite-clean",
+      "cutoutMetrics": {
+        "width": 1200,
+        "height": 1200,
+        "transparentPixels": 1097268,
+        "partialPixels": 329713,
+        "opaquePixels": 13019,
+        "coverage": 0.238
+      }
+    },
+    {
+      "id": "cooktop-ivory-5burner",
+      "name": "cooktop ivory 5burner",
+      "original": "/libronic-products/cooktop-ivory-5burner.webp",
+      "cutout": "/libronic-products/cutouts-transparent/cooktop-ivory-5burner.png",
+      "cutoutMethod": "birefnet-general-lite-clean",
+      "cutoutMetrics": {
+        "width": 848,
+        "height": 1200,
+        "transparentPixels": 822874,
+        "partialPixels": 190800,
+        "opaquePixels": 3926,
+        "coverage": 0.1914
+      }
+    },
+    {
+      "id": "cooktop-stainless-5burner",
+      "name": "cooktop stainless 5burner",
+      "original": "/libronic-products/cooktop-stainless-5burner.webp",
+      "cutout": "/libronic-products/cutouts-transparent/cooktop-stainless-5burner.png",
+      "cutoutMethod": "birefnet-general-lite-clean",
+      "cutoutMetrics": {
+        "width": 1200,
+        "height": 1200,
+        "transparentPixels": 1237128,
+        "partialPixels": 189144,
+        "opaquePixels": 13728,
+        "coverage": 0.1409
+      }
+    },
+    {
+      "id": "countertop-oven-100l",
+      "name": "countertop oven 100l",
+      "original": "/libronic-products/countertop-oven-100l.webp",
+      "cutout": "/libronic-products/cutouts-transparent/countertop-oven-100l.png",
+      "cutoutMethod": "birefnet-general-lite-clean",
+      "cutoutMetrics": {
+        "width": 1200,
+        "height": 1200,
+        "transparentPixels": 1086167,
+        "partialPixels": 340008,
+        "opaquePixels": 13825,
+        "coverage": 0.2457
+      }
+    },
+    {
+      "id": "dishwasher-stainless",
+      "name": "dishwasher stainless",
+      "original": "/libronic-products/dishwasher-stainless.webp",
+      "cutout": "/libronic-products/cutouts-transparent/dishwasher-stainless.png",
+      "cutoutMethod": "birefnet-general-lite-clean",
+      "cutoutMetrics": {
+        "width": 675,
+        "height": 1200,
+        "transparentPixels": 683754,
+        "partialPixels": 125852,
+        "opaquePixels": 394,
+        "coverage": 0.1559
+      }
+    },
+    {
+      "id": "duct-cooler-60",
+      "name": "duct cooler 60",
+      "original": "/libronic-products/duct-cooler-60.jpg",
+      "cutout": "/libronic-products/cutouts-transparent/duct-cooler-60.png",
+      "cutoutMethod": "birefnet-general-lite-clean",
+      "cutoutMetrics": {
+        "width": 800,
+        "height": 1066,
+        "transparentPixels": 640210,
+        "partialPixels": 205073,
+        "opaquePixels": 7517,
+        "coverage": 0.2493
+      }
+    },
+    {
+      "id": "hood-90b",
+      "name": "hood 90b",
+      "original": "/libronic-products/hood-90b.jpg",
+      "cutout": "/libronic-products/cutouts-transparent/hood-90b.png",
+      "cutoutMethod": "birefnet-general-lite-clean",
+      "cutoutMetrics": {
+        "width": 800,
+        "height": 800,
+        "transparentPixels": 544863,
+        "partialPixels": 93607,
+        "opaquePixels": 1530,
+        "coverage": 0.1487
+      }
+    },
+    {
+      "id": "hood-cassette-600",
+      "name": "hood cassette 600",
+      "original": "/libronic-products/hood-cassette-600.jpg",
+      "cutout": "/libronic-products/cutouts-transparent/hood-cassette-600.png",
+      "cutoutMethod": "birefnet-general-lite-clean",
+      "cutoutMetrics": {
+        "width": 800,
+        "height": 800,
+        "transparentPixels": 522754,
+        "partialPixels": 115538,
+        "opaquePixels": 1708,
+        "coverage": 0.1832
+      }
+    },
+    {
+      "id": "oil-heater-13",
+      "name": "oil heater 13",
+      "original": "/libronic-products/oil-heater-13.jpg",
+      "cutout": "/libronic-products/cutouts-transparent/oil-heater-13.png",
+      "cutoutMethod": "birefnet-general-lite-clean",
+      "cutoutMetrics": {
+        "width": 800,
+        "height": 800,
+        "transparentPixels": 408700,
+        "partialPixels": 229275,
+        "opaquePixels": 2025,
+        "coverage": 0.3614
+      }
+    },
+    {
+      "id": "smart-tv-60-qled",
+      "name": "smart tv 60 qled",
+      "original": "/libronic-products/smart-tv-60-qled.webp",
+      "cutout": "/libronic-products/cutouts-transparent/smart-tv-60-qled.png",
+      "cutoutMethod": "birefnet-general-lite-clean",
+      "cutoutMetrics": {
+        "width": 896,
+        "height": 1194,
+        "transparentPixels": 951899,
+        "partialPixels": 98679,
+        "opaquePixels": 19246,
+        "coverage": 0.1102
+      }
+    },
+    {
+      "id": "smart-tv-qled-nature",
+      "name": "smart tv qled nature",
+      "original": "/libronic-products/smart-tv-qled-nature.webp",
+      "cutout": "/libronic-products/cutouts-transparent/smart-tv-qled-nature.png",
+      "cutoutMethod": "birefnet-general-lite-clean",
+      "cutoutMetrics": {
+        "width": 960,
+        "height": 1200,
+        "transparentPixels": 1065034,
+        "partialPixels": 72925,
+        "opaquePixels": 14041,
+        "coverage": 0.0755
+      }
+    },
+    {
+      "id": "smart-tv-qled-sizes",
+      "name": "smart tv qled sizes",
+      "original": "/libronic-products/smart-tv-qled-sizes.webp",
+      "cutout": "/libronic-products/cutouts-transparent/smart-tv-qled-sizes.png",
+      "cutoutMethod": "birefnet-general-lite-clean",
+      "cutoutMetrics": {
+        "width": 1200,
+        "height": 800,
+        "transparentPixels": 914777,
+        "partialPixels": 45037,
+        "opaquePixels": 186,
+        "coverage": 0.0471
+      }
+    },
+    {
+      "id": "smart-tv-qled-space",
+      "name": "smart tv qled space",
+      "original": "/libronic-products/smart-tv-qled-space.webp",
+      "cutout": "/libronic-products/cutouts-transparent/smart-tv-qled-space.png",
+      "cutoutMethod": "birefnet-general-lite-clean",
+      "cutoutMetrics": {
+        "width": 1200,
+        "height": 675,
+        "transparentPixels": 803829,
+        "partialPixels": 5233,
+        "opaquePixels": 938,
+        "coverage": 0.0076
+      }
+    },
+    {
+      "id": "water-dispenser-gold",
+      "name": "water dispenser gold",
+      "original": "/libronic-products/water-dispenser-gold.webp",
+      "cutout": "/libronic-products/cutouts-transparent/water-dispenser-gold.png",
+      "cutoutMethod": "birefnet-general-lite-clean",
+      "cutoutMetrics": {
+        "width": 848,
+        "height": 1200,
+        "transparentPixels": 855829,
+        "partialPixels": 160300,
+        "opaquePixels": 1471,
+        "coverage": 0.159
+      }
+    }
+  ],
+  "cutoutModel": "birefnet-general-lite",
+  "cutoutResults": [
+    {
+      "id": "air-cooler-60ma",
+      "name": "air cooler 60ma",
+      "method": "birefnet-general-lite-clean",
+      "width": 800,
+      "height": 875,
+      "transparentPixels": 562894,
+      "partialPixels": 136243,
+      "opaquePixels": 863,
+      "coverage": 0.1959
+    },
+    {
+      "id": "air-fryer-oven",
+      "name": "air fryer oven",
+      "method": "birefnet-general-lite-clean",
+      "width": 1200,
+      "height": 1200,
+      "transparentPixels": 1174627,
+      "partialPixels": 241234,
+      "opaquePixels": 24139,
+      "coverage": 0.1843
+    },
+    {
+      "id": "built-in-hood",
+      "name": "built in hood",
+      "method": "birefnet-general-lite-clean",
+      "width": 1200,
+      "height": 1200,
+      "transparentPixels": 1430060,
+      "partialPixels": 9804,
+      "opaquePixels": 136,
+      "coverage": 0.0069
+    },
+    {
+      "id": "built-in-oven",
+      "name": "built in oven",
+      "method": "birefnet-general-lite-clean",
+      "width": 1200,
+      "height": 1200,
+      "transparentPixels": 972673,
+      "partialPixels": 466300,
+      "opaquePixels": 1027,
+      "coverage": 0.3245
+    },
+    {
+      "id": "ceiling-fan-626",
+      "name": "ceiling fan 626",
+      "method": "birefnet-general-lite-clean",
+      "width": 800,
+      "height": 800,
+      "transparentPixels": 584589,
+      "partialPixels": 53640,
+      "opaquePixels": 1771,
+      "coverage": 0.0866
+    },
+    {
+      "id": "cooker-600g01",
+      "name": "cooker 600g01",
+      "method": "birefnet-general-lite-clean",
+      "width": 800,
+      "height": 893,
+      "transparentPixels": 417778,
+      "partialPixels": 293700,
+      "opaquePixels": 2922,
+      "coverage": 0.4152
+    },
+    {
+      "id": "cooker-9001",
+      "name": "cooker 9001",
+      "method": "birefnet-general-lite-clean",
+      "width": 800,
+      "height": 800,
+      "transparentPixels": 475967,
+      "partialPixels": 159958,
+      "opaquePixels": 4075,
+      "coverage": 0.2563
+    },
+    {
+      "id": "cooktop-combi-stainless",
+      "name": "cooktop combi stainless",
+      "method": "birefnet-general-lite-clean",
+      "width": 960,
+      "height": 1200,
+      "transparentPixels": 951852,
+      "partialPixels": 185576,
+      "opaquePixels": 14572,
+      "coverage": 0.1737
+    },
+    {
+      "id": "cooktop-glass-black",
+      "name": "cooktop glass black",
+      "method": "birefnet-general-lite-clean",
+      "width": 1200,
+      "height": 1200,
+      "transparentPixels": 1072402,
+      "partialPixels": 342299,
+      "opaquePixels": 25299,
+      "coverage": 0.2553
+    },
+    {
+      "id": "cooktop-hybrid-black",
+      "name": "cooktop hybrid black",
+      "method": "birefnet-general-lite-clean",
+      "width": 1200,
+      "height": 1200,
+      "transparentPixels": 1097268,
+      "partialPixels": 329713,
+      "opaquePixels": 13019,
+      "coverage": 0.238
+    },
+    {
+      "id": "cooktop-ivory-5burner",
+      "name": "cooktop ivory 5burner",
+      "method": "birefnet-general-lite-clean",
+      "width": 848,
+      "height": 1200,
+      "transparentPixels": 822874,
+      "partialPixels": 190800,
+      "opaquePixels": 3926,
+      "coverage": 0.1914
+    },
+    {
+      "id": "cooktop-stainless-5burner",
+      "name": "cooktop stainless 5burner",
+      "method": "birefnet-general-lite-clean",
+      "width": 1200,
+      "height": 1200,
+      "transparentPixels": 1237128,
+      "partialPixels": 189144,
+      "opaquePixels": 13728,
+      "coverage": 0.1409
+    },
+    {
+      "id": "countertop-oven-100l",
+      "name": "countertop oven 100l",
+      "method": "birefnet-general-lite-clean",
+      "width": 1200,
+      "height": 1200,
+      "transparentPixels": 1086167,
+      "partialPixels": 340008,
+      "opaquePixels": 13825,
+      "coverage": 0.2457
+    },
+    {
+      "id": "dishwasher-stainless",
+      "name": "dishwasher stainless",
+      "method": "birefnet-general-lite-clean",
+      "width": 675,
+      "height": 1200,
+      "transparentPixels": 683754,
+      "partialPixels": 125852,
+      "opaquePixels": 394,
+      "coverage": 0.1559
+    },
+    {
+      "id": "duct-cooler-60",
+      "name": "duct cooler 60",
+      "method": "birefnet-general-lite-clean",
+      "width": 800,
+      "height": 1066,
+      "transparentPixels": 640210,
+      "partialPixels": 205073,
+      "opaquePixels": 7517,
+      "coverage": 0.2493
+    },
+    {
+      "id": "hood-90b",
+      "name": "hood 90b",
+      "method": "birefnet-general-lite-clean",
+      "width": 800,
+      "height": 800,
+      "transparentPixels": 544863,
+      "partialPixels": 93607,
+      "opaquePixels": 1530,
+      "coverage": 0.1487
+    },
+    {
+      "id": "hood-cassette-600",
+      "name": "hood cassette 600",
+      "method": "birefnet-general-lite-clean",
+      "width": 800,
+      "height": 800,
+      "transparentPixels": 522754,
+      "partialPixels": 115538,
+      "opaquePixels": 1708,
+      "coverage": 0.1832
+    },
+    {
+      "id": "oil-heater-13",
+      "name": "oil heater 13",
+      "method": "birefnet-general-lite-clean",
+      "width": 800,
+      "height": 800,
+      "transparentPixels": 408700,
+      "partialPixels": 229275,
+      "opaquePixels": 2025,
+      "coverage": 0.3614
+    },
+    {
+      "id": "smart-tv-60-qled",
+      "name": "smart tv 60 qled",
+      "method": "birefnet-general-lite-clean",
+      "width": 896,
+      "height": 1194,
+      "transparentPixels": 951899,
+      "partialPixels": 98679,
+      "opaquePixels": 19246,
+      "coverage": 0.1102
+    },
+    {
+      "id": "smart-tv-qled-nature",
+      "name": "smart tv qled nature",
+      "method": "birefnet-general-lite-clean",
+      "width": 960,
+      "height": 1200,
+      "transparentPixels": 1065034,
+      "partialPixels": 72925,
+      "opaquePixels": 14041,
+      "coverage": 0.0755
+    },
+    {
+      "id": "smart-tv-qled-sizes",
+      "name": "smart tv qled sizes",
+      "method": "birefnet-general-lite-clean",
+      "width": 1200,
+      "height": 800,
+      "transparentPixels": 914777,
+      "partialPixels": 45037,
+      "opaquePixels": 186,
+      "coverage": 0.0471
+    },
+    {
+      "id": "smart-tv-qled-space",
+      "name": "smart tv qled space",
+      "method": "birefnet-general-lite-clean",
+      "width": 1200,
+      "height": 675,
+      "transparentPixels": 803829,
+      "partialPixels": 5233,
+      "opaquePixels": 938,
+      "coverage": 0.0076
+    },
+    {
+      "id": "water-dispenser-gold",
+      "name": "water dispenser gold",
+      "method": "birefnet-general-lite-clean",
+      "width": 848,
+      "height": 1200,
+      "transparentPixels": 855829,
+      "partialPixels": 160300,
+      "opaquePixels": 1471,
+      "coverage": 0.159
+    }
+  ]
+}
