@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T22:18:12.670Z",
+  "generatedAt": "2026-08-05T21:37:24.452Z",
   "source": "https://libronic-iq.com/",
   "products": [
     {
@@ -9,17 +9,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1784977527.jpg",
       "name": "ميزان ساعة LC-DT02",
       "original": "/libronic-catalog/originals/235-prod_1784977527.jpg",
-      "filename": "235-prod_1784977527.jpg",
-      "cutout": "/libronic-catalog/cutouts/235-prod_1784977527.png",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 318282,
-        "partialPixels": 10587,
-        "opaquePixels": 311131,
-        "coverage": 0.5027
-      },
-      "cutoutMethod": "studio-white"
+      "filename": "235-prod_1784977527.jpg"
     },
     {
       "categoryId": 13,
@@ -28,17 +18,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1784976105.jpg",
       "name": "شاشة QLED LIBRONIC حجم 60",
       "original": "/libronic-catalog/originals/234-prod_1784976105.jpg",
-      "filename": "234-prod_1784976105.jpg",
-      "cutout": "/libronic-catalog/cutouts/234-prod_1784976105.png",
-      "cutoutMethod": "isnet-general-use-clean",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 450,
-        "transparentPixels": 232067,
-        "partialPixels": 127930,
-        "opaquePixels": 3,
-        "coverage": 0.3554
-      }
+      "filename": "234-prod_1784976105.jpg"
     },
     {
       "categoryId": 13,
@@ -47,17 +27,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1784976062.jpg",
       "name": "شاشة QLED LIBRONIC حجم 50",
       "original": "/libronic-catalog/originals/233-prod_1784976062.jpg",
-      "filename": "233-prod_1784976062.jpg",
-      "cutout": "/libronic-catalog/cutouts/233-prod_1784976062.png",
-      "cutoutMethod": "isnet-general-use-clean",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 450,
-        "transparentPixels": 267353,
-        "partialPixels": 92647,
-        "opaquePixels": 0,
-        "coverage": 0.2574
-      }
+      "filename": "233-prod_1784976062.jpg"
     },
     {
       "categoryId": 13,
@@ -66,17 +36,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1784976016.jpg",
       "name": "شاشة QLED LIBRONIC حجم 55",
       "original": "/libronic-catalog/originals/232-prod_1784976016.jpg",
-      "filename": "232-prod_1784976016.jpg",
-      "cutout": "/libronic-catalog/cutouts/232-prod_1784976016.png",
-      "cutoutMethod": "birefnet-general-lite-clean",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 450,
-        "transparentPixels": 295574,
-        "partialPixels": 62825,
-        "opaquePixels": 1601,
-        "coverage": 0.179
-      }
+      "filename": "232-prod_1784976016.jpg"
     },
     {
       "categoryId": 13,
@@ -85,17 +45,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1784975644.jpg",
       "name": "شاشة QLED LIBRONIC حجم 43",
       "original": "/libronic-catalog/originals/231-prod_1784975644.jpg",
-      "filename": "231-prod_1784975644.jpg",
-      "cutout": "/libronic-catalog/cutouts/231-prod_1784975644.png",
-      "cutoutMethod": "birefnet-general-lite-clean",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 450,
-        "transparentPixels": 300312,
-        "partialPixels": 58573,
-        "opaquePixels": 1115,
-        "coverage": 0.1658
-      }
+      "filename": "231-prod_1784975644.jpg"
     },
     {
       "categoryId": 14,
@@ -104,17 +54,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1778406228.jpg",
       "name": "خلاط وطاحوتة  1731",
       "original": "/libronic-catalog/originals/230-prod_1778406228.jpg",
-      "filename": "230-prod_1778406228.jpg",
-      "cutout": "/libronic-catalog/cutouts/230-prod_1778406228.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 541498,
-        "partialPixels": 12960,
-        "opaquePixels": 85542,
-        "coverage": 0.1539
-      }
+      "filename": "230-prod_1778406228.jpg"
     },
     {
       "categoryId": 14,
@@ -123,17 +63,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1778406131.jpg",
       "name": "خلاط وطاحوتة استيل 926E",
       "original": "/libronic-catalog/originals/229-prod_1778406131.jpg",
-      "filename": "229-prod_1778406131.jpg",
-      "cutout": "/libronic-catalog/cutouts/229-prod_1778406131.png",
-      "cutoutMethod": "isnet-general-use-clean",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 517470,
-        "partialPixels": 122473,
-        "opaquePixels": 57,
-        "coverage": 0.1915
-      }
+      "filename": "229-prod_1778406131.jpg"
     },
     {
       "categoryId": 14,
@@ -142,17 +72,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1778406055.jpg",
       "name": "خلاط وطاحوتة 999",
       "original": "/libronic-catalog/originals/228-prod_1778406055.jpg",
-      "filename": "228-prod_1778406055.jpg",
-      "cutout": "/libronic-catalog/cutouts/228-prod_1778406055.png",
-      "cutoutMethod": "isnet-general-use-clean",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 549180,
-        "partialPixels": 90625,
-        "opaquePixels": 195,
-        "coverage": 0.1419
-      }
+      "filename": "228-prod_1778406055.jpg"
     },
     {
       "categoryId": 14,
@@ -161,17 +81,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1778405937.jpg",
       "name": "خلاط ستيل 915E",
       "original": "/libronic-catalog/originals/226-prod_1778405937.jpg",
-      "filename": "226-prod_1778405937.jpg",
-      "cutout": "/libronic-catalog/cutouts/226-prod_1778405937.png",
-      "cutoutMethod": "isnet-general-use-clean",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 533887,
-        "partialPixels": 106047,
-        "opaquePixels": 66,
-        "coverage": 0.1658
-      }
+      "filename": "226-prod_1778405937.jpg"
     },
     {
       "categoryId": 14,
@@ -180,17 +90,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1778405855.jpg",
       "name": "خلاط وطاحونة 915E",
       "original": "/libronic-catalog/originals/225-prod_1778405855.jpg",
-      "filename": "225-prod_1778405855.jpg",
-      "cutout": "/libronic-catalog/cutouts/225-prod_1778405855.png",
-      "cutoutMethod": "isnet-general-use-clean",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 523365,
-        "partialPixels": 116583,
-        "opaquePixels": 52,
-        "coverage": 0.1822
-      }
+      "filename": "225-prod_1778405855.jpg"
     },
     {
       "categoryId": 14,
@@ -199,17 +99,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1778405780.jpg",
       "name": "خلاط وطاحونة 922E",
       "original": "/libronic-catalog/originals/224-prod_1778405780.jpg",
-      "filename": "224-prod_1778405780.jpg",
-      "cutout": "/libronic-catalog/cutouts/224-prod_1778405780.png",
-      "cutoutMethod": "isnet-general-use-clean",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 493158,
-        "partialPixels": 146774,
-        "opaquePixels": 68,
-        "coverage": 0.2294
-      }
+      "filename": "224-prod_1778405780.jpg"
     },
     {
       "categoryId": 14,
@@ -218,17 +108,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1778405658.jpg",
       "name": "خلاط 704",
       "original": "/libronic-catalog/originals/223-prod_1778405658.jpg",
-      "filename": "223-prod_1778405658.jpg",
-      "cutout": "/libronic-catalog/cutouts/223-prod_1778405658.png",
-      "cutoutMethod": "isnet-general-use-clean",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 536924,
-        "partialPixels": 102983,
-        "opaquePixels": 93,
-        "coverage": 0.1611
-      }
+      "filename": "223-prod_1778405658.jpg"
     },
     {
       "categoryId": 14,
@@ -237,17 +117,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1778405622.jpg",
       "name": "خلاط 703",
       "original": "/libronic-catalog/originals/222-prod_1778405622.jpg",
-      "filename": "222-prod_1778405622.jpg",
-      "cutout": "/libronic-catalog/cutouts/222-prod_1778405622.png",
-      "cutoutMethod": "isnet-general-use-clean",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 525043,
-        "partialPixels": 114811,
-        "opaquePixels": 146,
-        "coverage": 0.1796
-      }
+      "filename": "222-prod_1778405622.jpg"
     },
     {
       "categoryId": 14,
@@ -256,17 +126,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1778405577.jpg",
       "name": "خلاط 702",
       "original": "/libronic-catalog/originals/221-prod_1778405577.jpg",
-      "filename": "221-prod_1778405577.jpg",
-      "cutout": "/libronic-catalog/cutouts/221-prod_1778405577.png",
-      "cutoutMethod": "isnet-general-use-clean",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 535908,
-        "partialPixels": 104037,
-        "opaquePixels": 55,
-        "coverage": 0.1626
-      }
+      "filename": "221-prod_1778405577.jpg"
     },
     {
       "categoryId": 14,
@@ -275,17 +135,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1778405529.jpg",
       "name": "خلاط 701",
       "original": "/libronic-catalog/originals/220-prod_1778405529.jpg",
-      "filename": "220-prod_1778405529.jpg",
-      "cutout": "/libronic-catalog/cutouts/220-prod_1778405529.png",
-      "cutoutMethod": "isnet-general-use-clean",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 545439,
-        "partialPixels": 94512,
-        "opaquePixels": 49,
-        "coverage": 0.1478
-      }
+      "filename": "220-prod_1778405529.jpg"
     },
     {
       "categoryId": 13,
@@ -294,17 +144,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1778403515.jpg",
       "name": "غسالة صحون 6101AW",
       "original": "/libronic-catalog/originals/219-prod_1778403515.jpg",
-      "filename": "219-prod_1778403515.jpg",
-      "cutout": "/libronic-catalog/cutouts/219-prod_1778403515.png",
-      "cutoutMethod": "birefnet-general-lite-clean",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 354682,
-        "partialPixels": 284473,
-        "opaquePixels": 845,
-        "coverage": 0.4458
-      }
+      "filename": "219-prod_1778403515.jpg"
     },
     {
       "categoryId": 13,
@@ -313,17 +153,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1778403435.jpg",
       "name": "غسالة صحون 6102AS",
       "original": "/libronic-catalog/originals/218-prod_1778403435.jpg",
-      "filename": "218-prod_1778403435.jpg",
-      "cutout": "/libronic-catalog/cutouts/218-prod_1778403435.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 332113,
-        "partialPixels": 6824,
-        "opaquePixels": 301063,
-        "coverage": 0.4811
-      }
+      "filename": "218-prod_1778403435.jpg"
     },
     {
       "categoryId": 13,
@@ -332,17 +162,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1778403053.jpg",
       "name": "ست البيت 9215",
       "original": "/libronic-catalog/originals/217-prod_1778403053.jpg",
-      "filename": "217-prod_1778403053.jpg",
-      "cutout": "/libronic-catalog/cutouts/217-prod_1778403053.png",
-      "cutoutMethod": "isnet-general-use-clean",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 458976,
-        "partialPixels": 180170,
-        "opaquePixels": 854,
-        "coverage": 0.2828
-      }
+      "filename": "217-prod_1778403053.jpg"
     },
     {
       "categoryId": 13,
@@ -351,17 +171,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1778402916.jpg",
       "name": "كابسة 5009",
       "original": "/libronic-catalog/originals/216-prod_1778402916.jpg",
-      "filename": "216-prod_1778402916.jpg",
-      "cutout": "/libronic-catalog/cutouts/216-prod_1778402916.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 432969,
-        "partialPixels": 7528,
-        "opaquePixels": 199503,
-        "coverage": 0.3235
-      }
+      "filename": "216-prod_1778402916.jpg"
     },
     {
       "categoryId": 13,
@@ -370,17 +180,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1778402821.jpg",
       "name": "كابسة 5013",
       "original": "/libronic-catalog/originals/215-prod_1778402821.jpg",
-      "filename": "215-prod_1778402821.jpg",
-      "cutout": "/libronic-catalog/cutouts/215-prod_1778402821.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 395919,
-        "partialPixels": 11024,
-        "opaquePixels": 233057,
-        "coverage": 0.3814
-      }
+      "filename": "215-prod_1778402821.jpg"
     },
     {
       "categoryId": 14,
@@ -389,17 +189,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1778398206.jpg",
       "name": "طباخ منظدي 004QS",
       "original": "/libronic-catalog/originals/214-prod_1778398206.jpg",
-      "filename": "214-prod_1778398206.jpg",
-      "cutout": "/libronic-catalog/cutouts/214-prod_1778398206.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 206921,
-        "partialPixels": 11627,
-        "opaquePixels": 421452,
-        "coverage": 0.6767
-      }
+      "filename": "214-prod_1778398206.jpg"
     },
     {
       "categoryId": 17,
@@ -408,17 +198,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1778308446.jpg",
       "name": "مروحة سقفية 623",
       "original": "/libronic-catalog/originals/213-prod_1778308446.jpg",
-      "filename": "213-prod_1778308446.jpg",
-      "cutout": "/libronic-catalog/cutouts/213-prod_1778308446.png",
-      "cutoutMethod": "isnet-general-use-clean",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 486864,
-        "partialPixels": 153135,
-        "opaquePixels": 1,
-        "coverage": 0.2393
-      }
+      "filename": "213-prod_1778308446.jpg"
     },
     {
       "categoryId": 17,
@@ -427,17 +207,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1778308349.jpg",
       "name": "مروحة سقفية 626",
       "original": "/libronic-catalog/originals/212-prod_1778308349.jpg",
-      "filename": "212-prod_1778308349.jpg",
-      "cutout": "/libronic-catalog/cutouts/212-prod_1778308349.png",
-      "cutoutMethod": "birefnet-general-lite-clean",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 584654,
-        "partialPixels": 53633,
-        "opaquePixels": 1713,
-        "coverage": 0.0865
-      }
+      "filename": "212-prod_1778308349.jpg"
     },
     {
       "categoryId": 17,
@@ -446,17 +216,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1778398486.jpg",
       "name": "مبردة دكت 100",
       "original": "/libronic-catalog/originals/211-prod_1778398486.jpg",
-      "filename": "211-prod_1778398486.jpg",
-      "cutout": "/libronic-catalog/cutouts/211-prod_1778398486.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 441417,
-        "partialPixels": 8267,
-        "opaquePixels": 190316,
-        "coverage": 0.3103
-      }
+      "filename": "211-prod_1778398486.jpg"
     },
     {
       "categoryId": 17,
@@ -465,17 +225,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1778398541.jpg",
       "name": "مبردة دكت 80",
       "original": "/libronic-catalog/originals/210-prod_1778398541.jpg",
-      "filename": "210-prod_1778398541.jpg",
-      "cutout": "/libronic-catalog/cutouts/210-prod_1778398541.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 444104,
-        "partialPixels": 7393,
-        "opaquePixels": 188503,
-        "coverage": 0.3061
-      }
+      "filename": "210-prod_1778398541.jpg"
     },
     {
       "categoryId": 17,
@@ -484,17 +234,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1777293368.jpg",
       "name": "مبردة دكت 60",
       "original": "/libronic-catalog/originals/209-prod_1777293368.jpg",
-      "filename": "209-prod_1777293368.jpg",
-      "cutout": "/libronic-catalog/cutouts/209-prod_1777293368.png",
-      "cutoutMethod": "isnet-general-use-clean",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 1066,
-        "transparentPixels": 594365,
-        "partialPixels": 257764,
-        "opaquePixels": 671,
-        "coverage": 0.303
-      }
+      "filename": "209-prod_1777293368.jpg"
     },
     {
       "categoryId": 17,
@@ -503,17 +243,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1777293690.jpg",
       "name": "مبردة كونفيرا 60MA",
       "original": "/libronic-catalog/originals/208-prod_1777293690.jpg",
-      "filename": "208-prod_1777293690.jpg",
-      "cutout": "/libronic-catalog/cutouts/208-prod_1777293690.png",
-      "cutoutMethod": "isnet-general-use-clean",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 875,
-        "transparentPixels": 554509,
-        "partialPixels": 145425,
-        "opaquePixels": 66,
-        "coverage": 0.2078
-      }
+      "filename": "208-prod_1777293690.jpg"
     },
     {
       "categoryId": 13,
@@ -522,17 +252,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1777293943.jpg",
       "name": "غسالة طفل حوضين 1688",
       "original": "/libronic-catalog/originals/207-prod_1777293943.jpg",
-      "filename": "207-prod_1777293943.jpg",
-      "cutout": "/libronic-catalog/cutouts/207-prod_1777293943.png",
-      "cutoutMethod": "isnet-general-use-clean",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 878,
-        "transparentPixels": 419474,
-        "partialPixels": 282537,
-        "opaquePixels": 389,
-        "coverage": 0.4028
-      }
+      "filename": "207-prod_1777293943.jpg"
     },
     {
       "categoryId": 14,
@@ -541,17 +261,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1777301461.jpg",
       "name": "طباخ صالون 4 مشاعل 600G01",
       "original": "/libronic-catalog/originals/206-prod_1777301461.jpg",
-      "filename": "206-prod_1777301461.jpg",
-      "cutout": "/libronic-catalog/cutouts/206-prod_1777301461.png",
-      "cutoutMethod": "birefnet-general-lite-clean",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 893,
-        "transparentPixels": 555915,
-        "partialPixels": 156429,
-        "opaquePixels": 2056,
-        "coverage": 0.2218
-      }
+      "filename": "206-prod_1777301461.jpg"
     },
     {
       "categoryId": 14,
@@ -560,17 +270,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1777301668.jpg",
       "name": "طباخ صالون 4 مشاعل 500G01",
       "original": "/libronic-catalog/originals/205-prod_1777301668.jpg",
-      "filename": "205-prod_1777301668.jpg",
-      "cutout": "/libronic-catalog/cutouts/205-prod_1777301668.png",
-      "cutoutMethod": "isnet-general-use-clean",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 888,
-        "transparentPixels": 555339,
-        "partialPixels": 154699,
-        "opaquePixels": 362,
-        "coverage": 0.2183
-      }
+      "filename": "205-prod_1777301668.jpg"
     },
     {
       "categoryId": 14,
@@ -579,17 +279,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1777301832.jpg",
       "name": "طباخ صالون 4 مشاعل 600G02",
       "original": "/libronic-catalog/originals/204-prod_1777301832.jpg",
-      "filename": "204-prod_1777301832.jpg",
-      "cutout": "/libronic-catalog/cutouts/204-prod_1777301832.png",
-      "cutoutMethod": "isnet-general-use-clean",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 876,
-        "transparentPixels": 555292,
-        "partialPixels": 145086,
-        "opaquePixels": 422,
-        "coverage": 0.2076
-      }
+      "filename": "204-prod_1777301832.jpg"
     },
     {
       "categoryId": 13,
@@ -598,17 +288,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1777301999.jpg",
       "name": "غلاية 615",
       "original": "/libronic-catalog/originals/203-prod_1777301999.jpg",
-      "filename": "203-prod_1777301999.jpg",
-      "cutout": "/libronic-catalog/cutouts/203-prod_1777301999.png",
-      "cutoutMethod": "isnet-general-use-clean",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 458849,
-        "partialPixels": 180348,
-        "opaquePixels": 803,
-        "coverage": 0.283
-      }
+      "filename": "203-prod_1777301999.jpg"
     },
     {
       "categoryId": 13,
@@ -617,17 +297,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1777302229.jpg",
       "name": "خبازة كريب 504",
       "original": "/libronic-catalog/originals/202-prod_1777302229.jpg",
-      "filename": "202-prod_1777302229.jpg",
-      "cutout": "/libronic-catalog/cutouts/202-prod_1777302229.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 286184,
-        "partialPixels": 30781,
-        "opaquePixels": 323035,
-        "coverage": 0.5528
-      }
+      "filename": "202-prod_1777302229.jpg"
     },
     {
       "categoryId": 13,
@@ -636,17 +306,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1777302606.jpg",
       "name": "خبازة كريب 503",
       "original": "/libronic-catalog/originals/201-prod_1777302606.jpg",
-      "filename": "201-prod_1777302606.jpg",
-      "cutout": "/libronic-catalog/cutouts/201-prod_1777302606.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 372499,
-        "partialPixels": 34462,
-        "opaquePixels": 233039,
-        "coverage": 0.418
-      }
+      "filename": "201-prod_1777302606.jpg"
     },
     {
       "categoryId": 13,
@@ -655,17 +315,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1777302916.jpg",
       "name": "خبازة كريب 502",
       "original": "/libronic-catalog/originals/200-prod_1777302916.jpg",
-      "filename": "200-prod_1777302916.jpg",
-      "cutout": "/libronic-catalog/cutouts/200-prod_1777302916.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 350975,
-        "partialPixels": 28758,
-        "opaquePixels": 260267,
-        "coverage": 0.4516
-      }
+      "filename": "200-prod_1777302916.jpg"
     },
     {
       "categoryId": 13,
@@ -674,17 +324,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1777303486.jpg",
       "name": "براد ماء 906",
       "original": "/libronic-catalog/originals/199-prod_1777303486.jpg",
-      "filename": "199-prod_1777303486.jpg",
-      "cutout": "/libronic-catalog/cutouts/199-prod_1777303486.png",
-      "cutoutMethod": "isnet-general-use-clean",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 932,
-        "transparentPixels": 610227,
-        "partialPixels": 135173,
-        "opaquePixels": 200,
-        "coverage": 0.1816
-      }
+      "filename": "199-prod_1777303486.jpg"
     },
     {
       "categoryId": 13,
@@ -693,17 +333,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1777303625.jpg",
       "name": "براد ماء 242",
       "original": "/libronic-catalog/originals/198-prod_1777303625.jpg",
-      "filename": "198-prod_1777303625.jpg",
-      "cutout": "/libronic-catalog/cutouts/198-prod_1777303625.png",
-      "cutoutMethod": "isnet-general-use-clean",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 858,
-        "transparentPixels": 496861,
-        "partialPixels": 189115,
-        "opaquePixels": 424,
-        "coverage": 0.2761
-      }
+      "filename": "198-prod_1777303625.jpg"
     },
     {
       "categoryId": 13,
@@ -712,17 +342,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1777303766.jpg",
       "name": "براد ماء 903",
       "original": "/libronic-catalog/originals/197-prod_1777303766.jpg",
-      "filename": "197-prod_1777303766.jpg",
-      "cutout": "/libronic-catalog/cutouts/197-prod_1777303766.png",
-      "cutoutMethod": "isnet-general-use-clean",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 878,
-        "transparentPixels": 545100,
-        "partialPixels": 156837,
-        "opaquePixels": 463,
-        "coverage": 0.2239
-      }
+      "filename": "197-prod_1777303766.jpg"
     },
     {
       "categoryId": 13,
@@ -731,17 +351,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1777303975.jpg",
       "name": "براد 108",
       "original": "/libronic-catalog/originals/196-prod_1777303975.jpg",
-      "filename": "196-prod_1777303975.jpg",
-      "cutout": "/libronic-catalog/cutouts/196-prod_1777303975.png",
-      "cutoutMethod": "isnet-general-use-clean",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 944,
-        "transparentPixels": 588582,
-        "partialPixels": 166142,
-        "opaquePixels": 476,
-        "coverage": 0.2206
-      }
+      "filename": "196-prod_1777303975.jpg"
     },
     {
       "categoryId": 13,
@@ -750,17 +360,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1777312457.jpg",
       "name": "براد ماء 738",
       "original": "/libronic-catalog/originals/195-prod_1777312457.jpg",
-      "filename": "195-prod_1777312457.jpg",
-      "cutout": "/libronic-catalog/cutouts/195-prod_1777312457.png",
-      "cutoutMethod": "isnet-general-use-clean",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 1200,
-        "transparentPixels": 543966,
-        "partialPixels": 415014,
-        "opaquePixels": 1020,
-        "coverage": 0.4334
-      }
+      "filename": "195-prod_1777312457.jpg"
     },
     {
       "categoryId": 13,
@@ -769,17 +369,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1778007579.jpg",
       "name": "براد ماء منضدي 906",
       "original": "/libronic-catalog/originals/194-prod_1778007579.jpg",
-      "filename": "194-prod_1778007579.jpg",
-      "cutout": "/libronic-catalog/cutouts/194-prod_1778007579.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 295463,
-        "partialPixels": 30547,
-        "opaquePixels": 313990,
-        "coverage": 0.5383
-      }
+      "filename": "194-prod_1778007579.jpg"
     },
     {
       "categoryId": 13,
@@ -788,17 +378,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1777312723.jpg",
       "name": "قطاعة خضار 2386",
       "original": "/libronic-catalog/originals/193-prod_1777312723.jpg",
-      "filename": "193-prod_1777312723.jpg",
-      "cutout": "/libronic-catalog/cutouts/193-prod_1777312723.png",
-      "cutoutMethod": "isnet-general-use-clean",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 898,
-        "transparentPixels": 396865,
-        "partialPixels": 321127,
-        "opaquePixels": 408,
-        "coverage": 0.4476
-      }
+      "filename": "193-prod_1777312723.jpg"
     },
     {
       "categoryId": 13,
@@ -807,17 +387,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1777312940.jpg",
       "name": "معصارة 339",
       "original": "/libronic-catalog/originals/192-prod_1777312940.jpg",
-      "filename": "192-prod_1777312940.jpg",
-      "cutout": "/libronic-catalog/cutouts/192-prod_1777312940.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 999,
-        "transparentPixels": 402767,
-        "partialPixels": 39792,
-        "opaquePixels": 356641,
-        "coverage": 0.496
-      }
+      "filename": "192-prod_1777312940.jpg"
     },
     {
       "categoryId": 13,
@@ -826,17 +396,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1777354741.jpg",
       "name": "معصارة 338",
       "original": "/libronic-catalog/originals/191-prod_1777354741.jpg",
-      "filename": "191-prod_1777354741.jpg",
-      "cutout": "/libronic-catalog/cutouts/191-prod_1777354741.png",
-      "cutoutMethod": "isnet-general-use-clean",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 881,
-        "transparentPixels": 526250,
-        "partialPixels": 178500,
-        "opaquePixels": 50,
-        "coverage": 0.2533
-      }
+      "filename": "191-prod_1777354741.jpg"
     },
     {
       "categoryId": 13,
@@ -845,17 +405,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1777354853.jpg",
       "name": "معصارة 336",
       "original": "/libronic-catalog/originals/190-prod_1777354853.jpg",
-      "filename": "190-prod_1777354853.jpg",
-      "cutout": "/libronic-catalog/cutouts/190-prod_1777354853.png",
-      "cutoutMethod": "isnet-general-use-clean",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 875,
-        "transparentPixels": 488080,
-        "partialPixels": 211691,
-        "opaquePixels": 229,
-        "coverage": 0.3027
-      }
+      "filename": "190-prod_1777354853.jpg"
     },
     {
       "categoryId": 13,
@@ -864,17 +414,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1777354968.jpg",
       "name": "معصارة CJ02",
       "original": "/libronic-catalog/originals/189-prod_1777354968.jpg",
-      "filename": "189-prod_1777354968.jpg",
-      "cutout": "/libronic-catalog/cutouts/189-prod_1777354968.png",
-      "cutoutMethod": "isnet-general-use-clean",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 876,
-        "transparentPixels": 563222,
-        "partialPixels": 136699,
-        "opaquePixels": 879,
-        "coverage": 0.1963
-      }
+      "filename": "189-prod_1777354968.jpg"
     },
     {
       "categoryId": 13,
@@ -883,17 +423,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1777355081.jpg",
       "name": "معصارة",
       "original": "/libronic-catalog/originals/188-prod_1777355081.jpg",
-      "filename": "188-prod_1777355081.jpg",
-      "cutout": "/libronic-catalog/cutouts/188-prod_1777355081.png",
-      "cutoutMethod": "isnet-general-use-clean",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 999,
-        "transparentPixels": 669735,
-        "partialPixels": 128712,
-        "opaquePixels": 753,
-        "coverage": 0.162
-      }
+      "filename": "188-prod_1777355081.jpg"
     },
     {
       "categoryId": 13,
@@ -902,17 +432,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1777355217.jpg",
       "name": "محضرة 024",
       "original": "/libronic-catalog/originals/187-prod_1777355217.jpg",
-      "filename": "187-prod_1777355217.jpg",
-      "cutout": "/libronic-catalog/cutouts/187-prod_1777355217.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 870,
-        "transparentPixels": 331339,
-        "partialPixels": 39210,
-        "opaquePixels": 325451,
-        "coverage": 0.5239
-      }
+      "filename": "187-prod_1777355217.jpg"
     },
     {
       "categoryId": 13,
@@ -921,17 +441,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1777365051.jpg",
       "name": "محضرة 54",
       "original": "/libronic-catalog/originals/186-prod_1777365051.jpg",
-      "filename": "186-prod_1777365051.jpg",
-      "cutout": "/libronic-catalog/cutouts/186-prod_1777365051.png",
-      "cutoutMethod": "isnet-general-use-clean",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 875,
-        "transparentPixels": 343973,
-        "partialPixels": 355695,
-        "opaquePixels": 332,
-        "coverage": 0.5086
-      }
+      "filename": "186-prod_1777365051.jpg"
     },
     {
       "categoryId": 13,
@@ -940,17 +450,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1777365316.jpg",
       "name": "محضرة 017",
       "original": "/libronic-catalog/originals/185-prod_1777365316.jpg",
-      "filename": "185-prod_1777365316.jpg",
-      "cutout": "/libronic-catalog/cutouts/185-prod_1777365316.png",
-      "cutoutMethod": "isnet-general-use-clean",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 871,
-        "transparentPixels": 531308,
-        "partialPixels": 165169,
-        "opaquePixels": 323,
-        "coverage": 0.2375
-      }
+      "filename": "185-prod_1777365316.jpg"
     },
     {
       "categoryId": 13,
@@ -959,17 +459,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776835799.jpg",
       "name": "محضرة 46",
       "original": "/libronic-catalog/originals/184-prod_1776835799.jpg",
-      "filename": "184-prod_1776835799.jpg",
-      "cutout": "/libronic-catalog/cutouts/184-prod_1776835799.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 399807,
-        "partialPixels": 12471,
-        "opaquePixels": 227722,
-        "coverage": 0.3753
-      }
+      "filename": "184-prod_1776835799.jpg"
     },
     {
       "categoryId": 13,
@@ -978,17 +468,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776835683.jpg",
       "name": "غسالة ملابس 13 كيلو 1008",
       "original": "/libronic-catalog/originals/183-prod_1776835683.jpg",
-      "filename": "183-prod_1776835683.jpg",
-      "cutout": "/libronic-catalog/cutouts/183-prod_1776835683.png",
-      "cutoutMethod": "birefnet-general-lite-clean",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 367180,
-        "partialPixels": 255668,
-        "opaquePixels": 17152,
-        "coverage": 0.4263
-      }
+      "filename": "183-prod_1776835683.jpg"
     },
     {
       "categoryId": 13,
@@ -997,17 +477,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776834986.jpg",
       "name": "غسالة صحون لمس 6102",
       "original": "/libronic-catalog/originals/182-prod_1776834986.jpg",
-      "filename": "182-prod_1776834986.jpg",
-      "cutout": "/libronic-catalog/cutouts/182-prod_1776834986.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 332113,
-        "partialPixels": 6824,
-        "opaquePixels": 301063,
-        "coverage": 0.4811
-      }
+      "filename": "182-prod_1776834986.jpg"
     },
     {
       "categoryId": 13,
@@ -1016,17 +486,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776834868.jpg",
       "name": "غسالة صحون جنل 6101",
       "original": "/libronic-catalog/originals/181-prod_1776834868.jpg",
-      "filename": "181-prod_1776834868.jpg",
-      "cutout": "/libronic-catalog/cutouts/181-prod_1776834868.png",
-      "cutoutMethod": "birefnet-general-lite-clean",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 354682,
-        "partialPixels": 284473,
-        "opaquePixels": 845,
-        "coverage": 0.4458
-      }
+      "filename": "181-prod_1776834868.jpg"
     },
     {
       "categoryId": 13,
@@ -1035,17 +495,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776834768.jpg",
       "name": "ميزان 2003",
       "original": "/libronic-catalog/originals/180-prod_1776834768.jpg",
-      "filename": "180-prod_1776834768.jpg",
-      "cutout": "/libronic-catalog/cutouts/180-prod_1776834768.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 540412,
-        "partialPixels": 22432,
-        "opaquePixels": 77156,
-        "coverage": 0.1556
-      }
+      "filename": "180-prod_1776834768.jpg"
     },
     {
       "categoryId": 13,
@@ -1054,17 +504,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776834727.jpg",
       "name": "ميزان 2026",
       "original": "/libronic-catalog/originals/179-prod_1776834727.jpg",
-      "filename": "179-prod_1776834727.jpg",
-      "cutout": "/libronic-catalog/cutouts/179-prod_1776834727.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 423926,
-        "partialPixels": 5988,
-        "opaquePixels": 210086,
-        "coverage": 0.3376
-      }
+      "filename": "179-prod_1776834727.jpg"
     },
     {
       "categoryId": 13,
@@ -1073,17 +513,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776834687.jpg",
       "name": "ميزان 803",
       "original": "/libronic-catalog/originals/178-prod_1776834687.jpg",
-      "filename": "178-prod_1776834687.jpg",
-      "cutout": "/libronic-catalog/cutouts/178-prod_1776834687.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 425798,
-        "partialPixels": 5898,
-        "opaquePixels": 208304,
-        "coverage": 0.3347
-      }
+      "filename": "178-prod_1776834687.jpg"
     },
     {
       "categoryId": 13,
@@ -1092,17 +522,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776833730.jpg",
       "name": "فارة غسل 1650",
       "original": "/libronic-catalog/originals/177-prod_1776833730.jpg",
-      "filename": "177-prod_1776833730.jpg",
-      "cutout": "/libronic-catalog/cutouts/177-prod_1776833730.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 400506,
-        "partialPixels": 6359,
-        "opaquePixels": 233135,
-        "coverage": 0.3742
-      }
+      "filename": "177-prod_1776833730.jpg"
     },
     {
       "categoryId": 13,
@@ -1111,17 +531,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776833683.jpg",
       "name": "ماطور ماء 45W",
       "original": "/libronic-catalog/originals/176-prod_1776833683.jpg",
-      "filename": "176-prod_1776833683.jpg",
-      "cutout": "/libronic-catalog/cutouts/176-prod_1776833683.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 443734,
-        "partialPixels": 10107,
-        "opaquePixels": 186159,
-        "coverage": 0.3067
-      }
+      "filename": "176-prod_1776833683.jpg"
     },
     {
       "categoryId": 13,
@@ -1130,17 +540,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776833614.jpg",
       "name": "ماطور ماء 75W",
       "original": "/libronic-catalog/originals/175-prod_1776833614.jpg",
-      "filename": "175-prod_1776833614.jpg",
-      "cutout": "/libronic-catalog/cutouts/175-prod_1776833614.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 351936,
-        "partialPixels": 7315,
-        "opaquePixels": 280749,
-        "coverage": 0.4501
-      }
+      "filename": "175-prod_1776833614.jpg"
     },
     {
       "categoryId": 13,
@@ -1149,17 +549,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776833563.jpg",
       "name": "ماطور ماء 55W",
       "original": "/libronic-catalog/originals/174-prod_1776833563.jpg",
-      "filename": "174-prod_1776833563.jpg",
-      "cutout": "/libronic-catalog/cutouts/174-prod_1776833563.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 311425,
-        "partialPixels": 7956,
-        "opaquePixels": 320619,
-        "coverage": 0.5134
-      }
+      "filename": "174-prod_1776833563.jpg"
     },
     {
       "categoryId": 17,
@@ -1168,17 +558,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776767498.jpg",
       "name": "صوبة زيتية 7 ريشة",
       "original": "/libronic-catalog/originals/173-prod_1776767498.jpg",
-      "filename": "173-prod_1776767498.jpg",
-      "cutout": "/libronic-catalog/cutouts/173-prod_1776767498.png",
-      "cutoutMethod": "birefnet-general-lite-clean",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 473760,
-        "partialPixels": 165365,
-        "opaquePixels": 875,
-        "coverage": 0.2597
-      }
+      "filename": "173-prod_1776767498.jpg"
     },
     {
       "categoryId": 17,
@@ -1187,17 +567,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776767441.jpg",
       "name": "صوبة زيتية 13 ريشة",
       "original": "/libronic-catalog/originals/172-prod_1776767441.jpg",
-      "filename": "172-prod_1776767441.jpg",
-      "cutout": "/libronic-catalog/cutouts/172-prod_1776767441.png",
-      "cutoutMethod": "birefnet-general-lite-clean",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 410077,
-        "partialPixels": 228198,
-        "opaquePixels": 1725,
-        "coverage": 0.3593
-      }
+      "filename": "172-prod_1776767441.jpg"
     },
     {
       "categoryId": 17,
@@ -1206,17 +576,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776767340.jpg",
       "name": "صوبة 2200",
       "original": "/libronic-catalog/originals/171-prod_1776767340.jpg",
-      "filename": "171-prod_1776767340.jpg",
-      "cutout": "/libronic-catalog/cutouts/171-prod_1776767340.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 483002,
-        "partialPixels": 9184,
-        "opaquePixels": 147814,
-        "coverage": 0.2453
-      }
+      "filename": "171-prod_1776767340.jpg"
     },
     {
       "categoryId": 17,
@@ -1225,17 +585,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776767298.jpg",
       "name": "صوبة 2306",
       "original": "/libronic-catalog/originals/170-prod_1776767298.jpg",
-      "filename": "170-prod_1776767298.jpg",
-      "cutout": "/libronic-catalog/cutouts/170-prod_1776767298.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 405763,
-        "partialPixels": 8332,
-        "opaquePixels": 225905,
-        "coverage": 0.366
-      }
+      "filename": "170-prod_1776767298.jpg"
     },
     {
       "categoryId": 17,
@@ -1244,17 +594,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776767262.jpg",
       "name": "صوبة 1300",
       "original": "/libronic-catalog/originals/169-prod_1776767262.jpg",
-      "filename": "169-prod_1776767262.jpg",
-      "cutout": "/libronic-catalog/cutouts/169-prod_1776767262.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 519627,
-        "partialPixels": 19964,
-        "opaquePixels": 100409,
-        "coverage": 0.1881
-      }
+      "filename": "169-prod_1776767262.jpg"
     },
     {
       "categoryId": 17,
@@ -1263,17 +603,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776767198.jpg",
       "name": "صوبة 2301",
       "original": "/libronic-catalog/originals/168-prod_1776767198.jpg",
-      "filename": "168-prod_1776767198.jpg",
-      "cutout": "/libronic-catalog/cutouts/168-prod_1776767198.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 255013,
-        "partialPixels": 7716,
-        "opaquePixels": 377271,
-        "coverage": 0.6015
-      }
+      "filename": "168-prod_1776767198.jpg"
     },
     {
       "categoryId": 17,
@@ -1282,17 +612,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776767140.jpg",
       "name": "صوبة 1307A",
       "original": "/libronic-catalog/originals/167-prod_1776767140.jpg",
-      "filename": "167-prod_1776767140.jpg",
-      "cutout": "/libronic-catalog/cutouts/167-prod_1776767140.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 351951,
-        "partialPixels": 11017,
-        "opaquePixels": 277032,
-        "coverage": 0.4501
-      }
+      "filename": "167-prod_1776767140.jpg"
     },
     {
       "categoryId": 14,
@@ -1301,17 +621,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776766961.jpg",
       "name": "كابسة صاج 5009",
       "original": "/libronic-catalog/originals/166-prod_1776766961.jpg",
-      "filename": "166-prod_1776766961.jpg",
-      "cutout": "/libronic-catalog/cutouts/166-prod_1776766961.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 433134,
-        "partialPixels": 7443,
-        "opaquePixels": 199423,
-        "coverage": 0.3232
-      }
+      "filename": "166-prod_1776766961.jpg"
     },
     {
       "categoryId": 14,
@@ -1320,17 +630,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776766909.jpg",
       "name": "كابسة صاج 5013",
       "original": "/libronic-catalog/originals/165-prod_1776766909.jpg",
-      "filename": "165-prod_1776766909.jpg",
-      "cutout": "/libronic-catalog/cutouts/165-prod_1776766909.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 396181,
-        "partialPixels": 11106,
-        "opaquePixels": 232713,
-        "coverage": 0.381
-      }
+      "filename": "165-prod_1776766909.jpg"
     },
     {
       "categoryId": 14,
@@ -1339,17 +639,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776762286.jpg",
       "name": "كابسة صاج 5016",
       "original": "/libronic-catalog/originals/164-prod_1776762286.jpg",
-      "filename": "164-prod_1776762286.jpg",
-      "cutout": "/libronic-catalog/cutouts/164-prod_1776762286.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 339205,
-        "partialPixels": 13673,
-        "opaquePixels": 287122,
-        "coverage": 0.47
-      }
+      "filename": "164-prod_1776762286.jpg"
     },
     {
       "categoryId": 14,
@@ -1358,17 +648,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776762199.jpg",
       "name": "كابسة صاج 8004",
       "original": "/libronic-catalog/originals/163-prod_1776762199.jpg",
-      "filename": "163-prod_1776762199.jpg",
-      "cutout": "/libronic-catalog/cutouts/163-prod_1776762199.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 393987,
-        "partialPixels": 13693,
-        "opaquePixels": 232320,
-        "coverage": 0.3844
-      }
+      "filename": "163-prod_1776762199.jpg"
     },
     {
       "categoryId": 14,
@@ -1377,17 +657,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776762140.jpg",
       "name": "كابسة صاج 5003B",
       "original": "/libronic-catalog/originals/162-prod_1776762140.jpg",
-      "filename": "162-prod_1776762140.jpg",
-      "cutout": "/libronic-catalog/cutouts/162-prod_1776762140.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 282818,
-        "partialPixels": 14580,
-        "opaquePixels": 342602,
-        "coverage": 0.5581
-      }
+      "filename": "162-prod_1776762140.jpg"
     },
     {
       "categoryId": 13,
@@ -1396,17 +666,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776761985.jpg",
       "name": "مكنسة 902",
       "original": "/libronic-catalog/originals/161-prod_1776761985.jpg",
-      "filename": "161-prod_1776761985.jpg",
-      "cutout": "/libronic-catalog/cutouts/161-prod_1776761985.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 505153,
-        "partialPixels": 22275,
-        "opaquePixels": 112572,
-        "coverage": 0.2107
-      }
+      "filename": "161-prod_1776761985.jpg"
     },
     {
       "categoryId": 13,
@@ -1415,17 +675,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776761622.jpg",
       "name": "مكنسة 826",
       "original": "/libronic-catalog/originals/160-prod_1776761622.jpg",
-      "filename": "160-prod_1776761622.jpg",
-      "cutout": "/libronic-catalog/cutouts/160-prod_1776761622.png",
-      "cutoutMethod": "birefnet-general-lite-clean",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 584125,
-        "partialPixels": 53109,
-        "opaquePixels": 2766,
-        "coverage": 0.0873
-      }
+      "filename": "160-prod_1776761622.jpg"
     },
     {
       "categoryId": 13,
@@ -1434,17 +684,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776761579.jpg",
       "name": "مكنسة 831",
       "original": "/libronic-catalog/originals/159-prod_1776761579.jpg",
-      "filename": "159-prod_1776761579.jpg",
-      "cutout": "/libronic-catalog/cutouts/159-prod_1776761579.png",
-      "cutoutMethod": "birefnet-general-lite-clean",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 576087,
-        "partialPixels": 60891,
-        "opaquePixels": 3022,
-        "coverage": 0.0999
-      }
+      "filename": "159-prod_1776761579.jpg"
     },
     {
       "categoryId": 13,
@@ -1453,17 +693,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776761499.jpg",
       "name": "مكنسة 829",
       "original": "/libronic-catalog/originals/158-prod_1776761499.jpg",
-      "filename": "158-prod_1776761499.jpg",
-      "cutout": "/libronic-catalog/cutouts/158-prod_1776761499.png",
-      "cutoutMethod": "birefnet-general-lite-clean",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 583030,
-        "partialPixels": 54093,
-        "opaquePixels": 2877,
-        "coverage": 0.089
-      }
+      "filename": "158-prod_1776761499.jpg"
     },
     {
       "categoryId": 13,
@@ -1472,17 +702,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776761417.jpg",
       "name": "مكنسة 35 لتر",
       "original": "/libronic-catalog/originals/157-prod_1776761417.jpg",
-      "filename": "157-prod_1776761417.jpg",
-      "cutout": "/libronic-catalog/cutouts/157-prod_1776761417.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 476615,
-        "partialPixels": 10900,
-        "opaquePixels": 152485,
-        "coverage": 0.2553
-      }
+      "filename": "157-prod_1776761417.jpg"
     },
     {
       "categoryId": 13,
@@ -1491,17 +711,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776761347.jpg",
       "name": "مكنسة 210-211-212",
       "original": "/libronic-catalog/originals/156-prod_1776761347.jpg",
-      "filename": "156-prod_1776761347.jpg",
-      "cutout": "/libronic-catalog/cutouts/156-prod_1776761347.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 442514,
-        "partialPixels": 17577,
-        "opaquePixels": 179909,
-        "coverage": 0.3086
-      }
+      "filename": "156-prod_1776761347.jpg"
     },
     {
       "categoryId": 13,
@@ -1510,17 +720,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776761256.jpg",
       "name": "مكنسة 35 لتر",
       "original": "/libronic-catalog/originals/155-prod_1776761256.jpg",
-      "filename": "155-prod_1776761256.jpg",
-      "cutout": "/libronic-catalog/cutouts/155-prod_1776761256.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 388193,
-        "partialPixels": 8947,
-        "opaquePixels": 242860,
-        "coverage": 0.3934
-      }
+      "filename": "155-prod_1776761256.jpg"
     },
     {
       "categoryId": 17,
@@ -1529,17 +729,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776758556.jpg",
       "name": "ساحبة 7115",
       "original": "/libronic-catalog/originals/154-prod_1776758556.jpg",
-      "filename": "154-prod_1776758556.jpg",
-      "cutout": "/libronic-catalog/cutouts/154-prod_1776758556.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 495713,
-        "partialPixels": 9617,
-        "opaquePixels": 134670,
-        "coverage": 0.2254
-      }
+      "filename": "154-prod_1776758556.jpg"
     },
     {
       "categoryId": 17,
@@ -1548,17 +738,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776758498.jpg",
       "name": "ساحبة",
       "original": "/libronic-catalog/originals/153-prod_1776758498.jpg",
-      "filename": "153-prod_1776758498.jpg",
-      "cutout": "/libronic-catalog/cutouts/153-prod_1776758498.png",
-      "cutoutMethod": "birefnet-general-lite-clean",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 326363,
-        "partialPixels": 307131,
-        "opaquePixels": 6506,
-        "coverage": 0.4901
-      }
+      "filename": "153-prod_1776758498.jpg"
     },
     {
       "categoryId": 17,
@@ -1567,17 +747,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776758411.jpg",
       "name": "قاطع هواء 200CM",
       "original": "/libronic-catalog/originals/152-prod_1776758411.jpg",
-      "filename": "152-prod_1776758411.jpg",
-      "cutout": "/libronic-catalog/cutouts/152-prod_1776758411.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 381915,
-        "partialPixels": 16635,
-        "opaquePixels": 241450,
-        "coverage": 0.4033
-      }
+      "filename": "152-prod_1776758411.jpg"
     },
     {
       "categoryId": 17,
@@ -1586,17 +756,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776758382.jpg",
       "name": "قاطع هواء 150CM",
       "original": "/libronic-catalog/originals/151-prod_1776758382.jpg",
-      "filename": "151-prod_1776758382.jpg",
-      "cutout": "/libronic-catalog/cutouts/151-prod_1776758382.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 382351,
-        "partialPixels": 16568,
-        "opaquePixels": 241081,
-        "coverage": 0.4026
-      }
+      "filename": "151-prod_1776758382.jpg"
     },
     {
       "categoryId": 17,
@@ -1605,17 +765,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776758240.jpg",
       "name": "قاطع هواء 120CM",
       "original": "/libronic-catalog/originals/150-prod_1776758240.jpg",
-      "filename": "150-prod_1776758240.jpg",
-      "cutout": "/libronic-catalog/cutouts/150-prod_1776758240.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 382354,
-        "partialPixels": 16500,
-        "opaquePixels": 241146,
-        "coverage": 0.4026
-      }
+      "filename": "150-prod_1776758240.jpg"
     },
     {
       "categoryId": 17,
@@ -1624,17 +774,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776757695.jpg",
       "name": "قاطع هواء 100CM",
       "original": "/libronic-catalog/originals/149-prod_1776757695.jpg",
-      "filename": "149-prod_1776757695.jpg",
-      "cutout": "/libronic-catalog/cutouts/149-prod_1776757695.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 382232,
-        "partialPixels": 16371,
-        "opaquePixels": 241397,
-        "coverage": 0.4028
-      }
+      "filename": "149-prod_1776757695.jpg"
     },
     {
       "categoryId": 17,
@@ -1643,17 +783,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776757669.jpg",
       "name": "قاطع هواء 90CM",
       "original": "/libronic-catalog/originals/148-prod_1776757669.jpg",
-      "filename": "148-prod_1776757669.jpg",
-      "cutout": "/libronic-catalog/cutouts/148-prod_1776757669.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 382247,
-        "partialPixels": 16396,
-        "opaquePixels": 241357,
-        "coverage": 0.4027
-      }
+      "filename": "148-prod_1776757669.jpg"
     },
     {
       "categoryId": 14,
@@ -1662,17 +792,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776757544.jpg",
       "name": "خلاط 767",
       "original": "/libronic-catalog/originals/147-prod_1776757544.jpg",
-      "filename": "147-prod_1776757544.jpg",
-      "cutout": "/libronic-catalog/cutouts/147-prod_1776757544.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 431429,
-        "partialPixels": 13031,
-        "opaquePixels": 195540,
-        "coverage": 0.3259
-      }
+      "filename": "147-prod_1776757544.jpg"
     },
     {
       "categoryId": 14,
@@ -1681,17 +801,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776757476.jpg",
       "name": "خلاط 901",
       "original": "/libronic-catalog/originals/146-prod_1776757476.jpg",
-      "filename": "146-prod_1776757476.jpg",
-      "cutout": "/libronic-catalog/cutouts/146-prod_1776757476.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 471315,
-        "partialPixels": 12653,
-        "opaquePixels": 156032,
-        "coverage": 0.2636
-      }
+      "filename": "146-prod_1776757476.jpg"
     },
     {
       "categoryId": 14,
@@ -1700,17 +810,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776757397.jpg",
       "name": "خلاط 1731",
       "original": "/libronic-catalog/originals/145-prod_1776757397.jpg",
-      "filename": "145-prod_1776757397.jpg",
-      "cutout": "/libronic-catalog/cutouts/145-prod_1776757397.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 541749,
-        "partialPixels": 13018,
-        "opaquePixels": 85233,
-        "coverage": 0.1535
-      }
+      "filename": "145-prod_1776757397.jpg"
     },
     {
       "categoryId": 13,
@@ -1719,17 +819,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776757300.jpg",
       "name": "شسوار 3000",
       "original": "/libronic-catalog/originals/144-prod_1776757300.jpg",
-      "filename": "144-prod_1776757300.jpg",
-      "cutout": "/libronic-catalog/cutouts/144-prod_1776757300.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 517407,
-        "partialPixels": 12304,
-        "opaquePixels": 110289,
-        "coverage": 0.1916
-      }
+      "filename": "144-prod_1776757300.jpg"
     },
     {
       "categoryId": 13,
@@ -1738,17 +828,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776757240.jpg",
       "name": "شسوار 510",
       "original": "/libronic-catalog/originals/143-prod_1776757240.jpg",
-      "filename": "143-prod_1776757240.jpg",
-      "cutout": "/libronic-catalog/cutouts/143-prod_1776757240.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 518563,
-        "partialPixels": 13511,
-        "opaquePixels": 107926,
-        "coverage": 0.1897
-      }
+      "filename": "143-prod_1776757240.jpg"
     },
     {
       "categoryId": 13,
@@ -1757,17 +837,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776757191.jpg",
       "name": "شسوار 508",
       "original": "/libronic-catalog/originals/142-prod_1776757191.jpg",
-      "filename": "142-prod_1776757191.jpg",
-      "cutout": "/libronic-catalog/cutouts/142-prod_1776757191.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 512791,
-        "partialPixels": 14063,
-        "opaquePixels": 113146,
-        "coverage": 0.1988
-      }
+      "filename": "142-prod_1776757191.jpg"
     },
     {
       "categoryId": 14,
@@ -1776,17 +846,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776677089.jpg",
       "name": "قلاية 8002X",
       "original": "/libronic-catalog/originals/141-prod_1776677089.jpg",
-      "filename": "141-prod_1776677089.jpg",
-      "cutout": "/libronic-catalog/cutouts/141-prod_1776677089.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 455420,
-        "partialPixels": 13191,
-        "opaquePixels": 171389,
-        "coverage": 0.2884
-      }
+      "filename": "141-prod_1776677089.jpg"
     },
     {
       "categoryId": 14,
@@ -1795,17 +855,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776677047.jpg",
       "name": "قلاية 65001",
       "original": "/libronic-catalog/originals/140-prod_1776677047.jpg",
-      "filename": "140-prod_1776677047.jpg",
-      "cutout": "/libronic-catalog/cutouts/140-prod_1776677047.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 401849,
-        "partialPixels": 8104,
-        "opaquePixels": 230047,
-        "coverage": 0.3721
-      }
+      "filename": "140-prod_1776677047.jpg"
     },
     {
       "categoryId": 14,
@@ -1814,17 +864,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776677006.jpg",
       "name": "قلاية 5004",
       "original": "/libronic-catalog/originals/139-prod_1776677006.jpg",
-      "filename": "139-prod_1776677006.jpg",
-      "cutout": "/libronic-catalog/cutouts/139-prod_1776677006.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 418669,
-        "partialPixels": 13106,
-        "opaquePixels": 208225,
-        "coverage": 0.3458
-      }
+      "filename": "139-prod_1776677006.jpg"
     },
     {
       "categoryId": 14,
@@ -1833,17 +873,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776676958.jpg",
       "name": "قلاية 8001",
       "original": "/libronic-catalog/originals/138-prod_1776676958.jpg",
-      "filename": "138-prod_1776676958.jpg",
-      "cutout": "/libronic-catalog/cutouts/138-prod_1776676958.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 361108,
-        "partialPixels": 6478,
-        "opaquePixels": 272414,
-        "coverage": 0.4358
-      }
+      "filename": "138-prod_1776676958.jpg"
     },
     {
       "categoryId": 14,
@@ -1852,17 +882,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776676908.jpg",
       "name": "قلاية 9002",
       "original": "/libronic-catalog/originals/137-prod_1776676908.jpg",
-      "filename": "137-prod_1776676908.jpg",
-      "cutout": "/libronic-catalog/cutouts/137-prod_1776676908.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 305756,
-        "partialPixels": 6833,
-        "opaquePixels": 327411,
-        "coverage": 0.5223
-      }
+      "filename": "137-prod_1776676908.jpg"
     },
     {
       "categoryId": 14,
@@ -1871,17 +891,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776676782.jpg",
       "name": "قلاية 8001TFT",
       "original": "/libronic-catalog/originals/135-prod_1776676782.jpg",
-      "filename": "135-prod_1776676782.jpg",
-      "cutout": "/libronic-catalog/cutouts/135-prod_1776676782.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 373072,
-        "partialPixels": 8064,
-        "opaquePixels": 258864,
-        "coverage": 0.4171
-      }
+      "filename": "135-prod_1776676782.jpg"
     },
     {
       "categoryId": 14,
@@ -1890,17 +900,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776676640.jpg",
       "name": "قلاية 8001",
       "original": "/libronic-catalog/originals/134-prod_1776676640.jpg",
-      "filename": "134-prod_1776676640.jpg",
-      "cutout": "/libronic-catalog/cutouts/134-prod_1776676640.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 333191,
-        "partialPixels": 8690,
-        "opaquePixels": 298119,
-        "coverage": 0.4794
-      }
+      "filename": "134-prod_1776676640.jpg"
     },
     {
       "categoryId": 14,
@@ -1909,17 +909,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776676582.jpg",
       "name": "قلاية 8008",
       "original": "/libronic-catalog/originals/133-prod_1776676582.jpg",
-      "filename": "133-prod_1776676582.jpg",
-      "cutout": "/libronic-catalog/cutouts/133-prod_1776676582.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 349903,
-        "partialPixels": 7457,
-        "opaquePixels": 282640,
-        "coverage": 0.4533
-      }
+      "filename": "133-prod_1776676582.jpg"
     },
     {
       "categoryId": 14,
@@ -1928,17 +918,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776676546.jpg",
       "name": "قلاية 5004",
       "original": "/libronic-catalog/originals/132-prod_1776676546.jpg",
-      "filename": "132-prod_1776676546.jpg",
-      "cutout": "/libronic-catalog/cutouts/132-prod_1776676546.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 338981,
-        "partialPixels": 7165,
-        "opaquePixels": 293854,
-        "coverage": 0.4703
-      }
+      "filename": "132-prod_1776676546.jpg"
     },
     {
       "categoryId": 14,
@@ -1947,17 +927,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776676472.jpg",
       "name": "قلاية 120",
       "original": "/libronic-catalog/originals/131-prod_1776676472.jpg",
-      "filename": "131-prod_1776676472.jpg",
-      "cutout": "/libronic-catalog/cutouts/131-prod_1776676472.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 298062,
-        "partialPixels": 8657,
-        "opaquePixels": 333281,
-        "coverage": 0.5343
-      }
+      "filename": "131-prod_1776676472.jpg"
     },
     {
       "categoryId": 14,
@@ -1966,17 +936,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776676355.jpg",
       "name": "قلاية 640",
       "original": "/libronic-catalog/originals/129-prod_1776676355.jpg",
-      "filename": "129-prod_1776676355.jpg",
-      "cutout": "/libronic-catalog/cutouts/129-prod_1776676355.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 268246,
-        "partialPixels": 8334,
-        "opaquePixels": 363420,
-        "coverage": 0.5809
-      }
+      "filename": "129-prod_1776676355.jpg"
     },
     {
       "categoryId": 13,
@@ -1985,17 +945,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776674039.jpg",
       "name": "اوتي 2083",
       "original": "/libronic-catalog/originals/128-prod_1776674039.jpg",
-      "filename": "128-prod_1776674039.jpg",
-      "cutout": "/libronic-catalog/cutouts/128-prod_1776674039.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 503979,
-        "partialPixels": 10220,
-        "opaquePixels": 125801,
-        "coverage": 0.2125
-      }
+      "filename": "128-prod_1776674039.jpg"
     },
     {
       "categoryId": 13,
@@ -2004,17 +954,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776673999.jpg",
       "name": "اوتي 2031",
       "original": "/libronic-catalog/originals/127-prod_1776673999.jpg",
-      "filename": "127-prod_1776673999.jpg",
-      "cutout": "/libronic-catalog/cutouts/127-prod_1776673999.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 477008,
-        "partialPixels": 10186,
-        "opaquePixels": 152806,
-        "coverage": 0.2547
-      }
+      "filename": "127-prod_1776673999.jpg"
     },
     {
       "categoryId": 13,
@@ -2023,17 +963,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776672696.jpg",
       "name": "اوتي 2053",
       "original": "/libronic-catalog/originals/126-prod_1776672696.jpg",
-      "filename": "126-prod_1776672696.jpg",
-      "cutout": "/libronic-catalog/cutouts/126-prod_1776672696.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 476323,
-        "partialPixels": 15163,
-        "opaquePixels": 148514,
-        "coverage": 0.2557
-      }
+      "filename": "126-prod_1776672696.jpg"
     },
     {
       "categoryId": 13,
@@ -2042,17 +972,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776672628.jpg",
       "name": "اوتي 2024",
       "original": "/libronic-catalog/originals/125-prod_1776672628.jpg",
-      "filename": "125-prod_1776672628.jpg",
-      "cutout": "/libronic-catalog/cutouts/125-prod_1776672628.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 535361,
-        "partialPixels": 26958,
-        "opaquePixels": 77681,
-        "coverage": 0.1635
-      }
+      "filename": "125-prod_1776672628.jpg"
     },
     {
       "categoryId": 13,
@@ -2061,17 +981,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776671500.jpg",
       "name": "اوتي 2026",
       "original": "/libronic-catalog/originals/124-prod_1776671500.jpg",
-      "filename": "124-prod_1776671500.jpg",
-      "cutout": "/libronic-catalog/cutouts/124-prod_1776671500.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 386218,
-        "partialPixels": 9283,
-        "opaquePixels": 244499,
-        "coverage": 0.3965
-      }
+      "filename": "124-prod_1776671500.jpg"
     },
     {
       "categoryId": 13,
@@ -2080,17 +990,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776671497.jpg",
       "name": "عجانة 209",
       "original": "/libronic-catalog/originals/123-prod_1776671497.jpg",
-      "filename": "123-prod_1776671497.jpg",
-      "cutout": "/libronic-catalog/cutouts/123-prod_1776671497.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 501762,
-        "partialPixels": 13864,
-        "opaquePixels": 124374,
-        "coverage": 0.216
-      }
+      "filename": "123-prod_1776671497.jpg"
     },
     {
       "categoryId": 13,
@@ -2099,17 +999,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776671457.jpg",
       "name": "عجانة 9213",
       "original": "/libronic-catalog/originals/122-prod_1776671457.jpg",
-      "filename": "122-prod_1776671457.jpg",
-      "cutout": "/libronic-catalog/cutouts/122-prod_1776671457.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 401048,
-        "partialPixels": 11829,
-        "opaquePixels": 227123,
-        "coverage": 0.3734
-      }
+      "filename": "122-prod_1776671457.jpg"
     },
     {
       "categoryId": 13,
@@ -2118,17 +1008,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776671431.jpg",
       "name": "اوتي 2025",
       "original": "/libronic-catalog/originals/121-prod_1776671431.jpg",
-      "filename": "121-prod_1776671431.jpg",
-      "cutout": "/libronic-catalog/cutouts/121-prod_1776671431.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 439229,
-        "partialPixels": 13491,
-        "opaquePixels": 187280,
-        "coverage": 0.3137
-      }
+      "filename": "121-prod_1776671431.jpg"
     },
     {
       "categoryId": 13,
@@ -2137,17 +1017,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776671423.jpg",
       "name": "عجانة 662",
       "original": "/libronic-catalog/originals/120-prod_1776671423.jpg",
-      "filename": "120-prod_1776671423.jpg",
-      "cutout": "/libronic-catalog/cutouts/120-prod_1776671423.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 262667,
-        "partialPixels": 10865,
-        "opaquePixels": 366468,
-        "coverage": 0.5896
-      }
+      "filename": "120-prod_1776671423.jpg"
     },
     {
       "categoryId": 13,
@@ -2156,17 +1026,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776671388.jpg",
       "name": "عجانة 636",
       "original": "/libronic-catalog/originals/119-prod_1776671388.jpg",
-      "filename": "119-prod_1776671388.jpg",
-      "cutout": "/libronic-catalog/cutouts/119-prod_1776671388.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 446411,
-        "partialPixels": 14090,
-        "opaquePixels": 179499,
-        "coverage": 0.3025
-      }
+      "filename": "119-prod_1776671388.jpg"
     },
     {
       "categoryId": 13,
@@ -2175,17 +1035,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776671384.jpg",
       "name": "اوتي 105",
       "original": "/libronic-catalog/originals/118-prod_1776671384.jpg",
-      "filename": "118-prod_1776671384.jpg",
-      "cutout": "/libronic-catalog/cutouts/118-prod_1776671384.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 486858,
-        "partialPixels": 7108,
-        "opaquePixels": 146034,
-        "coverage": 0.2393
-      }
+      "filename": "118-prod_1776671384.jpg"
     },
     {
       "categoryId": 13,
@@ -2194,17 +1044,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776671309.jpg",
       "name": "عجانة 9215",
       "original": "/libronic-catalog/originals/117-prod_1776671309.jpg",
-      "filename": "117-prod_1776671309.jpg",
-      "cutout": "/libronic-catalog/cutouts/117-prod_1776671309.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 446195,
-        "partialPixels": 16527,
-        "opaquePixels": 177278,
-        "coverage": 0.3028
-      }
+      "filename": "117-prod_1776671309.jpg"
     },
     {
       "categoryId": 13,
@@ -2213,17 +1053,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776671032.jpg",
       "name": "اوتي 178",
       "original": "/libronic-catalog/originals/115-prod_1776671032.jpg",
-      "filename": "115-prod_1776671032.jpg",
-      "cutout": "/libronic-catalog/cutouts/115-prod_1776671032.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 345756,
-        "partialPixels": 17925,
-        "opaquePixels": 276319,
-        "coverage": 0.4598
-      }
+      "filename": "115-prod_1776671032.jpg"
     },
     {
       "categoryId": 13,
@@ -2232,17 +1062,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776671010.jpg",
       "name": "عجانة 9213",
       "original": "/libronic-catalog/originals/114-prod_1776671010.jpg",
-      "filename": "114-prod_1776671010.jpg",
-      "cutout": "/libronic-catalog/cutouts/114-prod_1776671010.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 298528,
-        "partialPixels": 13333,
-        "opaquePixels": 328139,
-        "coverage": 0.5335
-      }
+      "filename": "114-prod_1776671010.jpg"
     },
     {
       "categoryId": 13,
@@ -2251,17 +1071,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776670591.jpg",
       "name": "اوتي 507",
       "original": "/libronic-catalog/originals/113-prod_1776670591.jpg",
-      "filename": "113-prod_1776670591.jpg",
-      "cutout": "/libronic-catalog/cutouts/113-prod_1776670591.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 484257,
-        "partialPixels": 13703,
-        "opaquePixels": 142040,
-        "coverage": 0.2433
-      }
+      "filename": "113-prod_1776670591.jpg"
     },
     {
       "categoryId": 13,
@@ -2270,17 +1080,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776670523.jpg",
       "name": "اوتي 268",
       "original": "/libronic-catalog/originals/112-prod_1776670523.jpg",
-      "filename": "112-prod_1776670523.jpg",
-      "cutout": "/libronic-catalog/cutouts/112-prod_1776670523.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 414083,
-        "partialPixels": 6392,
-        "opaquePixels": 219525,
-        "coverage": 0.353
-      }
+      "filename": "112-prod_1776670523.jpg"
     },
     {
       "categoryId": 13,
@@ -2289,17 +1089,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776669262.jpg",
       "name": "اوتي عامودي 1900",
       "original": "/libronic-catalog/originals/111-prod_1776669262.jpg",
-      "filename": "111-prod_1776669262.jpg",
-      "cutout": "/libronic-catalog/cutouts/111-prod_1776669262.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 527793,
-        "partialPixels": 13644,
-        "opaquePixels": 98563,
-        "coverage": 0.1753
-      }
+      "filename": "111-prod_1776669262.jpg"
     },
     {
       "categoryId": 13,
@@ -2308,17 +1098,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776669224.jpg",
       "name": "اوتي عامودي 1890",
       "original": "/libronic-catalog/originals/110-prod_1776669224.jpg",
-      "filename": "110-prod_1776669224.jpg",
-      "cutout": "/libronic-catalog/cutouts/110-prod_1776669224.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 506483,
-        "partialPixels": 13319,
-        "opaquePixels": 120198,
-        "coverage": 0.2086
-      }
+      "filename": "110-prod_1776669224.jpg"
     },
     {
       "categoryId": 13,
@@ -2327,17 +1107,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776669139.jpg",
       "name": "اوتي عامودي 1910",
       "original": "/libronic-catalog/originals/109-prod_1776669139.jpg",
-      "filename": "109-prod_1776669139.jpg",
-      "cutout": "/libronic-catalog/cutouts/109-prod_1776669139.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 532822,
-        "partialPixels": 12928,
-        "opaquePixels": 94250,
-        "coverage": 0.1675
-      }
+      "filename": "109-prod_1776669139.jpg"
     },
     {
       "categoryId": 13,
@@ -2346,17 +1116,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776668672.jpg",
       "name": "مهراسة 807",
       "original": "/libronic-catalog/originals/108-prod_1776668672.jpg",
-      "filename": "108-prod_1776668672.jpg",
-      "cutout": "/libronic-catalog/cutouts/108-prod_1776668672.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 561959,
-        "partialPixels": 6524,
-        "opaquePixels": 71517,
-        "coverage": 0.1219
-      }
+      "filename": "108-prod_1776668672.jpg"
     },
     {
       "categoryId": 13,
@@ -2365,17 +1125,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776668619.jpg",
       "name": "مهراسة 802",
       "original": "/libronic-catalog/originals/107-prod_1776668619.jpg",
-      "filename": "107-prod_1776668619.jpg",
-      "cutout": "/libronic-catalog/cutouts/107-prod_1776668619.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 511869,
-        "partialPixels": 9349,
-        "opaquePixels": 118782,
-        "coverage": 0.2002
-      }
+      "filename": "107-prod_1776668619.jpg"
     },
     {
       "categoryId": 13,
@@ -2384,17 +1134,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776668535.jpg",
       "name": "مثرامة + مهراسة 130",
       "original": "/libronic-catalog/originals/106-prod_1776668535.jpg",
-      "filename": "106-prod_1776668535.jpg",
-      "cutout": "/libronic-catalog/cutouts/106-prod_1776668535.png",
-      "cutoutMethod": "birefnet-general-lite-clean",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 574033,
-        "partialPixels": 59220,
-        "opaquePixels": 6747,
-        "coverage": 0.1031
-      }
+      "filename": "106-prod_1776668535.jpg"
     },
     {
       "categoryId": 13,
@@ -2403,17 +1143,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776668436.jpg",
       "name": "مثرامة 7610",
       "original": "/libronic-catalog/originals/105-prod_1776668436.jpg",
-      "filename": "105-prod_1776668436.jpg",
-      "cutout": "/libronic-catalog/cutouts/105-prod_1776668436.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 418077,
-        "partialPixels": 17915,
-        "opaquePixels": 204008,
-        "coverage": 0.3468
-      }
+      "filename": "105-prod_1776668436.jpg"
     },
     {
       "categoryId": 13,
@@ -2422,17 +1152,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776668403.jpg",
       "name": "مثرامة MGJ",
       "original": "/libronic-catalog/originals/104-prod_1776668403.jpg",
-      "filename": "104-prod_1776668403.jpg",
-      "cutout": "/libronic-catalog/cutouts/104-prod_1776668403.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 383085,
-        "partialPixels": 15100,
-        "opaquePixels": 241815,
-        "coverage": 0.4014
-      }
+      "filename": "104-prod_1776668403.jpg"
     },
     {
       "categoryId": 13,
@@ -2441,17 +1161,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776668339.jpg",
       "name": "مثرامة MGU",
       "original": "/libronic-catalog/originals/103-prod_1776668339.jpg",
-      "filename": "103-prod_1776668339.jpg",
-      "cutout": "/libronic-catalog/cutouts/103-prod_1776668339.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 464808,
-        "partialPixels": 22782,
-        "opaquePixels": 152410,
-        "coverage": 0.2737
-      }
+      "filename": "103-prod_1776668339.jpg"
     },
     {
       "categoryId": 13,
@@ -2460,17 +1170,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776668294.jpg",
       "name": "مثرامة MG09",
       "original": "/libronic-catalog/originals/102-prod_1776668294.jpg",
-      "filename": "102-prod_1776668294.jpg",
-      "cutout": "/libronic-catalog/cutouts/102-prod_1776668294.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 434127,
-        "partialPixels": 15712,
-        "opaquePixels": 190161,
-        "coverage": 0.3217
-      }
+      "filename": "102-prod_1776668294.jpg"
     },
     {
       "categoryId": 13,
@@ -2479,17 +1179,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776668085.jpg",
       "name": "مثرامة MGA",
       "original": "/libronic-catalog/originals/101-prod_1776668085.jpg",
-      "filename": "101-prod_1776668085.jpg",
-      "cutout": "/libronic-catalog/cutouts/101-prod_1776668085.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 480240,
-        "partialPixels": 13240,
-        "opaquePixels": 146520,
-        "coverage": 0.2496
-      }
+      "filename": "101-prod_1776668085.jpg"
     },
     {
       "categoryId": 13,
@@ -2498,17 +1188,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776667994.jpg",
       "name": "عجانة 212",
       "original": "/libronic-catalog/originals/100-prod_1776667994.jpg",
-      "filename": "100-prod_1776667994.jpg",
-      "cutout": "/libronic-catalog/cutouts/100-prod_1776667994.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 326855,
-        "partialPixels": 9399,
-        "opaquePixels": 303746,
-        "coverage": 0.4893
-      }
+      "filename": "100-prod_1776667994.jpg"
     },
     {
       "categoryId": 13,
@@ -2517,17 +1197,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776667901.jpg",
       "name": "مثرامة 040",
       "original": "/libronic-catalog/originals/099-prod_1776667901.jpg",
-      "filename": "099-prod_1776667901.jpg",
-      "cutout": "/libronic-catalog/cutouts/099-prod_1776667901.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 466832,
-        "partialPixels": 16512,
-        "opaquePixels": 156656,
-        "coverage": 0.2706
-      }
+      "filename": "099-prod_1776667901.jpg"
     },
     {
       "categoryId": 13,
@@ -2536,17 +1206,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776667531.jpg",
       "name": "مثرامة MG09D",
       "original": "/libronic-catalog/originals/098-prod_1776667531.jpg",
-      "filename": "098-prod_1776667531.jpg",
-      "cutout": "/libronic-catalog/cutouts/098-prod_1776667531.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 459344,
-        "partialPixels": 15570,
-        "opaquePixels": 165086,
-        "coverage": 0.2823
-      }
+      "filename": "098-prod_1776667531.jpg"
     },
     {
       "categoryId": 13,
@@ -2555,17 +1215,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776667465.jpg",
       "name": "اوتي عامودي 958",
       "original": "/libronic-catalog/originals/097-prod_1776667465.jpg",
-      "filename": "097-prod_1776667465.jpg",
-      "cutout": "/libronic-catalog/cutouts/097-prod_1776667465.png",
-      "cutoutMethod": "birefnet-general-lite-clean",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 565341,
-        "partialPixels": 71021,
-        "opaquePixels": 3638,
-        "coverage": 0.1167
-      }
+      "filename": "097-prod_1776667465.jpg"
     },
     {
       "categoryId": 13,
@@ -2574,17 +1224,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776667190.jpg",
       "name": "اوتي عامودي 26",
       "original": "/libronic-catalog/originals/096-prod_1776667190.jpg",
-      "filename": "096-prod_1776667190.jpg",
-      "cutout": "/libronic-catalog/cutouts/096-prod_1776667190.png",
-      "cutoutMethod": "birefnet-general-lite-clean",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 599782,
-        "partialPixels": 38672,
-        "opaquePixels": 1546,
-        "coverage": 0.0628
-      }
+      "filename": "096-prod_1776667190.jpg"
     },
     {
       "categoryId": 13,
@@ -2593,17 +1233,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776666925.jpg",
       "name": "اوتي عامودي 911",
       "original": "/libronic-catalog/originals/095-prod_1776666925.jpg",
-      "filename": "095-prod_1776666925.jpg",
-      "cutout": "/libronic-catalog/cutouts/095-prod_1776666925.png",
-      "cutoutMethod": "birefnet-general-lite-clean",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 571910,
-        "partialPixels": 65234,
-        "opaquePixels": 2856,
-        "coverage": 0.1064
-      }
+      "filename": "095-prod_1776666925.jpg"
     },
     {
       "categoryId": 13,
@@ -2612,17 +1242,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776666911.jpg",
       "name": "عجانة 1085 + 1086",
       "original": "/libronic-catalog/originals/094-prod_1776666911.jpg",
-      "filename": "094-prod_1776666911.jpg",
-      "cutout": "/libronic-catalog/cutouts/094-prod_1776666911.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 387351,
-        "partialPixels": 14478,
-        "opaquePixels": 238171,
-        "coverage": 0.3948
-      }
+      "filename": "094-prod_1776666911.jpg"
     },
     {
       "categoryId": 13,
@@ -2631,17 +1251,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776666023.jpg",
       "name": "اوتي عامودي 928",
       "original": "/libronic-catalog/originals/093-prod_1776666023.jpg",
-      "filename": "093-prod_1776666023.jpg",
-      "cutout": "/libronic-catalog/cutouts/093-prod_1776666023.png",
-      "cutoutMethod": "birefnet-general-lite-clean",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 575723,
-        "partialPixels": 60273,
-        "opaquePixels": 4004,
-        "coverage": 0.1004
-      }
+      "filename": "093-prod_1776666023.jpg"
     },
     {
       "categoryId": 14,
@@ -2650,17 +1260,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776597926.jpg",
       "name": "طباخ 2 عين ليزري",
       "original": "/libronic-catalog/originals/092-prod_1776597926.jpg",
-      "filename": "092-prod_1776597926.jpg",
-      "cutout": "/libronic-catalog/cutouts/092-prod_1776597926.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 393265,
-        "partialPixels": 7962,
-        "opaquePixels": 238773,
-        "coverage": 0.3855
-      }
+      "filename": "092-prod_1776597926.jpg"
     },
     {
       "categoryId": 14,
@@ -2669,17 +1269,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776597866.jpg",
       "name": "طباخ 1 عين ليزري",
       "original": "/libronic-catalog/originals/091-prod_1776597866.jpg",
-      "filename": "091-prod_1776597866.jpg",
-      "cutout": "/libronic-catalog/cutouts/091-prod_1776597866.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 385188,
-        "partialPixels": 11328,
-        "opaquePixels": 243484,
-        "coverage": 0.3981
-      }
+      "filename": "091-prod_1776597866.jpg"
     },
     {
       "categoryId": 14,
@@ -2688,17 +1278,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776597571.jpg",
       "name": "طباخ 5 مشاعل U9E7",
       "original": "/libronic-catalog/originals/089-prod_1776597571.jpg",
-      "filename": "089-prod_1776597571.jpg",
-      "cutout": "/libronic-catalog/cutouts/089-prod_1776597571.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 388326,
-        "partialPixels": 10662,
-        "opaquePixels": 241012,
-        "coverage": 0.3932
-      }
+      "filename": "089-prod_1776597571.jpg"
     },
     {
       "categoryId": 14,
@@ -2707,17 +1287,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776597028.jpg",
       "name": "طباخ 4 مشاعل 662",
       "original": "/libronic-catalog/originals/088-prod_1776597028.jpg",
-      "filename": "088-prod_1776597028.jpg",
-      "cutout": "/libronic-catalog/cutouts/088-prod_1776597028.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 289764,
-        "partialPixels": 7344,
-        "opaquePixels": 342892,
-        "coverage": 0.5472
-      }
+      "filename": "088-prod_1776597028.jpg"
     },
     {
       "categoryId": 14,
@@ -2726,17 +1296,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776596997.jpg",
       "name": "طباخ 5 مشاعل 9057",
       "original": "/libronic-catalog/originals/087-prod_1776596997.jpg",
-      "filename": "087-prod_1776596997.jpg",
-      "cutout": "/libronic-catalog/cutouts/087-prod_1776596997.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 335934,
-        "partialPixels": 7160,
-        "opaquePixels": 296906,
-        "coverage": 0.4751
-      }
+      "filename": "087-prod_1776596997.jpg"
     },
     {
       "categoryId": 14,
@@ -2745,17 +1305,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776596953.jpg",
       "name": "طباخ 5 مشاعل اسمنتي 59001G",
       "original": "/libronic-catalog/originals/086-prod_1776596953.jpg",
-      "filename": "086-prod_1776596953.jpg",
-      "cutout": "/libronic-catalog/cutouts/086-prod_1776596953.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 354891,
-        "partialPixels": 6698,
-        "opaquePixels": 278411,
-        "coverage": 0.4455
-      }
+      "filename": "086-prod_1776596953.jpg"
     },
     {
       "categoryId": 14,
@@ -2764,17 +1314,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776596838.jpg",
       "name": "طباخ 4 مشاعل 4022",
       "original": "/libronic-catalog/originals/085-prod_1776596838.jpg",
-      "filename": "085-prod_1776596838.jpg",
-      "cutout": "/libronic-catalog/cutouts/085-prod_1776596838.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 297553,
-        "partialPixels": 9991,
-        "opaquePixels": 332456,
-        "coverage": 0.5351
-      }
+      "filename": "085-prod_1776596838.jpg"
     },
     {
       "categoryId": 14,
@@ -2783,17 +1323,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776596702.jpg",
       "name": "طباخ 4 مشاعل 004QS",
       "original": "/libronic-catalog/originals/083-prod_1776596702.jpg",
-      "filename": "083-prod_1776596702.jpg",
-      "cutout": "/libronic-catalog/cutouts/083-prod_1776596702.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 431194,
-        "partialPixels": 6627,
-        "opaquePixels": 202179,
-        "coverage": 0.3263
-      }
+      "filename": "083-prod_1776596702.jpg"
     },
     {
       "categoryId": 14,
@@ -2802,17 +1332,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776596607.jpg",
       "name": "طباخ 5 مشاعل 805",
       "original": "/libronic-catalog/originals/082-prod_1776596607.jpg",
-      "filename": "082-prod_1776596607.jpg",
-      "cutout": "/libronic-catalog/cutouts/082-prod_1776596607.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 408327,
-        "partialPixels": 6342,
-        "opaquePixels": 225331,
-        "coverage": 0.362
-      }
+      "filename": "082-prod_1776596607.jpg"
     },
     {
       "categoryId": 14,
@@ -2821,17 +1341,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776596499.jpg",
       "name": "طباخ 5 مشاعل 5911",
       "original": "/libronic-catalog/originals/081-prod_1776596499.jpg",
-      "filename": "081-prod_1776596499.jpg",
-      "cutout": "/libronic-catalog/cutouts/081-prod_1776596499.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 460972,
-        "partialPixels": 16235,
-        "opaquePixels": 162793,
-        "coverage": 0.2797
-      }
+      "filename": "081-prod_1776596499.jpg"
     },
     {
       "categoryId": 14,
@@ -2840,17 +1350,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776596392.jpg",
       "name": "طباخ 4 مشاعل 666-4",
       "original": "/libronic-catalog/originals/080-prod_1776596392.jpg",
-      "filename": "080-prod_1776596392.jpg",
-      "cutout": "/libronic-catalog/cutouts/080-prod_1776596392.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 410110,
-        "partialPixels": 10699,
-        "opaquePixels": 219191,
-        "coverage": 0.3592
-      }
+      "filename": "080-prod_1776596392.jpg"
     },
     {
       "categoryId": 14,
@@ -2859,17 +1359,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776596356.jpg",
       "name": "طباخ 5 مشاعل 5057",
       "original": "/libronic-catalog/originals/079-prod_1776596356.jpg",
-      "filename": "079-prod_1776596356.jpg",
-      "cutout": "/libronic-catalog/cutouts/079-prod_1776596356.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 466318,
-        "partialPixels": 19090,
-        "opaquePixels": 154592,
-        "coverage": 0.2714
-      }
+      "filename": "079-prod_1776596356.jpg"
     },
     {
       "categoryId": 14,
@@ -2878,17 +1368,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776596286.jpg",
       "name": "طباخ 5 مشاعل 87-5026",
       "original": "/libronic-catalog/originals/078-prod_1776596286.jpg",
-      "filename": "078-prod_1776596286.jpg",
-      "cutout": "/libronic-catalog/cutouts/078-prod_1776596286.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 382842,
-        "partialPixels": 6841,
-        "opaquePixels": 250317,
-        "coverage": 0.4018
-      }
+      "filename": "078-prod_1776596286.jpg"
     },
     {
       "categoryId": 14,
@@ -2897,17 +1377,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776596246.jpg",
       "name": "طباخ 4 مشاعل 4025",
       "original": "/libronic-catalog/originals/077-prod_1776596246.jpg",
-      "filename": "077-prod_1776596246.jpg",
-      "cutout": "/libronic-catalog/cutouts/077-prod_1776596246.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 227435,
-        "partialPixels": 8192,
-        "opaquePixels": 404373,
-        "coverage": 0.6446
-      }
+      "filename": "077-prod_1776596246.jpg"
     },
     {
       "categoryId": 14,
@@ -2916,17 +1386,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776596185.jpg",
       "name": "طباخ 5 مشاعل 5113B",
       "original": "/libronic-catalog/originals/076-prod_1776596185.jpg",
-      "filename": "076-prod_1776596185.jpg",
-      "cutout": "/libronic-catalog/cutouts/076-prod_1776596185.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 338448,
-        "partialPixels": 6778,
-        "opaquePixels": 294774,
-        "coverage": 0.4712
-      }
+      "filename": "076-prod_1776596185.jpg"
     },
     {
       "categoryId": 14,
@@ -2935,17 +1395,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776596143.jpg",
       "name": "طباخ 5 مشاعل 806",
       "original": "/libronic-catalog/originals/075-prod_1776596143.jpg",
-      "filename": "075-prod_1776596143.jpg",
-      "cutout": "/libronic-catalog/cutouts/075-prod_1776596143.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 399807,
-        "partialPixels": 12075,
-        "opaquePixels": 228118,
-        "coverage": 0.3753
-      }
+      "filename": "075-prod_1776596143.jpg"
     },
     {
       "categoryId": 14,
@@ -2954,17 +1404,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776594758.jpg",
       "name": "طباخ 5 مشاعل 59001",
       "original": "/libronic-catalog/originals/074-prod_1776594758.jpg",
-      "filename": "074-prod_1776594758.jpg",
-      "cutout": "/libronic-catalog/cutouts/074-prod_1776594758.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 520752,
-        "partialPixels": 21874,
-        "opaquePixels": 97374,
-        "coverage": 0.1863
-      }
+      "filename": "074-prod_1776594758.jpg"
     },
     {
       "categoryId": 14,
@@ -2973,17 +1413,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776594714.jpg",
       "name": "طباخ 5 مشاعل 9001",
       "original": "/libronic-catalog/originals/073-prod_1776594714.jpg",
-      "filename": "073-prod_1776594714.jpg",
-      "cutout": "/libronic-catalog/cutouts/073-prod_1776594714.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 407934,
-        "partialPixels": 6483,
-        "opaquePixels": 225583,
-        "coverage": 0.3626
-      }
+      "filename": "073-prod_1776594714.jpg"
     },
     {
       "categoryId": 14,
@@ -2992,17 +1422,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776594675.jpg",
       "name": "طباخ 5 مشاعل 5058",
       "original": "/libronic-catalog/originals/072-prod_1776594675.jpg",
-      "filename": "072-prod_1776594675.jpg",
-      "cutout": "/libronic-catalog/cutouts/072-prod_1776594675.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 403515,
-        "partialPixels": 7577,
-        "opaquePixels": 228908,
-        "coverage": 0.3695
-      }
+      "filename": "072-prod_1776594675.jpg"
     },
     {
       "categoryId": 14,
@@ -3011,17 +1431,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776594640.jpg",
       "name": "طباخ 4 مشاعل 4-661",
       "original": "/libronic-catalog/originals/071-prod_1776594640.jpg",
-      "filename": "071-prod_1776594640.jpg",
-      "cutout": "/libronic-catalog/cutouts/071-prod_1776594640.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 345910,
-        "partialPixels": 22390,
-        "opaquePixels": 271700,
-        "coverage": 0.4595
-      }
+      "filename": "071-prod_1776594640.jpg"
     },
     {
       "categoryId": 14,
@@ -3030,17 +1440,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776594590.jpg",
       "name": "طباخ 4 مشاعل 9401",
       "original": "/libronic-catalog/originals/070-prod_1776594590.jpg",
-      "filename": "070-prod_1776594590.jpg",
-      "cutout": "/libronic-catalog/cutouts/070-prod_1776594590.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 230317,
-        "partialPixels": 12437,
-        "opaquePixels": 397246,
-        "coverage": 0.6401
-      }
+      "filename": "070-prod_1776594590.jpg"
     },
     {
       "categoryId": 14,
@@ -3049,17 +1449,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776594521.jpg",
       "name": "طباخ 4 مشاعل 9402",
       "original": "/libronic-catalog/originals/069-prod_1776594521.jpg",
-      "filename": "069-prod_1776594521.jpg",
-      "cutout": "/libronic-catalog/cutouts/069-prod_1776594521.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 229114,
-        "partialPixels": 8658,
-        "opaquePixels": 402228,
-        "coverage": 0.642
-      }
+      "filename": "069-prod_1776594521.jpg"
     },
     {
       "categoryId": 14,
@@ -3068,17 +1458,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776594431.jpg",
       "name": "طباخ 4 مشاعل 4-660",
       "original": "/libronic-catalog/originals/068-prod_1776594431.jpg",
-      "filename": "068-prod_1776594431.jpg",
-      "cutout": "/libronic-catalog/cutouts/068-prod_1776594431.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 267588,
-        "partialPixels": 16459,
-        "opaquePixels": 355953,
-        "coverage": 0.5819
-      }
+      "filename": "068-prod_1776594431.jpg"
     },
     {
       "categoryId": 14,
@@ -3087,17 +1467,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776594359.jpg",
       "name": "طباخ 5 مشاعل 900C",
       "original": "/libronic-catalog/originals/067-prod_1776594359.jpg",
-      "filename": "067-prod_1776594359.jpg",
-      "cutout": "/libronic-catalog/cutouts/067-prod_1776594359.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 445253,
-        "partialPixels": 5956,
-        "opaquePixels": 188791,
-        "coverage": 0.3043
-      }
+      "filename": "067-prod_1776594359.jpg"
     },
     {
       "categoryId": 14,
@@ -3106,17 +1476,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776592722.jpg",
       "name": "مايكرو 1010",
       "original": "/libronic-catalog/originals/066-prod_1776592722.jpg",
-      "filename": "066-prod_1776592722.jpg",
-      "cutout": "/libronic-catalog/cutouts/066-prod_1776592722.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 339927,
-        "partialPixels": 6786,
-        "opaquePixels": 293287,
-        "coverage": 0.4689
-      }
+      "filename": "066-prod_1776592722.jpg"
     },
     {
       "categoryId": 14,
@@ -3125,17 +1485,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776592668.jpg",
       "name": "مايكرو 4211",
       "original": "/libronic-catalog/originals/065-prod_1776592668.jpg",
-      "filename": "065-prod_1776592668.jpg",
-      "cutout": "/libronic-catalog/cutouts/065-prod_1776592668.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 219195,
-        "partialPixels": 8120,
-        "opaquePixels": 412685,
-        "coverage": 0.6575
-      }
+      "filename": "065-prod_1776592668.jpg"
     },
     {
       "categoryId": 14,
@@ -3144,17 +1494,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776592484.jpg",
       "name": "مايكرو 4211",
       "original": "/libronic-catalog/originals/064-prod_1776592484.jpg",
-      "filename": "064-prod_1776592484.jpg",
-      "cutout": "/libronic-catalog/cutouts/064-prod_1776592484.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 335398,
-        "partialPixels": 7058,
-        "opaquePixels": 297544,
-        "coverage": 0.4759
-      }
+      "filename": "064-prod_1776592484.jpg"
     },
     {
       "categoryId": 14,
@@ -3163,17 +1503,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776592369.jpg",
       "name": "مايكرو بابين 3 احجام",
       "original": "/libronic-catalog/originals/063-prod_1776592369.jpg",
-      "filename": "063-prod_1776592369.jpg",
-      "cutout": "/libronic-catalog/cutouts/063-prod_1776592369.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 335883,
-        "partialPixels": 8098,
-        "opaquePixels": 296019,
-        "coverage": 0.4752
-      }
+      "filename": "063-prod_1776592369.jpg"
     },
     {
       "categoryId": 14,
@@ -3182,17 +1512,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776592327.jpg",
       "name": "مايكرو 5011",
       "original": "/libronic-catalog/originals/062-prod_1776592327.jpg",
-      "filename": "062-prod_1776592327.jpg",
-      "cutout": "/libronic-catalog/cutouts/062-prod_1776592327.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 329286,
-        "partialPixels": 6828,
-        "opaquePixels": 303886,
-        "coverage": 0.4855
-      }
+      "filename": "062-prod_1776592327.jpg"
     },
     {
       "categoryId": 14,
@@ -3201,17 +1521,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776592286.jpg",
       "name": "مايكرو T6",
       "original": "/libronic-catalog/originals/061-prod_1776592286.jpg",
-      "filename": "061-prod_1776592286.jpg",
-      "cutout": "/libronic-catalog/cutouts/061-prod_1776592286.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 297849,
-        "partialPixels": 8952,
-        "opaquePixels": 333199,
-        "coverage": 0.5346
-      }
+      "filename": "061-prod_1776592286.jpg"
     },
     {
       "categoryId": 14,
@@ -3220,17 +1530,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776592258.jpg",
       "name": "طباخ 5 مشاعل 9051CS",
       "original": "/libronic-catalog/originals/060-prod_1776592258.jpg",
-      "filename": "060-prod_1776592258.jpg",
-      "cutout": "/libronic-catalog/cutouts/060-prod_1776592258.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 417766,
-        "partialPixels": 6107,
-        "opaquePixels": 216127,
-        "coverage": 0.3472
-      }
+      "filename": "060-prod_1776592258.jpg"
     },
     {
       "categoryId": 14,
@@ -3239,17 +1539,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776592242.jpg",
       "name": "مايكرو K8",
       "original": "/libronic-catalog/originals/059-prod_1776592242.jpg",
-      "filename": "059-prod_1776592242.jpg",
-      "cutout": "/libronic-catalog/cutouts/059-prod_1776592242.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 336292,
-        "partialPixels": 6751,
-        "opaquePixels": 296957,
-        "coverage": 0.4745
-      }
+      "filename": "059-prod_1776592242.jpg"
     },
     {
       "categoryId": 14,
@@ -3258,17 +1548,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776592218.jpg",
       "name": "طباخ 5 مشاعل 5028",
       "original": "/libronic-catalog/originals/058-prod_1776592218.jpg",
-      "filename": "058-prod_1776592218.jpg",
-      "cutout": "/libronic-catalog/cutouts/058-prod_1776592218.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 424173,
-        "partialPixels": 6200,
-        "opaquePixels": 209627,
-        "coverage": 0.3372
-      }
+      "filename": "058-prod_1776592218.jpg"
     },
     {
       "categoryId": 14,
@@ -3277,17 +1557,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776592204.jpg",
       "name": "مايكرو 18A",
       "original": "/libronic-catalog/originals/057-prod_1776592204.jpg",
-      "filename": "057-prod_1776592204.jpg",
-      "cutout": "/libronic-catalog/cutouts/057-prod_1776592204.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 333521,
-        "partialPixels": 6762,
-        "opaquePixels": 299717,
-        "coverage": 0.4789
-      }
+      "filename": "057-prod_1776592204.jpg"
     },
     {
       "categoryId": 14,
@@ -3296,17 +1566,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776592165.jpg",
       "name": "طباخ 5 مشاعل 5025",
       "original": "/libronic-catalog/originals/056-prod_1776592165.jpg",
-      "filename": "056-prod_1776592165.jpg",
-      "cutout": "/libronic-catalog/cutouts/056-prod_1776592165.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 362166,
-        "partialPixels": 7225,
-        "opaquePixels": 270609,
-        "coverage": 0.4341
-      }
+      "filename": "056-prod_1776592165.jpg"
     },
     {
       "categoryId": 14,
@@ -3315,17 +1575,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776592132.jpg",
       "name": "طباخ 5 مشاعل 9052",
       "original": "/libronic-catalog/originals/055-prod_1776592132.jpg",
-      "filename": "055-prod_1776592132.jpg",
-      "cutout": "/libronic-catalog/cutouts/055-prod_1776592132.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 378278,
-        "partialPixels": 8474,
-        "opaquePixels": 253248,
-        "coverage": 0.4089
-      }
+      "filename": "055-prod_1776592132.jpg"
     },
     {
       "categoryId": 14,
@@ -3334,17 +1584,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776592121.jpg",
       "name": "مايكرو 14A",
       "original": "/libronic-catalog/originals/054-prod_1776592121.jpg",
-      "filename": "054-prod_1776592121.jpg",
-      "cutout": "/libronic-catalog/cutouts/054-prod_1776592121.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 344474,
-        "partialPixels": 6639,
-        "opaquePixels": 288887,
-        "coverage": 0.4618
-      }
+      "filename": "054-prod_1776592121.jpg"
     },
     {
       "categoryId": 14,
@@ -3353,17 +1593,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776592071.jpg",
       "name": "طباخ 5 مشاعل 9055",
       "original": "/libronic-catalog/originals/053-prod_1776592071.jpg",
-      "filename": "053-prod_1776592071.jpg",
-      "cutout": "/libronic-catalog/cutouts/053-prod_1776592071.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 258144,
-        "partialPixels": 12973,
-        "opaquePixels": 368883,
-        "coverage": 0.5967
-      }
+      "filename": "053-prod_1776592071.jpg"
     },
     {
       "categoryId": 14,
@@ -3372,17 +1602,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776592031.jpg",
       "name": "مايكرو G4",
       "original": "/libronic-catalog/originals/052-prod_1776592031.jpg",
-      "filename": "052-prod_1776592031.jpg",
-      "cutout": "/libronic-catalog/cutouts/052-prod_1776592031.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 217274,
-        "partialPixels": 8153,
-        "opaquePixels": 414573,
-        "coverage": 0.6605
-      }
+      "filename": "052-prod_1776592031.jpg"
     },
     {
       "categoryId": 14,
@@ -3391,17 +1611,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776592015.jpg",
       "name": "طباخ 5 مشاعل 9056",
       "original": "/libronic-catalog/originals/051-prod_1776592015.jpg",
-      "filename": "051-prod_1776592015.jpg",
-      "cutout": "/libronic-catalog/cutouts/051-prod_1776592015.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 362731,
-        "partialPixels": 7722,
-        "opaquePixels": 269547,
-        "coverage": 0.4332
-      }
+      "filename": "051-prod_1776592015.jpg"
     },
     {
       "categoryId": 14,
@@ -3410,17 +1620,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776591957.jpg",
       "name": "مايكرو ملكي 5B",
       "original": "/libronic-catalog/originals/050-prod_1776591957.jpg",
-      "filename": "050-prod_1776591957.jpg",
-      "cutout": "/libronic-catalog/cutouts/050-prod_1776591957.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 235459,
-        "partialPixels": 7956,
-        "opaquePixels": 396585,
-        "coverage": 0.6321
-      }
+      "filename": "050-prod_1776591957.jpg"
     },
     {
       "categoryId": 14,
@@ -3429,17 +1629,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776591886.jpg",
       "name": "مايكرو 8384",
       "original": "/libronic-catalog/originals/049-prod_1776591886.jpg",
-      "filename": "049-prod_1776591886.jpg",
-      "cutout": "/libronic-catalog/cutouts/049-prod_1776591886.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 378978,
-        "partialPixels": 6602,
-        "opaquePixels": 254420,
-        "coverage": 0.4078
-      }
+      "filename": "049-prod_1776591886.jpg"
     },
     {
       "categoryId": 14,
@@ -3448,17 +1638,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776591874.jpg",
       "name": "طباخ 5 مشاعل 9057",
       "original": "/libronic-catalog/originals/048-prod_1776591874.jpg",
-      "filename": "048-prod_1776591874.jpg",
-      "cutout": "/libronic-catalog/cutouts/048-prod_1776591874.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 356183,
-        "partialPixels": 7234,
-        "opaquePixels": 276583,
-        "coverage": 0.4435
-      }
+      "filename": "048-prod_1776591874.jpg"
     },
     {
       "categoryId": 14,
@@ -3467,17 +1647,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776591815.jpg",
       "name": "طباخ 5 مشاعل 9051SS",
       "original": "/libronic-catalog/originals/047-prod_1776591815.jpg",
-      "filename": "047-prod_1776591815.jpg",
-      "cutout": "/libronic-catalog/cutouts/047-prod_1776591815.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 515858,
-        "partialPixels": 23796,
-        "opaquePixels": 100346,
-        "coverage": 0.194
-      }
+      "filename": "047-prod_1776591815.jpg"
     },
     {
       "categoryId": 14,
@@ -3486,17 +1656,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776591754.jpg",
       "name": "طباخ 4 مشاعل 4028",
       "original": "/libronic-catalog/originals/046-prod_1776591754.jpg",
-      "filename": "046-prod_1776591754.jpg",
-      "cutout": "/libronic-catalog/cutouts/046-prod_1776591754.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 328180,
-        "partialPixels": 7454,
-        "opaquePixels": 304366,
-        "coverage": 0.4872
-      }
+      "filename": "046-prod_1776591754.jpg"
     },
     {
       "categoryId": 14,
@@ -3505,17 +1665,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776591072.jpg",
       "name": "طباخ 4 مشاعل 9059",
       "original": "/libronic-catalog/originals/045-prod_1776591072.jpg",
-      "filename": "045-prod_1776591072.jpg",
-      "cutout": "/libronic-catalog/cutouts/045-prod_1776591072.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 281838,
-        "partialPixels": 10372,
-        "opaquePixels": 347790,
-        "coverage": 0.5596
-      }
+      "filename": "045-prod_1776591072.jpg"
     },
     {
       "categoryId": 14,
@@ -3524,17 +1674,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776590997.jpg",
       "name": "طباخ 5 مشاعل 594014",
       "original": "/libronic-catalog/originals/044-prod_1776590997.jpg",
-      "filename": "044-prod_1776590997.jpg",
-      "cutout": "/libronic-catalog/cutouts/044-prod_1776590997.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 359279,
-        "partialPixels": 7305,
-        "opaquePixels": 273416,
-        "coverage": 0.4386
-      }
+      "filename": "044-prod_1776590997.jpg"
     },
     {
       "categoryId": 14,
@@ -3543,17 +1683,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776590932.jpg",
       "name": "مرشحة 900C",
       "original": "/libronic-catalog/originals/043-prod_1776590932.jpg",
-      "filename": "043-prod_1776590932.jpg",
-      "cutout": "/libronic-catalog/cutouts/043-prod_1776590932.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 530320,
-        "partialPixels": 6460,
-        "opaquePixels": 103220,
-        "coverage": 0.1714
-      }
+      "filename": "043-prod_1776590932.jpg"
     },
     {
       "categoryId": 14,
@@ -3562,17 +1692,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776590901.jpg",
       "name": "طباخ 4 مشاعل 594015",
       "original": "/libronic-catalog/originals/042-prod_1776590901.jpg",
-      "filename": "042-prod_1776590901.jpg",
-      "cutout": "/libronic-catalog/cutouts/042-prod_1776590901.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 71484,
-        "partialPixels": 9012,
-        "opaquePixels": 559504,
-        "coverage": 0.8883
-      }
+      "filename": "042-prod_1776590901.jpg"
     },
     {
       "categoryId": 14,
@@ -3581,17 +1701,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776590862.jpg",
       "name": "مرشحة كاسيت 900",
       "original": "/libronic-catalog/originals/041-prod_1776590862.jpg",
-      "filename": "041-prod_1776590862.jpg",
-      "cutout": "/libronic-catalog/cutouts/041-prod_1776590862.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 561736,
-        "partialPixels": 5931,
-        "opaquePixels": 72333,
-        "coverage": 0.1223
-      }
+      "filename": "041-prod_1776590862.jpg"
     },
     {
       "categoryId": 14,
@@ -3600,17 +1710,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776590857.jpg",
       "name": "طباخ 4 مشاعل عادي 600",
       "original": "/libronic-catalog/originals/040-prod_1776590857.jpg",
-      "filename": "040-prod_1776590857.jpg",
-      "cutout": "/libronic-catalog/cutouts/040-prod_1776590857.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 386408,
-        "partialPixels": 6842,
-        "opaquePixels": 246750,
-        "coverage": 0.3962
-      }
+      "filename": "040-prod_1776590857.jpg"
     },
     {
       "categoryId": 14,
@@ -3619,17 +1719,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776590813.jpg",
       "name": "مرشحة كاسيت 600",
       "original": "/libronic-catalog/originals/039-prod_1776590813.jpg",
-      "filename": "039-prod_1776590813.jpg",
-      "cutout": "/libronic-catalog/cutouts/039-prod_1776590813.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 531976,
-        "partialPixels": 6126,
-        "opaquePixels": 101898,
-        "coverage": 0.1688
-      }
+      "filename": "039-prod_1776590813.jpg"
     },
     {
       "categoryId": 14,
@@ -3638,17 +1728,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776590766.jpg",
       "name": "طباخ 5 مشاعل 59040",
       "original": "/libronic-catalog/originals/038-prod_1776590766.jpg",
-      "filename": "038-prod_1776590766.jpg",
-      "cutout": "/libronic-catalog/cutouts/038-prod_1776590766.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 216771,
-        "partialPixels": 10191,
-        "opaquePixels": 413038,
-        "coverage": 0.6613
-      }
+      "filename": "038-prod_1776590766.jpg"
     },
     {
       "categoryId": 14,
@@ -3657,17 +1737,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776590757.jpg",
       "name": "مرشحة T5",
       "original": "/libronic-catalog/originals/037-prod_1776590757.jpg",
-      "filename": "037-prod_1776590757.jpg",
-      "cutout": "/libronic-catalog/cutouts/037-prod_1776590757.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 519976,
-        "partialPixels": 7607,
-        "opaquePixels": 112417,
-        "coverage": 0.1875
-      }
+      "filename": "037-prod_1776590757.jpg"
     },
     {
       "categoryId": 14,
@@ -3676,17 +1746,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776590657.jpg",
       "name": "طباخ 5 مشاعل 5005",
       "original": "/libronic-catalog/originals/036-prod_1776590657.jpg",
-      "filename": "036-prod_1776590657.jpg",
-      "cutout": "/libronic-catalog/cutouts/036-prod_1776590657.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 236139,
-        "partialPixels": 12392,
-        "opaquePixels": 391469,
-        "coverage": 0.631
-      }
+      "filename": "036-prod_1776590657.jpg"
     },
     {
       "categoryId": 14,
@@ -3695,17 +1755,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776590583.jpg",
       "name": "مرشحة T3",
       "original": "/libronic-catalog/originals/035-prod_1776590583.jpg",
-      "filename": "035-prod_1776590583.jpg",
-      "cutout": "/libronic-catalog/cutouts/035-prod_1776590583.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 495963,
-        "partialPixels": 7524,
-        "opaquePixels": 136513,
-        "coverage": 0.2251
-      }
+      "filename": "035-prod_1776590583.jpg"
     },
     {
       "categoryId": 14,
@@ -3714,17 +1764,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776590556.jpg",
       "name": "طباخ 5 مشاعل 5000D",
       "original": "/libronic-catalog/originals/034-prod_1776590556.jpg",
-      "filename": "034-prod_1776590556.jpg",
-      "cutout": "/libronic-catalog/cutouts/034-prod_1776590556.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 408531,
-        "partialPixels": 6911,
-        "opaquePixels": 224558,
-        "coverage": 0.3617
-      }
+      "filename": "034-prod_1776590556.jpg"
     },
     {
       "categoryId": 14,
@@ -3733,17 +1773,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776590542.jpg",
       "name": "مرشحة T660",
       "original": "/libronic-catalog/originals/033-prod_1776590542.jpg",
-      "filename": "033-prod_1776590542.jpg",
-      "cutout": "/libronic-catalog/cutouts/033-prod_1776590542.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 416311,
-        "partialPixels": 7350,
-        "opaquePixels": 216339,
-        "coverage": 0.3495
-      }
+      "filename": "033-prod_1776590542.jpg"
     },
     {
       "categoryId": 14,
@@ -3752,17 +1782,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776590421.jpg",
       "name": "طباخ 4 مشاعل ملكي 600",
       "original": "/libronic-catalog/originals/032-prod_1776590421.jpg",
-      "filename": "032-prod_1776590421.jpg",
-      "cutout": "/libronic-catalog/cutouts/032-prod_1776590421.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 219522,
-        "partialPixels": 8080,
-        "opaquePixels": 412398,
-        "coverage": 0.657
-      }
+      "filename": "032-prod_1776590421.jpg"
     },
     {
       "categoryId": 14,
@@ -3771,17 +1791,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776590402.jpg",
       "name": "مرشحة T860",
       "original": "/libronic-catalog/originals/031-prod_1776590402.jpg",
-      "filename": "031-prod_1776590402.jpg",
-      "cutout": "/libronic-catalog/cutouts/031-prod_1776590402.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 398378,
-        "partialPixels": 7829,
-        "opaquePixels": 233793,
-        "coverage": 0.3775
-      }
+      "filename": "031-prod_1776590402.jpg"
     },
     {
       "categoryId": 14,
@@ -3790,17 +1800,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776590325.jpg",
       "name": "مرشحة T690",
       "original": "/libronic-catalog/originals/030-prod_1776590325.jpg",
-      "filename": "030-prod_1776590325.jpg",
-      "cutout": "/libronic-catalog/cutouts/030-prod_1776590325.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 498340,
-        "partialPixels": 6716,
-        "opaquePixels": 134944,
-        "coverage": 0.2213
-      }
+      "filename": "030-prod_1776590325.jpg"
     },
     {
       "categoryId": 14,
@@ -3809,17 +1809,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776590185.jpg",
       "name": "مرشحة 900M",
       "original": "/libronic-catalog/originals/029-prod_1776590185.jpg",
-      "filename": "029-prod_1776590185.jpg",
-      "cutout": "/libronic-catalog/cutouts/029-prod_1776590185.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 496608,
-        "partialPixels": 6620,
-        "opaquePixels": 136772,
-        "coverage": 0.224
-      }
+      "filename": "029-prod_1776590185.jpg"
     },
     {
       "categoryId": 14,
@@ -3828,17 +1818,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776590170.jpg",
       "name": "طباخ 5 مشاعل 5113D",
       "original": "/libronic-catalog/originals/028-prod_1776590170.jpg",
-      "filename": "028-prod_1776590170.jpg",
-      "cutout": "/libronic-catalog/cutouts/028-prod_1776590170.png",
-      "cutoutMethod": "isnet-general-use-clean",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 432987,
-        "partialPixels": 204155,
-        "opaquePixels": 2858,
-        "coverage": 0.3235
-      }
+      "filename": "028-prod_1776590170.jpg"
     },
     {
       "categoryId": 14,
@@ -3847,17 +1827,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776590071.jpg",
       "name": "مرشحة 901B",
       "original": "/libronic-catalog/originals/027-prod_1776590071.jpg",
-      "filename": "027-prod_1776590071.jpg",
-      "cutout": "/libronic-catalog/cutouts/027-prod_1776590071.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 444521,
-        "partialPixels": 5897,
-        "opaquePixels": 189582,
-        "coverage": 0.3054
-      }
+      "filename": "027-prod_1776590071.jpg"
     },
     {
       "categoryId": 14,
@@ -3866,17 +1836,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776590010.jpg",
       "name": "طباخ 4 مشاعل 601c",
       "original": "/libronic-catalog/originals/026-prod_1776590010.jpg",
-      "filename": "026-prod_1776590010.jpg",
-      "cutout": "/libronic-catalog/cutouts/026-prod_1776590010.png",
-      "cutoutMethod": "isnet-general-use-clean",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 322602,
-        "partialPixels": 317246,
-        "opaquePixels": 152,
-        "coverage": 0.4959
-      }
+      "filename": "026-prod_1776590010.jpg"
     },
     {
       "categoryId": 14,
@@ -3885,17 +1845,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776589933.jpg",
       "name": "مرشحة C601B",
       "original": "/libronic-catalog/originals/025-prod_1776589933.jpg",
-      "filename": "025-prod_1776589933.jpg",
-      "cutout": "/libronic-catalog/cutouts/025-prod_1776589933.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 477830,
-        "partialPixels": 5709,
-        "opaquePixels": 156461,
-        "coverage": 0.2534
-      }
+      "filename": "025-prod_1776589933.jpg"
     },
     {
       "categoryId": 14,
@@ -3904,17 +1854,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776589859.jpg",
       "name": "مرشحة 91B",
       "original": "/libronic-catalog/originals/024-prod_1776589859.jpg",
-      "filename": "024-prod_1776589859.jpg",
-      "cutout": "/libronic-catalog/cutouts/024-prod_1776589859.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 506579,
-        "partialPixels": 6712,
-        "opaquePixels": 126709,
-        "coverage": 0.2085
-      }
+      "filename": "024-prod_1776589859.jpg"
     },
     {
       "categoryId": 14,
@@ -3923,17 +1863,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776589788.jpg",
       "name": "مرشحة 92B",
       "original": "/libronic-catalog/originals/023-prod_1776589788.jpg",
-      "filename": "023-prod_1776589788.jpg",
-      "cutout": "/libronic-catalog/cutouts/023-prod_1776589788.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 284676,
-        "partialPixels": 8680,
-        "opaquePixels": 346644,
-        "coverage": 0.5552
-      }
+      "filename": "023-prod_1776589788.jpg"
     },
     {
       "categoryId": 14,
@@ -3942,17 +1872,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776589564.jpg",
       "name": "طباخ 5 مشاعل 59085",
       "original": "/libronic-catalog/originals/022-prod_1776589564.jpg",
-      "filename": "022-prod_1776589564.jpg",
-      "cutout": "/libronic-catalog/cutouts/022-prod_1776589564.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 314893,
-        "partialPixels": 7029,
-        "opaquePixels": 318078,
-        "coverage": 0.508
-      }
+      "filename": "022-prod_1776589564.jpg"
     },
     {
       "categoryId": 14,
@@ -3961,17 +1881,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776589374.jpg",
       "name": "اوفن ملكي RB60K-M",
       "original": "/libronic-catalog/originals/021-prod_1776589374.jpg",
-      "filename": "021-prod_1776589374.jpg",
-      "cutout": "/libronic-catalog/cutouts/021-prod_1776589374.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 220178,
-        "partialPixels": 8787,
-        "opaquePixels": 411035,
-        "coverage": 0.656
-      }
+      "filename": "021-prod_1776589374.jpg"
     },
     {
       "categoryId": 14,
@@ -3980,17 +1890,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776589220.jpg",
       "name": "مرشحة 90B",
       "original": "/libronic-catalog/originals/020-prod_1776589220.jpg",
-      "filename": "020-prod_1776589220.jpg",
-      "cutout": "/libronic-catalog/cutouts/020-prod_1776589220.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 490845,
-        "partialPixels": 6831,
-        "opaquePixels": 142324,
-        "coverage": 0.2331
-      }
+      "filename": "020-prod_1776589220.jpg"
     },
     {
       "categoryId": 14,
@@ -3999,17 +1899,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776589175.jpg",
       "name": "طباخ 4 مشاعل 4013SG",
       "original": "/libronic-catalog/originals/019-prod_1776589175.jpg",
-      "filename": "019-prod_1776589175.jpg",
-      "cutout": "/libronic-catalog/cutouts/019-prod_1776589175.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 275724,
-        "partialPixels": 7777,
-        "opaquePixels": 356499,
-        "coverage": 0.5692
-      }
+      "filename": "019-prod_1776589175.jpg"
     },
     {
       "categoryId": 14,
@@ -4018,17 +1908,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776589091.jpg",
       "name": "اوفن غاز 809",
       "original": "/libronic-catalog/originals/018-prod_1776589091.jpg",
-      "filename": "018-prod_1776589091.jpg",
-      "cutout": "/libronic-catalog/cutouts/018-prod_1776589091.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 221170,
-        "partialPixels": 8519,
-        "opaquePixels": 410311,
-        "coverage": 0.6544
-      }
+      "filename": "018-prod_1776589091.jpg"
     },
     {
       "categoryId": 14,
@@ -4037,17 +1917,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776589064.jpg",
       "name": "اوفن غاز 806",
       "original": "/libronic-catalog/originals/017-prod_1776589064.jpg",
-      "filename": "017-prod_1776589064.jpg",
-      "cutout": "/libronic-catalog/cutouts/017-prod_1776589064.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 222151,
-        "partialPixels": 8564,
-        "opaquePixels": 409285,
-        "coverage": 0.6529
-      }
+      "filename": "017-prod_1776589064.jpg"
     },
     {
       "categoryId": 14,
@@ -4056,17 +1926,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776589036.jpg",
       "name": "اوفن غاز 810",
       "original": "/libronic-catalog/originals/016-prod_1776589036.jpg",
-      "filename": "016-prod_1776589036.jpg",
-      "cutout": "/libronic-catalog/cutouts/016-prod_1776589036.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 200043,
-        "partialPixels": 8531,
-        "opaquePixels": 431426,
-        "coverage": 0.6874
-      }
+      "filename": "016-prod_1776589036.jpg"
     },
     {
       "categoryId": 14,
@@ -4075,17 +1935,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776589002.jpg",
       "name": "اوفن غاز 811",
       "original": "/libronic-catalog/originals/015-prod_1776589002.jpg",
-      "filename": "015-prod_1776589002.jpg",
-      "cutout": "/libronic-catalog/cutouts/015-prod_1776589002.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 234037,
-        "partialPixels": 13344,
-        "opaquePixels": 392619,
-        "coverage": 0.6343
-      }
+      "filename": "015-prod_1776589002.jpg"
     },
     {
       "categoryId": 14,
@@ -4094,17 +1944,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776588955.jpg",
       "name": "اوفن غاز 805",
       "original": "/libronic-catalog/originals/014-prod_1776588955.jpg",
-      "filename": "014-prod_1776588955.jpg",
-      "cutout": "/libronic-catalog/cutouts/014-prod_1776588955.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 231772,
-        "partialPixels": 9760,
-        "opaquePixels": 398468,
-        "coverage": 0.6379
-      }
+      "filename": "014-prod_1776588955.jpg"
     },
     {
       "categoryId": 14,
@@ -4113,17 +1953,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776588908.jpg",
       "name": "اوفن كهرباء 151",
       "original": "/libronic-catalog/originals/013-prod_1776588908.jpg",
-      "filename": "013-prod_1776588908.jpg",
-      "cutout": "/libronic-catalog/cutouts/013-prod_1776588908.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 236311,
-        "partialPixels": 8463,
-        "opaquePixels": 395226,
-        "coverage": 0.6308
-      }
+      "filename": "013-prod_1776588908.jpg"
     },
     {
       "categoryId": 14,
@@ -4132,17 +1962,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776588884.jpg",
       "name": "طباخ 4 مشاعل 4013SE",
       "original": "/libronic-catalog/originals/011-prod_1776588884.jpg",
-      "filename": "011-prod_1776588884.jpg",
-      "cutout": "/libronic-catalog/cutouts/011-prod_1776588884.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 426422,
-        "partialPixels": 6535,
-        "opaquePixels": 207043,
-        "coverage": 0.3337
-      }
+      "filename": "011-prod_1776588884.jpg"
     },
     {
       "categoryId": 14,
@@ -4151,17 +1971,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776588818.jpg",
       "name": "اوفن كهرباء 808",
       "original": "/libronic-catalog/originals/010-prod_1776588818.jpg",
-      "filename": "010-prod_1776588818.jpg",
-      "cutout": "/libronic-catalog/cutouts/010-prod_1776588818.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 281485,
-        "partialPixels": 8211,
-        "opaquePixels": 350304,
-        "coverage": 0.5602
-      }
+      "filename": "010-prod_1776588818.jpg"
     },
     {
       "categoryId": 14,
@@ -4170,17 +1980,7 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776588776.jpg",
       "name": "اوفن كهرباء D3",
       "original": "/libronic-catalog/originals/009-prod_1776588776.jpg",
-      "filename": "009-prod_1776588776.jpg",
-      "cutout": "/libronic-catalog/cutouts/009-prod_1776588776.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 243193,
-        "partialPixels": 8394,
-        "opaquePixels": 388413,
-        "coverage": 0.62
-      }
+      "filename": "009-prod_1776588776.jpg"
     },
     {
       "categoryId": 14,
@@ -4189,32 +1989,8 @@
       "image": "https://libronic-iq.com/uploads/products/prod_1776582608.jpg",
       "name": "اوفن كهرباء 19A",
       "original": "/libronic-catalog/originals/008-prod_1776582608.jpg",
-      "filename": "008-prod_1776582608.jpg",
-      "cutout": "/libronic-catalog/cutouts/008-prod_1776582608.png",
-      "cutoutMethod": "studio-white",
-      "cutoutMetrics": {
-        "width": 800,
-        "height": 800,
-        "transparentPixels": 252536,
-        "partialPixels": 14058,
-        "opaquePixels": 373406,
-        "coverage": 0.6054
-      }
+      "filename": "008-prod_1776582608.jpg"
     }
   ],
-  "failures": [],
-  "cutoutModel": "birefnet-general-lite",
-  "cutoutResults": [
-    {
-      "id": 206,
-      "name": "طباخ صالون 4 مشاعل 600G01",
-      "method": "birefnet-general-lite-clean",
-      "width": 800,
-      "height": 893,
-      "transparentPixels": 555915,
-      "partialPixels": 156429,
-      "opaquePixels": 2056,
-      "coverage": 0.2218
-    }
-  ]
+  "failures": []
 }
