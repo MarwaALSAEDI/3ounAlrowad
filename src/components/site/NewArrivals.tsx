@@ -78,7 +78,7 @@ export function NewArrivals() {
 
         <motion.div
           style={{ y: drift }}
-          className="mt-14 grid auto-rows-[220px] grid-flow-dense grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3"
+          className="mt-14 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3"
         >
           {items.map((item, i) => (
             <motion.figure
@@ -87,7 +87,7 @@ export function NewArrivals() {
               whileInView={{ opacity: 1, y: 0, scale: 1, filter: "blur(0px)" }}
               viewport={{ once: true, amount: 0.2 }}
               transition={{ duration: 0.95, delay: (i % 3) * 0.1, ease: [0.22, 0.61, 0.36, 1] }}
-              className={`group relative overflow-hidden rounded-[2rem] bg-soft-blush shadow-soft ${item.span}`}
+              className="group relative aspect-[4/5] overflow-hidden rounded-[2rem] bg-soft-blush shadow-soft"
             >
               <img
                 src={item.src}
