@@ -196,7 +196,10 @@ const categoryDetails: Record<Exclude<Category, "الكل">, string> = {
   الشاشات: "تجربة مشاهدة ذكية وصورة واضحة بتصميم عصري.",
 };
 
-const hiddenCatalogProductIds = new Set([20, 73, 192, 193, 200, 202, 217, 230, 233, 234]);
+const hiddenCatalogProductIds = new Set([
+  20, 26, 28, 47, 53, 61, 71, 73, 74, 79, 80, 81, 85, 89, 124, 125, 126, 127, 132, 139, 141, 145,
+  154, 155, 157, 180, 187, 192, 193, 200, 202, 217, 230, 233, 234,
+]);
 
 const catalogProducts: Product[] = libronicCatalog
   .filter((product) => !hiddenCatalogProductIds.has(product.id))
