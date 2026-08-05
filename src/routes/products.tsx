@@ -49,20 +49,6 @@ const featuredProducts: Omit<Product, "id">[] = [
     image: "/libronic-catalog/cutouts/206-prod_1777301461.png",
   },
   {
-    name: "طباخ 5 مشاعل 9001",
-    model: "9001",
-    category: "الطهي",
-    detail: "خمسة مشاعل · تصميم عصري",
-    image: "/libronic-products/cutouts-transparent/cooker-9001.png",
-  },
-  {
-    name: "مرشحة 90B",
-    model: "LCT90B",
-    category: "التهوية",
-    detail: "90 سم · 180 واط · إضاءة LED",
-    image: "/libronic-products/cutouts-transparent/hood-90b.png",
-  },
-  {
     name: "مرشحة كاسيت 600",
     model: "LC600",
     category: "التهوية",
@@ -98,41 +84,11 @@ const featuredProducts: Omit<Product, "id">[] = [
     image: "/libronic-products/cutouts-transparent/oil-heater-13.png",
   },
   {
-    name: "سطح طبخ زجاجي هجين",
-    model: "غاز + كهرباء",
-    category: "الطهي",
-    detail: "سطح أسود فاخر يجمع شعلات الغاز مع منطقة تسخين كهربائية.",
-    image: "/libronic-products/cutouts-transparent/cooktop-hybrid-black.png",
-    format: "square",
-    width: 1200,
-    height: 1200,
-  },
-  {
     name: "سطح طبخ زجاجي 6 شعلات",
     model: "6 شعلات",
     category: "الطهي",
     detail: "سطح زجاجي سهل التنظيف مع شعلات قوية ونظام أمان عملي.",
     image: "/libronic-products/cutouts-transparent/cooktop-glass-black.png",
-    format: "square",
-    width: 1200,
-    height: 1200,
-  },
-  {
-    name: "فرن كهربائي سعة 100 لتر",
-    model: "100 L",
-    category: "الطهي",
-    detail: "سعة كبيرة وتحكم متعدد الوظائف لخبز وشوي مختلف الوصفات.",
-    image: "/libronic-products/cutouts-transparent/countertop-oven-100l.png",
-    format: "square",
-    width: 1200,
-    height: 1200,
-  },
-  {
-    name: "سطح طبخ ستانلس 5 شعلات",
-    model: "5 شعلات",
-    category: "الطهي",
-    detail: "تصميم ستانلس متين يوفّر حرارة قوية وتحكمًا مريحًا.",
-    image: "/libronic-products/cutouts-transparent/cooktop-stainless-5burner.png",
     format: "square",
     width: 1200,
     height: 1200,
@@ -178,16 +134,6 @@ const featuredProducts: Omit<Product, "id">[] = [
     height: 1200,
   },
   {
-    name: "سطح طبخ زجاجي أبيض 5 شعلات",
-    model: "5 شعلات",
-    category: "الطهي",
-    detail: "سطح زجاجي أنيق بخمس شعلات وتحكم مستقل لكل شعلة.",
-    image: "/libronic-products/cutouts-transparent/cooktop-ivory-5burner.png",
-    format: "portrait",
-    width: 848,
-    height: 1200,
-  },
-  {
     name: "سطح طبخ هجين ستانلس",
     model: "Hybrid Hob",
     category: "الطهي",
@@ -196,16 +142,6 @@ const featuredProducts: Omit<Product, "id">[] = [
     format: "portrait",
     width: 960,
     height: 1200,
-  },
-  {
-    name: "تلفزيون ذكي QLED قياس 60 بوصة",
-    model: "60” QLED",
-    category: "الشاشات",
-    detail: "صورة QLED وتطبيقات ترفيه ذكية لتجربة مشاهدة متكاملة.",
-    image: "/libronic-catalog/cutouts/234-prod_1784976105.png",
-    format: "portrait",
-    width: 896,
-    height: 1194,
   },
   {
     name: "شاشة QLED AI الذكية",
@@ -226,16 +162,6 @@ const featuredProducts: Omit<Product, "id">[] = [
     format: "landscape",
     width: 1200,
     height: 675,
-  },
-  {
-    name: "مجموعة شاشات QLED AI",
-    model: "43–60”",
-    category: "الشاشات",
-    detail: "أحجام 43 و50 و55 و60 بوصة لتناسب مختلف المساحات.",
-    image: "/libronic-catalog/cutouts/233-prod_1784976062.png",
-    format: "landscape",
-    width: 1200,
-    height: 800,
   },
   {
     name: "براد ماء ليبرونك",
@@ -270,22 +196,29 @@ const categoryDetails: Record<Exclude<Category, "الكل">, string> = {
   الشاشات: "تجربة مشاهدة ذكية وصورة واضحة بتصميم عصري.",
 };
 
-const catalogProducts: Product[] = libronicCatalog.map((product) => {
-  const category = getCatalogCategory(product.name, product.categoryId);
-  const model =
-    product.name.match(/[A-Z]{1,6}(?:[-\s]?[A-Z0-9]+)+/i)?.[0] ??
-    product.name.match(/\d+[A-Z0-9-]*/i)?.[0] ??
-    `LC-${product.id}`;
+const hiddenCatalogProductIds = new Set([
+  20, 26, 28, 47, 53, 61, 71, 73, 74, 79, 80, 81, 85, 89, 124, 125, 126, 127, 132, 139, 141, 145,
+  154, 155, 157, 180, 187, 192, 193, 200, 202, 217, 230, 233, 234,
+]);
 
-  return {
-    id: `catalog-${product.id}`,
-    name: product.name,
-    model,
-    category,
-    detail: categoryDetails[category],
-    image: product.image,
-  };
-});
+const catalogProducts: Product[] = libronicCatalog
+  .filter((product) => !hiddenCatalogProductIds.has(product.id))
+  .map((product) => {
+    const category = getCatalogCategory(product.name, product.categoryId);
+    const model =
+      product.name.match(/[A-Z]{1,6}(?:[-\s]?[A-Z0-9]+)+/i)?.[0] ??
+      product.name.match(/\d+[A-Z0-9-]*/i)?.[0] ??
+      `LC-${product.id}`;
+
+    return {
+      id: `catalog-${product.id}`,
+      name: product.name,
+      model,
+      category,
+      detail: categoryDetails[category],
+      image: product.image,
+    };
+  });
 
 const products: Product[] = [
   ...featuredProducts.map((product, index) => ({ ...product, id: `featured-${index + 1}` })),
