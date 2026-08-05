@@ -10,7 +10,7 @@ const catalog = JSON.parse(await readFile(manifestPath, "utf8"));
 const products = catalog.products.map((product) => ({
   categoryId: product.categoryId,
   id: product.id,
-  image: product.cutout,
+  image: product.original,
   name: product.name,
 }));
 

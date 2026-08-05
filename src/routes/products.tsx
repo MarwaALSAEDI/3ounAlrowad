@@ -4,7 +4,6 @@ import { ArrowLeft, ArrowUpLeft, ShieldCheck, Sparkles } from "lucide-react";
 import { useState } from "react";
 
 import { Footer } from "@/components/site/Footer";
-import { LibronicProductVisual } from "@/components/site/LibronicProductVisual";
 import { Navbar } from "@/components/site/Navbar";
 import { Reveal } from "@/components/site/Reveal";
 import { libronicCatalog } from "@/data/libronicCatalog";
@@ -20,13 +19,10 @@ type Category =
 type Product = {
   category: Exclude<Category, "الكل">;
   detail: string;
-  format?: "square" | "portrait" | "landscape";
-  height?: number;
   id: string;
   image: string;
   model: string;
   name: string;
-  width?: number;
 };
 
 const filters: Category[] = [
@@ -38,141 +34,6 @@ const filters: Category[] = [
   "التدفئة",
   "التنظيف",
   "الشاشات",
-];
-
-const featuredProducts: Omit<Product, "id">[] = [
-  {
-    name: "طباخ صالون 4 مشاعل 600G01",
-    model: "LC-600G01",
-    category: "الطهي",
-    detail: "60 سم · ستانلس ستيل · إشعال ذاتي",
-    image: "/libronic-catalog/cutouts/206-prod_1777301461.png",
-  },
-  {
-    name: "مرشحة كاسيت 600",
-    model: "LC600",
-    category: "التهوية",
-    detail: "60 سم · شفط 1000 م³/ساعة · LED",
-    image: "/libronic-products/cutouts-transparent/hood-cassette-600.png",
-  },
-  {
-    name: "مبردة كونفيرا 60MA",
-    model: "LC-60MA",
-    category: "التبريد",
-    detail: "خزان 55 لتر · 180 واط · حركة سهلة",
-    image: "/libronic-products/cutouts-transparent/air-cooler-60ma.png",
-  },
-  {
-    name: "مبردة دكت 60",
-    model: "LC-60M3",
-    category: "التبريد",
-    detail: "تدفق هواء قوي · خزان ماء كبير",
-    image: "/libronic-products/cutouts-transparent/duct-cooler-60.png",
-  },
-  {
-    name: "مروحة سقفية 626",
-    model: "LC-626",
-    category: "التهوية",
-    detail: "تصميم سقفي أنيق · توزيع هواء متوازن",
-    image: "/libronic-products/cutouts-transparent/ceiling-fan-626.png",
-  },
-  {
-    name: "صوبة زيتية 13 ريشة",
-    model: "13 ريشة",
-    category: "التدفئة",
-    detail: "حرارة متوازنة · عجلات لسهولة الحركة",
-    image: "/libronic-products/cutouts-transparent/oil-heater-13.png",
-  },
-  {
-    name: "سطح طبخ زجاجي 6 شعلات",
-    model: "6 شعلات",
-    category: "الطهي",
-    detail: "سطح زجاجي سهل التنظيف مع شعلات قوية ونظام أمان عملي.",
-    image: "/libronic-products/cutouts-transparent/cooktop-glass-black.png",
-    format: "square",
-    width: 1200,
-    height: 1200,
-  },
-  {
-    name: "قلاية هوائية ذكية",
-    model: "Smart Air Fryer",
-    category: "الطهي",
-    detail: "طهي بالهواء الساخن مع شاشة رقمية لوجبات أخف وأسهل.",
-    image: "/libronic-products/cutouts-transparent/air-fryer-oven.png",
-    format: "square",
-    width: 1200,
-    height: 1200,
-  },
-  {
-    name: "شفاط مطبخ مخفي",
-    model: "Built-in",
-    category: "التهوية",
-    detail: "تصميم مدمج وشفط فعّال لهواء أنقى ومطبخ أكثر أناقة.",
-    image: "/libronic-catalog/cutouts/025-prod_1776589933.png",
-    format: "square",
-    width: 1200,
-    height: 1200,
-  },
-  {
-    name: "فرن كهربائي مدمج",
-    model: "Built-in Oven",
-    category: "الطهي",
-    detail: "تحكم دقيق ووظائف متعددة لنتائج متجانسة بكل وجبة.",
-    image: "/libronic-products/cutouts-transparent/built-in-oven.png",
-    format: "square",
-    width: 1200,
-    height: 1200,
-  },
-  {
-    name: "جلاية صحون",
-    model: "Dishwasher",
-    category: "التنظيف",
-    detail: "تنظيف عملي بسعة منزلية يوفّر الوقت والجهد يوميًا.",
-    image: "/libronic-catalog/cutouts/219-prod_1778403515.png",
-    format: "portrait",
-    width: 675,
-    height: 1200,
-  },
-  {
-    name: "سطح طبخ هجين ستانلس",
-    model: "Hybrid Hob",
-    category: "الطهي",
-    detail: "أربع شعلات غاز وعين كهربائية مع إشعال ذاتي وتحكم دقيق.",
-    image: "/libronic-products/cutouts-transparent/cooktop-combi-stainless.png",
-    format: "portrait",
-    width: 960,
-    height: 1200,
-  },
-  {
-    name: "شاشة QLED AI الذكية",
-    model: "QLED AI",
-    category: "الشاشات",
-    detail: "ألوان دقيقة وصوت نقي مع HDR وHDMI وتطبيقات البث.",
-    image: "/libronic-catalog/cutouts/232-prod_1784976016.png",
-    format: "portrait",
-    width: 960,
-    height: 1200,
-  },
-  {
-    name: "شاشة QLED AI بتجربة سينمائية",
-    model: "QLED AI",
-    category: "الشاشات",
-    detail: "ألوان نابضة وحدّة عالية مع صوت غني ومزايا مشاهدة ذكية.",
-    image: "/libronic-catalog/cutouts/231-prod_1784975644.png",
-    format: "landscape",
-    width: 1200,
-    height: 675,
-  },
-  {
-    name: "براد ماء ليبرونك",
-    model: "Hot / Cold",
-    category: "التبريد",
-    detail: "مياه نقية مع تبريد فائق وتسخين سريع للاستخدام اليومي.",
-    image: "/libronic-catalog/cutouts/199-prod_1777303486.png",
-    format: "portrait",
-    width: 848,
-    height: 1200,
-  },
 ];
 
 function getCatalogCategory(name: string, categoryId: number): Exclude<Category, "الكل"> {
@@ -196,13 +57,7 @@ const categoryDetails: Record<Exclude<Category, "الكل">, string> = {
   الشاشات: "تجربة مشاهدة ذكية وصورة واضحة بتصميم عصري.",
 };
 
-const hiddenCatalogProductIds = new Set([
-  20, 26, 28, 47, 53, 61, 71, 73, 74, 79, 80, 81, 85, 89, 124, 125, 126, 127, 132, 139, 141, 145,
-  154, 155, 157, 180, 187, 192, 193, 200, 202, 217, 230, 233, 234,
-]);
-
 const catalogProducts: Product[] = libronicCatalog
-  .filter((product) => !hiddenCatalogProductIds.has(product.id))
   .map((product) => {
     const category = getCatalogCategory(product.name, product.categoryId);
     const model =
@@ -220,10 +75,7 @@ const catalogProducts: Product[] = libronicCatalog
     };
   });
 
-const products: Product[] = [
-  ...featuredProducts.map((product, index) => ({ ...product, id: `featured-${index + 1}` })),
-  ...catalogProducts,
-];
+const products: Product[] = catalogProducts;
 
 export const Route = createFileRoute("/products")({
   head: () => ({
@@ -233,9 +85,9 @@ export const Route = createFileRoute("/products")({
       { property: "og:title", content: TITLE },
       { property: "og:description", content: DESC },
       { property: "og:type", content: "website" },
-      { property: "og:image", content: "/libronic-catalog/cutouts/206-prod_1777301461.png" },
+      { property: "og:image", content: "/libronic-catalog/originals/206-prod_1777301461.jpg" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:image", content: "/libronic-catalog/cutouts/206-prod_1777301461.png" },
+      { name: "twitter:image", content: "/libronic-catalog/originals/206-prod_1777301461.jpg" },
     ],
   }),
   component: ProductsPage,
@@ -298,62 +150,11 @@ function ProductsPage() {
             className="pointer-events-none absolute -right-24 bottom-0 h-80 w-80 rounded-full bg-[radial-gradient(circle,rgba(39,163,0,0.16),transparent_70%)] blur-2xl"
           />
 
-          <div className="relative mx-auto grid max-w-7xl items-center gap-14 lg:grid-cols-[0.92fr_1.08fr] lg:gap-16">
-            <div className="relative order-2 min-h-[22rem] sm:min-h-[29rem] lg:order-1">
-              <motion.figure
-                initial={reducedMotion ? false : { opacity: 0, y: 36, rotate: -4 }}
-                animate={{ opacity: 1, y: 0, rotate: -2 }}
-                transition={{ duration: 0.9, delay: 0.15 }}
-                className="absolute inset-y-0 right-0 m-0 w-[72%] overflow-hidden rounded-[2rem] border border-soft-blush-900/15 bg-soft-blush-900 p-2 shadow-[0_38px_90px_-36px_rgba(255,88,88,0.5)] sm:rounded-[2.4rem]"
-              >
-                <img
-                  src="/libronic-catalog/cutouts/206-prod_1777301461.png"
-                  alt="طباخ ليبرونك LC-600G01"
-                  width={800}
-                  height={886}
-                  decoding="async"
-                  fetchPriority="high"
-                  className="h-full w-full rounded-[1.55rem] object-contain p-5 sm:rounded-[1.95rem] sm:p-8"
-                />
-              </motion.figure>
-
-              <motion.figure
-                initial={reducedMotion ? false : { opacity: 0, x: -38, y: 24, rotate: 7 }}
-                animate={{ opacity: 1, x: 0, y: 0, rotate: 4 }}
-                transition={{ duration: 0.9, delay: 0.28 }}
-                className="absolute bottom-3 left-0 m-0 w-[45%] overflow-hidden rounded-[1.55rem] border-4 border-dark-garnet-100 bg-soft-blush-900 p-1.5 shadow-lift sm:bottom-6 sm:rounded-[2rem]"
-              >
-                <img
-                  src="/libronic-catalog/cutouts/208-prod_1777293690.png"
-                  alt="مبردة ليبرونك LC-60MA"
-                  width={800}
-                  height={800}
-                  decoding="async"
-                  className="aspect-square w-full rounded-[1.1rem] object-contain p-3 sm:rounded-[1.55rem] sm:p-4"
-                />
-              </motion.figure>
-
-              <motion.div
-                aria-hidden="true"
-                animate={reducedMotion ? undefined : { y: [0, -10, 0] }}
-                transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
-                className="absolute left-[7%] top-[5%] grid h-16 w-16 place-items-center rounded-2xl border border-soft-blush-900/15 bg-dark-garnet-200/80 shadow-glow backdrop-blur-xl sm:h-20 sm:w-20"
-              >
-                <img
-                  src="/libronic-logo.png"
-                  alt=""
-                  width={80}
-                  height={80}
-                  className="h-full w-full rounded-2xl object-cover"
-                />
-              </motion.div>
-            </div>
-
+          <div className="relative mx-auto max-w-4xl text-center">
             <motion.div
               initial={reducedMotion ? false : { opacity: 0, y: 28 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8 }}
-              className="order-1 lg:order-2"
             >
               <span className="inline-flex items-center gap-2 rounded-full border border-soft-blush-900/15 bg-soft-blush-900/[0.07] px-4 py-2 text-xs font-extrabold text-dark-wine-900 backdrop-blur-xl">
                 <Sparkles className="h-4 w-4 text-bright-fern-700" aria-hidden="true" />
@@ -361,19 +162,19 @@ function ProductsPage() {
               </span>
               <h1
                 id="products-title"
-                className="font-display mt-5 max-w-2xl text-[clamp(1.85rem,4.4vw,3.65rem)] font-bold leading-[1.18] tracking-[-0.025em]"
+                className="font-display mx-auto mt-5 max-w-2xl text-[clamp(1.85rem,4.4vw,3.65rem)] font-bold leading-[1.18] tracking-[-0.025em]"
               >
                 أجهزة صُمّمت لتجعل
                 <span className="mt-1.5 block bg-gradient-to-l from-soft-blush-900 via-dark-wine-900 to-brick-ember-800 bg-clip-text text-transparent">
                   يومك أسهل وأجمل
                 </span>
               </h1>
-              <p className="mt-6 max-w-xl text-base leading-8 text-dark-wine-900 sm:text-lg">
+              <p className="mx-auto mt-6 max-w-xl text-base leading-8 text-dark-wine-900 sm:text-lg">
                 تشكيلة مختارة من أجهزة ليبرونك المنزلية والكهربائية، تجمع بين الأداء الموثوق
                 والتفاصيل العملية والتصميم العصري.
               </p>
 
-              <div className="mt-8 flex flex-wrap gap-3">
+              <div className="mt-8 flex flex-wrap justify-center gap-3">
                 <motion.a
                   href="#collection"
                   whileHover={reducedMotion ? undefined : { x: -4, scale: 1.02 }}
@@ -414,8 +215,7 @@ function ProductsPage() {
                   اكتشف أجهزة ليبرونك حسب احتياجك
                 </h2>
                 <p className="mt-4 max-w-2xl text-sm leading-7 text-dark-wine-500 sm:text-base">
-                  الكتالوج الرسمي الكامل مع المنتجات الحالية، جميعها معزولة على خلفية شفافة وموحّدة
-                  داخل هوية ليبرونك.
+                  الكتالوج الرسمي الكامل مع جميع صور المنتجات الأصلية كما نُشرت على موقع ليبرونك، من دون قصّ أو تعديل.
                 </p>
               </div>
               <p aria-live="polite" className="text-sm font-bold text-dark-wine-500">
@@ -466,15 +266,17 @@ function ProductsPage() {
                     }}
                     className="group flex h-full flex-col overflow-hidden rounded-[1.9rem] border border-dark-wine-800/65 bg-card shadow-soft transition-[border-color,box-shadow] duration-500 hover:border-dark-garnet-500/40 hover:shadow-lift"
                   >
-                    <LibronicProductVisual
-                      image={product.image}
-                      alt={`${product.name} من ليبرونك`}
-                      width={product.width ?? 800}
-                      height={product.height ?? 800}
-                      format={product.format}
-                      category={product.category}
-                      model={product.model}
-                    />
+                    <div className="aspect-square overflow-hidden bg-white">
+                      <img
+                        src={product.image}
+                        alt={`${product.name} من ليبرونك`}
+                        width={800}
+                        height={800}
+                        loading="lazy"
+                        decoding="async"
+                        className="h-full w-full object-contain"
+                      />
+                    </div>
 
                     <div className="flex flex-1 flex-col p-5 sm:p-6">
                       <div>
