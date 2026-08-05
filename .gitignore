@@ -16,6 +16,11 @@ dist-ssr
 .nitro
 *.local
 
+# Local image-processing models and QA previews
+.tools/
+tmp/
+public/libronic-products/cutouts/
+
 # Wrangler / Cloudflare
 .wrangler/
 .dev.vars

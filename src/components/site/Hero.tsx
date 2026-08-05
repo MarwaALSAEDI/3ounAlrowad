@@ -5,6 +5,31 @@ const EASE = [0.22, 0.61, 0.36, 1] as const;
 
 const productVisuals = [
   {
+    src: "/hero-products/libronic-air-fryer.webp",
+    label: "قلاية هوائية ذكية",
+    alt: "قلاية ليبرونك الهوائية بتصميم ستانلس ستيل",
+  },
+  {
+    src: "/hero-products/libronic-cooker.webp",
+    label: "طباخ ليبرونك",
+    alt: "طباخ ليبرونك قائم مع فرن وأربع شعلات",
+  },
+  {
+    src: "/hero-products/libronic-air-cooler.webp",
+    label: "مبردة هواء",
+    alt: "مبردة هواء ليبرونك بيضاء بعجلات",
+  },
+  {
+    src: "/hero-products/libronic-blender.webp",
+    label: "خلاط كهربائي",
+    alt: "خلاط ليبرونك كهربائي بقاعدة ستانلس ستيل",
+  },
+  {
+    src: "/hero-products/libronic-cooktop.webp",
+    label: "سطح طبخ هجين",
+    alt: "سطح طبخ ليبرونك هجين بخمس مناطق طهي",
+  },
+  {
     src: "/oyoun-collection/heritage-dinnerware-wide.webp",
     label: "أطقم سفرة فنية",
     alt: "طقم صحون وأوعية مزخرف بنقوش تراثية",
@@ -129,7 +154,7 @@ export function Hero() {
           animate={{ opacity: 1, y: 0, scale: 1 }}
           transition={{ duration: 1.05, delay: 0.08, ease: EASE }}
         >
-          <ProductRail duration={34} />
+          <ProductRail duration={52} />
         </motion.div>
 
         <div className="relative z-20 mx-auto flex max-w-7xl justify-center px-5 pb-48 pt-[11rem] text-center sm:px-8 sm:pb-52 sm:pt-[11.5rem] lg:pt-[10rem]">
@@ -213,7 +238,7 @@ export function Hero() {
           animate={{ opacity: 1, y: 0, scale: 1 }}
           transition={{ duration: 1.05, delay: 0.22, ease: EASE }}
         >
-          <ProductRail reverse duration={39} />
+          <ProductRail reverse duration={58} />
         </motion.div>
       </div>
     </section>

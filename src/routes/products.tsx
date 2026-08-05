@@ -4,21 +4,25 @@ import { ArrowLeft, ArrowUpLeft, ShieldCheck, Sparkles } from "lucide-react";
 import { useState } from "react";
 
 import { Footer } from "@/components/site/Footer";
+import { LibronicProductVisual } from "@/components/site/LibronicProductVisual";
 import { Navbar } from "@/components/site/Navbar";
 import { Reveal } from "@/components/site/Reveal";
+import { libronicCatalog } from "@/data/libronicCatalog";
 import { useLenis } from "@/hooks/use-lenis";
 
 const TITLE = "منتجات ليبرونك | عيون الرواد";
 const DESC =
   "اكتشف مجموعة مختارة من أجهزة ليبرونك المنزلية والكهربائية لدى عيون الرواد، الوكيل الحصري لليبرونك.";
 
-type Category = "الكل" | "الطهي" | "التهوية" | "التبريد" | "التدفئة" | "التنظيف" | "الشاشات";
+type Category =
+  "الكل" | "الأجهزة المنزلية" | "الطهي" | "التهوية" | "التبريد" | "التدفئة" | "التنظيف" | "الشاشات";
 
 type Product = {
   category: Exclude<Category, "الكل">;
   detail: string;
   format?: "square" | "portrait" | "landscape";
   height?: number;
+  id: string;
   image: string;
   model: string;
   name: string;
@@ -27,6 +31,7 @@ type Product = {
 
 const filters: Category[] = [
   "الكل",
+  "الأجهزة المنزلية",
   "الطهي",
   "التهوية",
   "التبريد",
@@ -35,69 +40,69 @@ const filters: Category[] = [
   "الشاشات",
 ];
 
-const products: Product[] = [
+const featuredProducts: Omit<Product, "id">[] = [
   {
     name: "طباخ صالون 4 مشاعل 600G01",
     model: "LC-600G01",
     category: "الطهي",
     detail: "60 سم · ستانلس ستيل · إشعال ذاتي",
-    image: "/libronic-products/cooker-600g01.jpg",
+    image: "/libronic-catalog/cutouts/206-prod_1777301461.png",
   },
   {
     name: "طباخ 5 مشاعل 9001",
     model: "9001",
     category: "الطهي",
     detail: "خمسة مشاعل · تصميم عصري",
-    image: "/libronic-products/cooker-9001.jpg",
+    image: "/libronic-products/cutouts-transparent/cooker-9001.png",
   },
   {
     name: "مرشحة 90B",
     model: "LCT90B",
     category: "التهوية",
     detail: "90 سم · 180 واط · إضاءة LED",
-    image: "/libronic-products/hood-90b.jpg",
+    image: "/libronic-products/cutouts-transparent/hood-90b.png",
   },
   {
     name: "مرشحة كاسيت 600",
     model: "LC600",
     category: "التهوية",
     detail: "60 سم · شفط 1000 م³/ساعة · LED",
-    image: "/libronic-products/hood-cassette-600.jpg",
+    image: "/libronic-products/cutouts-transparent/hood-cassette-600.png",
   },
   {
     name: "مبردة كونفيرا 60MA",
     model: "LC-60MA",
     category: "التبريد",
     detail: "خزان 55 لتر · 180 واط · حركة سهلة",
-    image: "/libronic-products/air-cooler-60ma.jpg",
+    image: "/libronic-products/cutouts-transparent/air-cooler-60ma.png",
   },
   {
     name: "مبردة دكت 60",
     model: "LC-60M3",
     category: "التبريد",
     detail: "تدفق هواء قوي · خزان ماء كبير",
-    image: "/libronic-products/duct-cooler-60.jpg",
+    image: "/libronic-products/cutouts-transparent/duct-cooler-60.png",
   },
   {
     name: "مروحة سقفية 626",
     model: "LC-626",
     category: "التهوية",
     detail: "تصميم سقفي أنيق · توزيع هواء متوازن",
-    image: "/libronic-products/ceiling-fan-626.jpg",
+    image: "/libronic-products/cutouts-transparent/ceiling-fan-626.png",
   },
   {
     name: "صوبة زيتية 13 ريشة",
     model: "13 ريشة",
     category: "التدفئة",
     detail: "حرارة متوازنة · عجلات لسهولة الحركة",
-    image: "/libronic-products/oil-heater-13.jpg",
+    image: "/libronic-products/cutouts-transparent/oil-heater-13.png",
   },
   {
     name: "سطح طبخ زجاجي هجين",
     model: "غاز + كهرباء",
     category: "الطهي",
     detail: "سطح أسود فاخر يجمع شعلات الغاز مع منطقة تسخين كهربائية.",
-    image: "/libronic-products/cooktop-hybrid-black.webp",
+    image: "/libronic-products/cutouts-transparent/cooktop-hybrid-black.png",
     format: "square",
     width: 1200,
     height: 1200,
@@ -107,7 +112,7 @@ const products: Product[] = [
     model: "6 شعلات",
     category: "الطهي",
     detail: "سطح زجاجي سهل التنظيف مع شعلات قوية ونظام أمان عملي.",
-    image: "/libronic-products/cooktop-glass-black.webp",
+    image: "/libronic-products/cutouts-transparent/cooktop-glass-black.png",
     format: "square",
     width: 1200,
     height: 1200,
@@ -117,7 +122,7 @@ const products: Product[] = [
     model: "100 L",
     category: "الطهي",
     detail: "سعة كبيرة وتحكم متعدد الوظائف لخبز وشوي مختلف الوصفات.",
-    image: "/libronic-products/countertop-oven-100l.webp",
+    image: "/libronic-products/cutouts-transparent/countertop-oven-100l.png",
     format: "square",
     width: 1200,
     height: 1200,
@@ -127,7 +132,7 @@ const products: Product[] = [
     model: "5 شعلات",
     category: "الطهي",
     detail: "تصميم ستانلس متين يوفّر حرارة قوية وتحكمًا مريحًا.",
-    image: "/libronic-products/cooktop-stainless-5burner.webp",
+    image: "/libronic-products/cutouts-transparent/cooktop-stainless-5burner.png",
     format: "square",
     width: 1200,
     height: 1200,
@@ -137,7 +142,7 @@ const products: Product[] = [
     model: "Smart Air Fryer",
     category: "الطهي",
     detail: "طهي بالهواء الساخن مع شاشة رقمية لوجبات أخف وأسهل.",
-    image: "/libronic-products/air-fryer-oven.webp",
+    image: "/libronic-products/cutouts-transparent/air-fryer-oven.png",
     format: "square",
     width: 1200,
     height: 1200,
@@ -147,7 +152,7 @@ const products: Product[] = [
     model: "Built-in",
     category: "التهوية",
     detail: "تصميم مدمج وشفط فعّال لهواء أنقى ومطبخ أكثر أناقة.",
-    image: "/libronic-products/built-in-hood.webp",
+    image: "/libronic-catalog/cutouts/025-prod_1776589933.png",
     format: "square",
     width: 1200,
     height: 1200,
@@ -157,7 +162,7 @@ const products: Product[] = [
     model: "Built-in Oven",
     category: "الطهي",
     detail: "تحكم دقيق ووظائف متعددة لنتائج متجانسة بكل وجبة.",
-    image: "/libronic-products/built-in-oven.webp",
+    image: "/libronic-products/cutouts-transparent/built-in-oven.png",
     format: "square",
     width: 1200,
     height: 1200,
@@ -167,7 +172,7 @@ const products: Product[] = [
     model: "Dishwasher",
     category: "التنظيف",
     detail: "تنظيف عملي بسعة منزلية يوفّر الوقت والجهد يوميًا.",
-    image: "/libronic-products/dishwasher-stainless.webp",
+    image: "/libronic-catalog/cutouts/219-prod_1778403515.png",
     format: "portrait",
     width: 675,
     height: 1200,
@@ -177,7 +182,7 @@ const products: Product[] = [
     model: "5 شعلات",
     category: "الطهي",
     detail: "سطح زجاجي أنيق بخمس شعلات وتحكم مستقل لكل شعلة.",
-    image: "/libronic-products/cooktop-ivory-5burner.webp",
+    image: "/libronic-products/cutouts-transparent/cooktop-ivory-5burner.png",
     format: "portrait",
     width: 848,
     height: 1200,
@@ -187,7 +192,7 @@ const products: Product[] = [
     model: "Hybrid Hob",
     category: "الطهي",
     detail: "أربع شعلات غاز وعين كهربائية مع إشعال ذاتي وتحكم دقيق.",
-    image: "/libronic-products/cooktop-combi-stainless.webp",
+    image: "/libronic-products/cutouts-transparent/cooktop-combi-stainless.png",
     format: "portrait",
     width: 960,
     height: 1200,
@@ -197,7 +202,7 @@ const products: Product[] = [
     model: "60” QLED",
     category: "الشاشات",
     detail: "صورة QLED وتطبيقات ترفيه ذكية لتجربة مشاهدة متكاملة.",
-    image: "/libronic-products/smart-tv-60-qled.webp",
+    image: "/libronic-catalog/cutouts/234-prod_1784976105.png",
     format: "portrait",
     width: 896,
     height: 1194,
@@ -207,7 +212,7 @@ const products: Product[] = [
     model: "QLED AI",
     category: "الشاشات",
     detail: "ألوان دقيقة وصوت نقي مع HDR وHDMI وتطبيقات البث.",
-    image: "/libronic-products/smart-tv-qled-nature.webp",
+    image: "/libronic-catalog/cutouts/232-prod_1784976016.png",
     format: "portrait",
     width: 960,
     height: 1200,
@@ -217,7 +222,7 @@ const products: Product[] = [
     model: "QLED AI",
     category: "الشاشات",
     detail: "ألوان نابضة وحدّة عالية مع صوت غني ومزايا مشاهدة ذكية.",
-    image: "/libronic-products/smart-tv-qled-space.webp",
+    image: "/libronic-catalog/cutouts/231-prod_1784975644.png",
     format: "landscape",
     width: 1200,
     height: 675,
@@ -227,7 +232,7 @@ const products: Product[] = [
     model: "43–60”",
     category: "الشاشات",
     detail: "أحجام 43 و50 و55 و60 بوصة لتناسب مختلف المساحات.",
-    image: "/libronic-products/smart-tv-qled-sizes.webp",
+    image: "/libronic-catalog/cutouts/233-prod_1784976062.png",
     format: "landscape",
     width: 1200,
     height: 800,
@@ -237,11 +242,54 @@ const products: Product[] = [
     model: "Hot / Cold",
     category: "التبريد",
     detail: "مياه نقية مع تبريد فائق وتسخين سريع للاستخدام اليومي.",
-    image: "/libronic-products/water-dispenser-gold.webp",
+    image: "/libronic-catalog/cutouts/199-prod_1777303486.png",
     format: "portrait",
     width: 848,
     height: 1200,
   },
+];
+
+function getCatalogCategory(name: string, categoryId: number): Exclude<Category, "الكل"> {
+  if (name.includes("شاشة") || name.toUpperCase().includes("QLED")) return "الشاشات";
+  if (/غسالة|جلاية|مكنسة|اوتي|مكواة|منظف|ممسحة/.test(name)) return "التنظيف";
+  if (/صوبة|مدفأة|هيتر/.test(name)) return "التدفئة";
+  if (/مبردة|مكيف|براد ماء/.test(name)) return "التبريد";
+  if (/مروحة|مرشحة|ساحبة|شفاط|قاطع هواء/.test(name)) return "التهوية";
+  if (categoryId === 14) return "الطهي";
+  if (categoryId === 17) return "التبريد";
+  return "الأجهزة المنزلية";
+}
+
+const categoryDetails: Record<Exclude<Category, "الكل">, string> = {
+  "الأجهزة المنزلية": "أداء عملي موثوق للاستخدام المنزلي اليومي.",
+  الطهي: "جهاز مطبخ من ليبرونك يجمع العملية مع سهولة الاستخدام.",
+  التهوية: "تدفق هواء فعّال وتصميم مناسب للمساحات المنزلية.",
+  التبريد: "حل تبريد عملي مصمم لأجواء أكثر راحة.",
+  التدفئة: "تدفئة متوازنة وتحكم مريح للاستخدام اليومي.",
+  التنظيف: "أداء تنظيف عملي يساعد على توفير الوقت والجهد.",
+  الشاشات: "تجربة مشاهدة ذكية وصورة واضحة بتصميم عصري.",
+};
+
+const catalogProducts: Product[] = libronicCatalog.map((product) => {
+  const category = getCatalogCategory(product.name, product.categoryId);
+  const model =
+    product.name.match(/[A-Z]{1,6}(?:[-\s]?[A-Z0-9]+)+/i)?.[0] ??
+    product.name.match(/\d+[A-Z0-9-]*/i)?.[0] ??
+    `LC-${product.id}`;
+
+  return {
+    id: `catalog-${product.id}`,
+    name: product.name,
+    model,
+    category,
+    detail: categoryDetails[category],
+    image: product.image,
+  };
+});
+
+const products: Product[] = [
+  ...featuredProducts.map((product, index) => ({ ...product, id: `featured-${index + 1}` })),
+  ...catalogProducts,
 ];
 
 export const Route = createFileRoute("/products")({
@@ -252,9 +300,9 @@ export const Route = createFileRoute("/products")({
       { property: "og:title", content: TITLE },
       { property: "og:description", content: DESC },
       { property: "og:type", content: "website" },
-      { property: "og:image", content: "/libronic-products/cooker-600g01.jpg" },
+      { property: "og:image", content: "/libronic-catalog/cutouts/206-prod_1777301461.png" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:image", content: "/libronic-products/cooker-600g01.jpg" },
+      { name: "twitter:image", content: "/libronic-catalog/cutouts/206-prod_1777301461.png" },
     ],
   }),
   component: ProductsPage,
@@ -326,13 +374,13 @@ function ProductsPage() {
                 className="absolute inset-y-0 right-0 m-0 w-[72%] overflow-hidden rounded-[2rem] border border-soft-blush-900/15 bg-soft-blush-900 p-2 shadow-[0_38px_90px_-36px_rgba(255,88,88,0.5)] sm:rounded-[2.4rem]"
               >
                 <img
-                  src="/libronic-products/cooker-600g01.jpg"
+                  src="/libronic-catalog/cutouts/206-prod_1777301461.png"
                   alt="طباخ ليبرونك LC-600G01"
                   width={800}
                   height={886}
                   decoding="async"
                   fetchPriority="high"
-                  className="h-full w-full rounded-[1.55rem] object-cover sm:rounded-[1.95rem]"
+                  className="h-full w-full rounded-[1.55rem] object-contain p-5 sm:rounded-[1.95rem] sm:p-8"
                 />
               </motion.figure>
 
@@ -343,12 +391,12 @@ function ProductsPage() {
                 className="absolute bottom-3 left-0 m-0 w-[45%] overflow-hidden rounded-[1.55rem] border-4 border-dark-garnet-100 bg-soft-blush-900 p-1.5 shadow-lift sm:bottom-6 sm:rounded-[2rem]"
               >
                 <img
-                  src="/libronic-products/air-cooler-60ma.jpg"
+                  src="/libronic-catalog/cutouts/208-prod_1777293690.png"
                   alt="مبردة ليبرونك LC-60MA"
                   width={800}
                   height={800}
                   decoding="async"
-                  className="aspect-square w-full rounded-[1.1rem] object-cover sm:rounded-[1.55rem]"
+                  className="aspect-square w-full rounded-[1.1rem] object-contain p-3 sm:rounded-[1.55rem] sm:p-4"
                 />
               </motion.figure>
 
@@ -425,7 +473,7 @@ function ProductsPage() {
           <div className="relative mx-auto max-w-7xl">
             <Reveal className="flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
               <div>
-                <span className="eyebrow">منتجات مختارة</span>
+                <span className="eyebrow">كتالوج المنتجات</span>
                 <h2
                   id="collection-title"
                   className="font-display mt-3 max-w-2xl text-[clamp(1.65rem,3.4vw,2.85rem)] font-bold leading-tight tracking-tight text-dark-garnet-100"
@@ -433,7 +481,8 @@ function ProductsPage() {
                   اكتشف أجهزة ليبرونك حسب احتياجك
                 </h2>
                 <p className="mt-4 max-w-2xl text-sm leading-7 text-dark-wine-500 sm:text-base">
-                  مجموعة بصرية متكاملة من منتجات ليبرونك، مع أهم المواصفات للتعرّف عليها بسرعة.
+                  الكتالوج الرسمي الكامل مع المنتجات الحالية، جميعها معزولة على خلفية شفافة وموحّدة
+                  داخل هوية ليبرونك.
                 </p>
               </div>
               <p aria-live="polite" className="text-sm font-bold text-dark-wine-500">
@@ -468,57 +517,37 @@ function ProductsPage() {
 
             <motion.div
               layout
-              className="mt-10 grid grid-flow-row-dense items-start gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"
+              className="mt-10 grid items-stretch gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"
             >
               <AnimatePresence mode="popLayout">
                 {visibleProducts.map((product, index) => (
                   <motion.article
                     layout
-                    key={product.name}
+                    key={product.id}
                     initial={reducedMotion ? false : { opacity: 0, y: 24, scale: 0.97 }}
                     animate={{ opacity: 1, y: 0, scale: 1 }}
                     exit={reducedMotion ? undefined : { opacity: 0, y: 12, scale: 0.97 }}
-                    transition={{ duration: 0.42, delay: reducedMotion ? 0 : index * 0.035 }}
-                    className={`group overflow-hidden rounded-[1.9rem] border border-dark-wine-800/65 bg-card shadow-soft transition-[border-color,box-shadow] duration-500 hover:border-dark-garnet-500/40 hover:shadow-lift ${
-                      product.format === "landscape" ? "sm:col-span-2" : ""
-                    }`}
+                    transition={{
+                      duration: 0.42,
+                      delay: reducedMotion ? 0 : Math.min(index, 12) * 0.025,
+                    }}
+                    className="group flex h-full flex-col overflow-hidden rounded-[1.9rem] border border-dark-wine-800/65 bg-card shadow-soft transition-[border-color,box-shadow] duration-500 hover:border-dark-garnet-500/40 hover:shadow-lift"
                   >
-                    <div
-                      className={`relative mx-3 mt-3 overflow-hidden rounded-[1.45rem] ${
-                        product.format === "portrait"
-                          ? "aspect-[3/4] bg-dark-garnet-100"
-                          : product.format === "landscape"
-                            ? "aspect-video bg-dark-garnet-100"
-                            : "aspect-square bg-gradient-to-br from-soft-blush-700 via-soft-blush-900 to-honeydew-700"
-                      }`}
-                    >
-                      <img
-                        src={product.image}
-                        alt={`${product.name} من ليبرونك`}
-                        width={product.width ?? 800}
-                        height={product.height ?? 800}
-                        loading="lazy"
-                        decoding="async"
-                        className={`h-full w-full transition-transform duration-700 ease-out group-hover:scale-[1.035] ${
-                          product.format ? "object-contain" : "object-cover"
-                        }`}
-                      />
-                      <span className="absolute right-3 top-3 rounded-full border border-soft-blush-900/70 bg-soft-blush-900/90 px-3 py-1.5 text-[11px] font-extrabold text-dark-garnet-500 shadow-soft backdrop-blur-md">
-                        {product.category}
-                      </span>
-                    </div>
+                    <LibronicProductVisual
+                      image={product.image}
+                      alt={`${product.name} من ليبرونك`}
+                      width={product.width ?? 800}
+                      height={product.height ?? 800}
+                      format={product.format}
+                      category={product.category}
+                      model={product.model}
+                    />
 
-                    <div className="p-5 sm:p-6">
-                      <div className="flex items-start justify-between gap-4">
+                    <div className="flex flex-1 flex-col p-5 sm:p-6">
+                      <div>
                         <h3 className="font-display text-lg font-black leading-7 text-dark-garnet-100">
                           {product.name}
                         </h3>
-                        <span
-                          dir="ltr"
-                          className="shrink-0 rounded-full bg-brand-soft px-2.5 py-1 text-[10px] font-black tracking-wide text-dark-garnet-500"
-                        >
-                          {product.model}
-                        </span>
                       </div>
                       <p className="mt-3 min-h-12 text-sm leading-6 text-dark-wine-500">
                         {product.detail}

@@ -1,10 +1,4 @@
-import {
-  motion,
-  useReducedMotion,
-  useScroll,
-  useTransform,
-  type MotionValue,
-} from "motion/react";
+import { motion, useReducedMotion, useScroll, useTransform, type MotionValue } from "motion/react";
 import { ArrowLeft, Sparkles } from "lucide-react";
 import { useRef } from "react";
 
@@ -41,16 +35,35 @@ function ArcProduct({
   rotation,
   delay,
 }: ArcProductProps) {
-  const x = useTransform(progress, [0, 0.5, 1], reducedMotion ? [xRange[1], xRange[1], xRange[1]] : xRange);
-  const y = useTransform(progress, [0, 0.5, 1], reducedMotion ? [yRange[1], yRange[1], yRange[1]] : yRange);
-  const rotate = useTransform(progress, [0, 0.5, 1], reducedMotion ? [rotation[1], rotation[1], rotation[1]] : rotation);
+  const x = useTransform(
+    progress,
+    [0, 0.5, 1],
+    reducedMotion ? [xRange[1], xRange[1], xRange[1]] : xRange,
+  );
+  const y = useTransform(
+    progress,
+    [0, 0.5, 1],
+    reducedMotion ? [yRange[1], yRange[1], yRange[1]] : yRange,
+  );
+  const rotate = useTransform(
+    progress,
+    [0, 0.5, 1],
+    reducedMotion ? [rotation[1], rotation[1], rotation[1]] : rotation,
+  );
   const scale = useTransform(progress, [0, 0.52, 1], reducedMotion ? [1, 1, 1] : [0.82, 1, 0.93]);
-  const opacity = useTransform(progress, [0, 0.18, 0.88, 1], reducedMotion ? [1, 1, 1, 1] : [0.18, 1, 1, 0.5]);
+  const opacity = useTransform(
+    progress,
+    [0, 0.18, 0.88, 1],
+    reducedMotion ? [1, 1, 1, 1] : [0.18, 1, 1, 0.5],
+  );
 
   return (
     <figure style={{ zIndex: depth }} className={`absolute left-1/2 top-1/2 m-0 ${className}`}>
       <div className="h-full w-full -translate-x-1/2 -translate-y-1/2">
-        <motion.div style={{ x, y, rotate, scale, opacity }} className="h-full w-full will-change-transform">
+        <motion.div
+          style={{ x, y, rotate, scale, opacity }}
+          className="h-full w-full will-change-transform"
+        >
           <motion.img
             src={src}
             alt={alt}
@@ -76,11 +89,27 @@ export function ExclusiveAgency() {
     offset: ["start end", "end start"],
   });
 
-  const haloScale = useTransform(scrollYProgress, [0, 0.48, 1], reducedMotion ? [1, 1, 1] : [0.74, 1.08, 0.9]);
-  const haloOpacity = useTransform(scrollYProgress, [0, 0.28, 0.8, 1], reducedMotion ? [0.7, 0.7, 0.7, 0.7] : [0, 0.75, 0.52, 0]);
+  const haloScale = useTransform(
+    scrollYProgress,
+    [0, 0.48, 1],
+    reducedMotion ? [1, 1, 1] : [0.74, 1.08, 0.9],
+  );
+  const haloOpacity = useTransform(
+    scrollYProgress,
+    [0, 0.28, 0.8, 1],
+    reducedMotion ? [0.7, 0.7, 0.7, 0.7] : [0, 0.75, 0.52, 0],
+  );
   const libronicX = useTransform(scrollYProgress, [0, 1], reducedMotion ? [0, 0] : [120, -120]);
-  const copyY = useTransform(scrollYProgress, [0.15, 0.55, 0.92], reducedMotion ? [0, 0, 0] : [42, 0, -28]);
-  const copyOpacity = useTransform(scrollYProgress, [0.08, 0.3, 0.88, 0.98], reducedMotion ? [1, 1, 1, 1] : [0, 1, 1, 0.35]);
+  const copyY = useTransform(
+    scrollYProgress,
+    [0.15, 0.55, 0.92],
+    reducedMotion ? [0, 0, 0] : [42, 0, -28],
+  );
+  const copyOpacity = useTransform(
+    scrollYProgress,
+    [0.08, 0.3, 0.88, 0.98],
+    reducedMotion ? [1, 1, 1, 1] : [0, 1, 1, 0.35],
+  );
 
   return (
     <section
@@ -94,10 +123,16 @@ export function ExclusiveAgency() {
         aria-hidden="true"
         className="pointer-events-none absolute inset-x-0 top-0 z-20 h-40 bg-gradient-to-b from-soft-blush-900 via-soft-blush-900/55 to-transparent"
       />
-      <div aria-hidden="true" className="pointer-events-none absolute inset-0 opacity-25 [background-image:radial-gradient(rgba(255,171,171,0.28)_1px,transparent_1px)] [background-size:26px_26px] [mask-image:linear-gradient(to_bottom,transparent,black_22%,black_80%,transparent)]" />
+      <div
+        aria-hidden="true"
+        className="pointer-events-none absolute inset-0 opacity-25 [background-image:radial-gradient(rgba(255,171,171,0.28)_1px,transparent_1px)] [background-size:26px_26px] [mask-image:linear-gradient(to_bottom,transparent,black_22%,black_80%,transparent)]"
+      />
 
       <div className="sticky top-0 flex min-h-[100svh] items-center overflow-hidden px-5 py-20 sm:px-8 sm:py-24 motion-reduce:relative">
-        <div aria-hidden="true" className="pointer-events-none absolute left-1/2 top-[12%] -translate-x-1/2">
+        <div
+          aria-hidden="true"
+          className="pointer-events-none absolute left-1/2 top-[12%] -translate-x-1/2"
+        >
           <motion.div
             style={{ x: libronicX }}
             className="whitespace-nowrap font-display text-[clamp(5rem,18vw,16rem)] font-black leading-none tracking-[-0.08em] text-soft-blush-900/[0.035]"
@@ -106,15 +141,21 @@ export function ExclusiveAgency() {
           </motion.div>
         </div>
 
-        <div aria-hidden="true" className="pointer-events-none absolute left-[58%] top-1/2 -translate-x-1/2 -translate-y-1/2">
+        <div
+          aria-hidden="true"
+          className="pointer-events-none absolute left-[58%] top-1/2 -translate-x-1/2 -translate-y-1/2"
+        >
           <motion.div
             style={{ scale: haloScale, opacity: haloOpacity }}
             className="h-[32rem] w-[32rem] rounded-full bg-[radial-gradient(circle,rgba(186,12,12,0.38)_0%,rgba(92,0,0,0.2)_42%,transparent_72%)] blur-2xl sm:h-[42rem] sm:w-[42rem]"
           />
         </div>
 
-        <div className="relative mx-auto grid w-full max-w-7xl items-center gap-8 lg:grid-cols-[0.84fr_1.16fr] lg:gap-12">
-          <motion.div style={{ y: copyY, opacity: copyOpacity }} className="relative z-20 order-2 lg:order-1">
+        <div className="relative mx-auto grid w-full max-w-7xl items-center gap-0 sm:gap-4 lg:grid-cols-[0.84fr_1.16fr] lg:gap-12">
+          <motion.div
+            style={{ y: copyY, opacity: copyOpacity }}
+            className="relative z-20 order-2 lg:order-1"
+          >
             <motion.span
               initial={reducedMotion ? false : { opacity: 0, y: 16 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -126,7 +167,10 @@ export function ExclusiveAgency() {
               شراكة حصرية
             </motion.span>
 
-            <h2 id="exclusive-agency-title" className="font-display mt-6 max-w-2xl text-[clamp(1.65rem,3.3vw,3.2rem)] font-bold leading-[1.22] tracking-[-0.015em]">
+            <h2
+              id="exclusive-agency-title"
+              className="font-display mt-6 max-w-2xl text-[clamp(1.65rem,3.3vw,3.2rem)] font-bold leading-[1.22] tracking-[-0.015em]"
+            >
               عيون الرواد
               <span className="mt-2 block bg-gradient-to-l from-soft-blush-900 via-dark-wine-900 to-brick-ember-800 bg-clip-text text-transparent">
                 — الوكيل الحصري لشركة ليبرونك
@@ -147,17 +191,26 @@ export function ExclusiveAgency() {
                   height={112}
                   className="h-full w-full scale-[1.05] object-cover [mask-image:radial-gradient(circle_at_center,black_52%,transparent_86%)]"
                 />
-                <span aria-hidden="true" className="pointer-events-none absolute inset-0 rounded-[inherit] ring-1 ring-inset ring-soft-blush-900/10" />
+                <span
+                  aria-hidden="true"
+                  className="pointer-events-none absolute inset-0 rounded-[inherit] ring-1 ring-inset ring-soft-blush-900/10"
+                />
               </motion.div>
               <div>
                 <span className="block h-px w-10 bg-brick-ember-700/70" aria-hidden="true" />
-                <p className="font-display mt-3 text-xl font-black tracking-[0.22em] text-soft-blush-900 sm:text-2xl">LIBRONIC</p>
-                <p className="mt-1 text-xs font-bold tracking-normal text-dark-wine-900" dir="rtl">العلامة التي نمثلها حصرياً</p>
+                <p className="font-display mt-3 text-xl font-black tracking-[0.22em] text-soft-blush-900 sm:text-2xl">
+                  LIBRONIC
+                </p>
+                <p className="mt-1 text-xs font-bold tracking-normal text-dark-wine-900" dir="rtl">
+                  العلامة التي نمثلها حصرياً
+                </p>
               </div>
             </div>
 
             <p className="mt-7 max-w-xl text-base leading-8 text-dark-wine-900 sm:text-lg">
-              ليبرونك شركة متخصصة في بيع الأجهزة المنزلية الكهربائية وأدوات المطبخ العصرية، وتقدّم تشكيلة متكاملة تجمع بين الأداء الموثوق والجودة والتصميم الأنيق، لتجعل تفاصيل الحياة اليومية أسهل وأكثر راحة.
+              ليبرونك شركة متخصصة في بيع الأجهزة المنزلية الكهربائية وأدوات المطبخ العصرية، وتقدّم
+              تشكيلة متكاملة تجمع بين الأداء الموثوق والجودة والتصميم الأنيق، لتجعل تفاصيل الحياة
+              اليومية أسهل وأكثر راحة.
             </p>
 
             <motion.a
@@ -167,13 +220,25 @@ export function ExclusiveAgency() {
               className="group mt-8 inline-flex min-h-14 items-center justify-center gap-3 rounded-2xl bg-bright-fern-700 px-7 font-bold text-olive-leaf-100 shadow-[0_20px_54px_-22px_rgba(95,255,47,0.8)] transition-colors hover:bg-bright-fern-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-bright-fern-700"
             >
               عرض منتجاتنا
-              <ArrowLeft className="h-5 w-5 transition-transform group-hover:-translate-x-1" aria-hidden="true" />
+              <ArrowLeft
+                className="h-5 w-5 transition-transform group-hover:-translate-x-1"
+                aria-hidden="true"
+              />
             </motion.a>
           </motion.div>
 
-          <div className="relative order-1 h-[42svh] min-h-[300px] max-h-[510px] scale-[0.72] sm:scale-[0.88] lg:order-2 lg:h-[70svh] lg:min-h-[540px] lg:max-h-[720px] lg:scale-100" aria-label="مجموعة من منتجات ليبرونك">
-            <div aria-hidden="true" className="absolute left-1/2 top-[58%] h-[62%] w-[82%] -translate-x-1/2 -translate-y-1/2 rounded-[50%] border border-brick-ember-700/20 [transform:translate(-50%,-50%)_rotateX(68deg)]" />
-            <div aria-hidden="true" className="absolute left-1/2 top-[58%] h-[45%] w-[62%] -translate-x-1/2 -translate-y-1/2 rounded-[50%] border border-soft-blush-900/10 [transform:translate(-50%,-50%)_rotateX(68deg)]" />
+          <div
+            className="relative order-1 h-[38svh] min-h-[320px] max-h-[400px] scale-[0.82] sm:h-[46svh] sm:min-h-[380px] sm:max-h-[500px] sm:scale-[0.92] lg:order-2 lg:h-[70svh] lg:min-h-[540px] lg:max-h-[720px] lg:scale-100"
+            aria-label="مجموعة من منتجات ليبرونك"
+          >
+            <div
+              aria-hidden="true"
+              className="absolute left-1/2 top-[58%] h-[62%] w-[82%] -translate-x-1/2 -translate-y-1/2 rounded-[50%] border border-brick-ember-700/20 [transform:translate(-50%,-50%)_rotateX(68deg)]"
+            />
+            <div
+              aria-hidden="true"
+              className="absolute left-1/2 top-[58%] h-[45%] w-[62%] -translate-x-1/2 -translate-y-1/2 rounded-[50%] border border-soft-blush-900/10 [transform:translate(-50%,-50%)_rotateX(68deg)]"
+            />
 
             <ArcProduct
               src={cookware}
@@ -235,8 +300,23 @@ export function ExclusiveAgency() {
               depth={10}
               className="h-32 w-32 sm:h-40 sm:w-40 lg:h-48 lg:w-48"
             />
+            <ArcProduct
+              src="/libronic-catalog/cutouts/206-prod_1777301461.png"
+              alt="طباخ ليبرونك بأربع شعلات"
+              progress={scrollYProgress}
+              reducedMotion={reducedMotion}
+              x={[34, 68, 96]}
+              y={[108, 120, 108]}
+              rotation={[5, 1, -3]}
+              delay={2.05}
+              depth={25}
+              className="h-40 w-40 sm:h-48 sm:w-48 lg:hidden"
+            />
 
-            <div aria-hidden="true" className="absolute left-1/2 top-1/2 h-[72%] w-[72%] -translate-x-1/2 -translate-y-1/2">
+            <div
+              aria-hidden="true"
+              className="absolute left-1/2 top-1/2 h-[72%] w-[72%] -translate-x-1/2 -translate-y-1/2"
+            >
               <motion.div
                 animate={reducedMotion ? undefined : { rotate: 360 }}
                 transition={{ duration: 22, repeat: Infinity, ease: "linear" }}
