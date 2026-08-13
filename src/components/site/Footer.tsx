@@ -54,7 +54,7 @@ export function Footer() {
                 </a>
               </li>
             </ul>
-            <motion.a href="/#contact" whileHover={{ x: -4 }} className="mt-5 inline-flex items-center gap-2 rounded-xl bg-accent px-5 py-3 text-sm font-black text-accent-foreground">
+            <motion.a href="https://wa.me/9647713340229" target="_blank" rel="noreferrer" whileHover={{ x: -4 }} className="mt-5 inline-flex items-center gap-2 rounded-xl bg-accent px-5 py-3 text-sm font-black text-accent-foreground">
               تواصل معنا <ArrowUpLeft className="h-4 w-4" />
             </motion.a>
           </motion.div>
