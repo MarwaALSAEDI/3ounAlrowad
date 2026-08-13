@@ -44,13 +44,19 @@ export function Footer() {
               <li>
                 <a href="tel:+9647722664218" className="inline-flex items-center gap-2 transition-colors hover:text-primary">
                   <Phone className="h-4 w-4" aria-hidden="true" />
-                  <span dir="ltr">+964 772 266 4218</span>
+                  <span dir="ltr">موبايل: +964 772 266 4218</span>
                 </a>
               </li>
               <li>
                 <a href="tel:+9647700511286" className="inline-flex items-center gap-2 transition-colors hover:text-primary">
                   <Phone className="h-4 w-4" aria-hidden="true" />
-                  <span dir="ltr">+964 770 051 1286</span>
+                  <span dir="ltr">موبايل: +964 770 051 1286</span>
+                </a>
+              </li>
+              <li>
+                <a href="https://wa.me/9647713340229" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 transition-colors hover:text-primary">
+                  <Phone className="h-4 w-4" aria-hidden="true" />
+                  <span dir="ltr">واتساب: +964 771 334 0229</span>
                 </a>
               </li>
             </ul>

@@ -53,7 +53,9 @@ export function Navbar() {
         </div>
 
         <motion.a
-          href="/#contact"
+          href="https://wa.me/9647713340229"
+          target="_blank"
+          rel="noreferrer"
           whileHover={{ y: -2, scale: 1.025 }}
           whileTap={{ scale: 0.97 }}
           className="pointer-events-auto inline-flex min-h-14 items-center gap-2 rounded-2xl bg-accent px-4 text-sm font-black text-accent-foreground shadow-success sm:px-6"

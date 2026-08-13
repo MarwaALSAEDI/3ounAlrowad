@@ -90,7 +90,9 @@ export function HomeAppliances() {
           </div>
 
           <motion.a
-            href="#contact"
+            href="https://wa.me/9647713340229"
+            target="_blank"
+            rel="noreferrer"
             whileHover={{ x: -4, boxShadow: "var(--shadow-glow)" }}
             whileTap={{ scale: 0.97 }}
             className="group inline-flex min-h-12 shrink-0 items-center justify-center gap-3 rounded-2xl bg-primary px-6 text-sm font-bold text-primary-foreground shadow-soft"
