@@ -1,6 +1,6 @@
 import { AnimatePresence, motion } from "motion/react";
 import { useState } from "react";
-import { ArrowUpLeft, Check, Mail, Sparkles } from "lucide-react";
+import { ArrowUpLeft, Check, Mail, Phone, Sparkles } from "lucide-react";
 import { Reveal } from "./Reveal";
 
 export function Newsletter() {
@@ -19,6 +19,20 @@ export function Newsletter() {
             <span className="eyebrow mt-7"><Sparkles className="h-4 w-4" /> لنبدأ حواراً</span>
             <h2 className="font-display mt-4 text-[clamp(1.55rem,3.15vw,2.8rem)] font-bold leading-[1.24] tracking-tight">للتوزيع، التوريد،<br />أو معرفة المزيد عن ليبرونك.</h2>
             <p className="mt-5 max-w-xl leading-8 text-muted-foreground">اترك بريدك، وسيتواصل معك فريق عيون الرواد لمناقشة ما تحتاجه.</p>
+            <div className="mt-7 flex flex-col gap-3 text-sm font-bold sm:flex-row sm:flex-wrap">
+              <a href="mailto:info@aounalruwad.com" className="inline-flex min-h-12 items-center gap-2 rounded-xl border border-primary/15 bg-soft-blush-900/70 px-4 text-primary transition-colors hover:bg-soft-blush-900">
+                <Mail className="h-4 w-4" aria-hidden="true" />
+                <span dir="ltr">info@aounalruwad.com</span>
+              </a>
+              <a href="tel:+9647722664218" className="inline-flex min-h-12 items-center gap-2 rounded-xl border border-primary/15 bg-soft-blush-900/70 px-4 text-primary transition-colors hover:bg-soft-blush-900">
+                <Phone className="h-4 w-4" aria-hidden="true" />
+                <span dir="ltr">+964 772 266 4218</span>
+              </a>
+              <a href="tel:+9647700511286" className="inline-flex min-h-12 items-center gap-2 rounded-xl border border-primary/15 bg-soft-blush-900/70 px-4 text-primary transition-colors hover:bg-soft-blush-900">
+                <Phone className="h-4 w-4" aria-hidden="true" />
+                <span dir="ltr">+964 770 051 1286</span>
+              </a>
+            </div>
           </div>
 
           <form onSubmit={(event) => { event.preventDefault(); setSent(true); }} className="rounded-[1.5rem] border border-border bg-soft-blush-900/90 p-3 shadow-soft backdrop-blur-xl">

@@ -326,7 +326,9 @@ function ProductsPage() {
                 </div>
                 <div className="flex flex-wrap gap-3 lg:justify-end">
                   <motion.a
-                    href="/#contact"
+                    href="https://wa.me/9647713340229"
+                    target="_blank"
+                    rel="noreferrer"
                     whileHover={reducedMotion ? undefined : { y: -3, scale: 1.02 }}
                     whileTap={reducedMotion ? undefined : { scale: 0.98 }}
                     className="inline-flex min-h-13 items-center gap-2 rounded-2xl bg-bright-fern-700 px-6 text-sm font-black text-olive-leaf-100 shadow-success"

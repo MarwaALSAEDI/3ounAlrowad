@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import { ArrowUpLeft } from "lucide-react";
+import { ArrowUpLeft, Mail, Phone } from "lucide-react";
 import { Stagger, itemVariants } from "./Reveal";
 
 const links = [
@@ -34,7 +34,33 @@ export function Footer() {
           <motion.div variants={itemVariants}>
             <h3 className="font-display text-sm font-extrabold text-soft-blush-900/55">تعاون معنا</h3>
             <p className="mt-5 text-sm leading-7 text-muted-foreground">للتوزيع، التوريد، وفرص الشراكة.</p>
-            <motion.a href="/#contact" whileHover={{ x: -4 }} className="mt-5 inline-flex items-center gap-2 rounded-xl bg-accent px-5 py-3 text-sm font-black text-accent-foreground">
+            <ul className="mt-4 space-y-3 text-sm text-muted-foreground">
+              <li>
+                <a href="mailto:info@aounalruwad.com" className="inline-flex items-center gap-2 transition-colors hover:text-primary">
+                  <Mail className="h-4 w-4" aria-hidden="true" />
+                  <span dir="ltr">info@aounalruwad.com</span>
+                </a>
+              </li>
+              <li>
+                <a href="tel:+9647722664218" className="inline-flex items-center gap-2 transition-colors hover:text-primary">
+                  <Phone className="h-4 w-4" aria-hidden="true" />
+                  <span dir="ltr">موبايل: +964 772 266 4218</span>
+                </a>
+              </li>
+              <li>
+                <a href="tel:+9647700511286" className="inline-flex items-center gap-2 transition-colors hover:text-primary">
+                  <Phone className="h-4 w-4" aria-hidden="true" />
+                  <span dir="ltr">موبايل: +964 770 051 1286</span>
+                </a>
+              </li>
+              <li>
+                <a href="https://wa.me/9647713340229" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 transition-colors hover:text-primary">
+                  <Phone className="h-4 w-4" aria-hidden="true" />
+                  <span dir="ltr">واتساب: +964 771 334 0229</span>
+                </a>
+              </li>
+            </ul>
+            <motion.a href="https://wa.me/9647713340229" target="_blank" rel="noreferrer" whileHover={{ x: -4 }} className="mt-5 inline-flex items-center gap-2 rounded-xl bg-accent px-5 py-3 text-sm font-black text-accent-foreground">
               تواصل معنا <ArrowUpLeft className="h-4 w-4" />
             </motion.a>
           </motion.div>

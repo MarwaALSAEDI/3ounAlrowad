@@ -205,7 +205,9 @@ export function Hero() {
                 />
               </motion.a>
               <motion.a
-                href="#contact"
+                href="https://wa.me/9647713340229"
+                target="_blank"
+                rel="noreferrer"
                 whileHover={shouldReduceMotion ? undefined : { y: -3 }}
                 whileTap={shouldReduceMotion ? undefined : { scale: 0.98 }}
                 className="inline-flex min-h-14 items-center justify-center gap-2 rounded-2xl border border-dark-wine-800/80 bg-soft-blush-900/90 px-7 text-sm font-extrabold text-secondary shadow-soft backdrop-blur-md transition-colors hover:border-primary/40 hover:bg-brand-soft sm:text-base"

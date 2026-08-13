@@ -106,7 +106,9 @@ export function CompanyProfile() {
             لنتحدث عن احتياجك والحلول التي يمكن لعيون الرواد تقديمها.
           </p>
           <motion.a
-            href="#contact"
+            href="https://wa.me/9647713340229"
+            target="_blank"
+            rel="noreferrer"
             whileHover={reducedMotion ? undefined : { x: -4, scale: 1.02 }}
             whileTap={reducedMotion ? undefined : { scale: 0.98 }}
             className="group inline-flex min-h-13 shrink-0 items-center justify-center gap-3 rounded-2xl bg-primary px-6 text-sm font-extrabold text-primary-foreground shadow-soft transition-shadow hover:shadow-glow"
